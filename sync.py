@@ -218,6 +218,7 @@ def fetch_transactions(start_date: str, end_date: str, class_id: str) -> list[di
             "tipo":       cols[1].get("value", ""),
             "fornecedor": cols[4].get("value", "") or cols[6].get("value", ""),
             "conta":      conta,
+            "categoria":  cols[8].get("value", ""),
             "descricao":  cols[6].get("value", ""),
             "valor":      abs(_parse_float(cols[9].get("value", "0"))),
         })

@@ -511,14 +511,36 @@
           });
         }
 
-        // Transactions for this group
-        if (allTxs.length > 0) {
-          const txHeader = document.createElement("p");
-          txHeader.style.cssText = "font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--cinza);margin:12px 0 6px";
-          txHeader.textContent = "Lançamentos recentes";
-          panel.appendChild(txHeader);
+        // Transactions for this group — match by tx.categoria (QB Split/expense account)
+        // QB may prefix with "Parent:" — strip it before comparing.
+        // Fallback to all txs if categoria field is absent (old data).
+        const hasCategoria = allTxs.some(tx => tx.categoria);
+        const grpTxs = hasCategoria
+          ? allTxs.filter(tx => {
+              // Strip optional "Parent:" prefix
+              const raw = (tx.categoria || "").toLowerCase();
+              const cat = raw.includes(":") ? raw.slice(raw.indexOf(":") + 1) : raw;
+              // Match if cat starts with the group name or any "group – child" variant
+              const grpLower = grp.nome.toLowerCase();
+              if (cat.startsWith(grpLower)) return true;
+              return grp.children.some(c =>
+                cat.startsWith((grp.nome + " – " + c.nome).toLowerCase())
+              );
+            })
+          : allTxs;
 
-          allTxs.slice(0, 8).forEach(tx => {
+        const txHeader = document.createElement("p");
+        txHeader.style.cssText = "font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--cinza);margin:12px 0 6px";
+        txHeader.textContent = "Lançamentos recentes";
+        panel.appendChild(txHeader);
+
+        if (grpTxs.length === 0) {
+          const empty = document.createElement("p");
+          empty.style.cssText = "color:var(--cinza);font-size:13px;padding:4px 0 8px";
+          empty.textContent = "Sem lançamentos registrados para esta categoria.";
+          panel.appendChild(empty);
+        } else {
+          grpTxs.slice(0, 8).forEach(tx => {
             const item = document.createElement("div");
             item.className = "tx-item";
             item.innerHTML = `
@@ -530,11 +552,6 @@
               <div class="tx-amount">${fmt(tx.valor)}</div>`;
             panel.appendChild(item);
           });
-        } else {
-          const empty = document.createElement("p");
-          empty.style.cssText = "color:var(--cinza);font-size:13px;padding:8px 0";
-          empty.textContent = "Sem lançamentos registrados.";
-          panel.appendChild(empty);
         }
 
         row.addEventListener("click", () => {
