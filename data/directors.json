@@ -1,0 +1,4271 @@
+{
+  "gerado_em": "2026-05-19T23:15:11.101397",
+  "periodo": {
+    "inicio": "2026-01-01",
+    "fim": "2026-05-19"
+  },
+  "diretores": [
+    {
+      "slug": "administrativo",
+      "nome": "Administrativo",
+      "orcamento": 18460.73,
+      "total_gasto": 3931.83,
+      "disponivel": 14528.9,
+      "percentual": 21.3,
+      "categorias": [
+        {
+          "nome": "Despesas Administrativas",
+          "gasto": 3931.83
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "arrecadação",
+      "nome": "Arrecadação",
+      "orcamento": 2874.0,
+      "total_gasto": 228.91,
+      "disponivel": 2645.09,
+      "percentual": 8.0,
+      "categorias": [
+        {
+          "nome": "Despesas Administrativas",
+          "gasto": 203.91
+        },
+        {
+          "nome": "Other Business Expenses",
+          "gasto": 25.0
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "comunicação",
+      "nome": "Comunicação",
+      "orcamento": 9855.0,
+      "total_gasto": 1138.11,
+      "disponivel": 8716.89,
+      "percentual": 11.5,
+      "categorias": [
+        {
+          "nome": "Despesas Administrativas",
+          "gasto": 3.0
+        },
+        {
+          "nome": "Marketing e Comunicação",
+          "gasto": 1126.12
+        },
+        {
+          "nome": "Tecnologia e Software",
+          "gasto": 8.99
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "conferências",
+      "nome": "Conferências",
+      "orcamento": 125840.0,
+      "total_gasto": 16700.49,
+      "disponivel": 109139.51,
+      "percentual": 13.3,
+      "categorias": [
+        {
+          "nome": "Custos de Evento e Espaço – Alimentação",
+          "gasto": 4240.13
+        },
+        {
+          "nome": "Custos de Evento e Espaço – Locação",
+          "gasto": 6325.0
+        },
+        {
+          "nome": "Materiais e Custos Operacionais",
+          "gasto": 238.06
+        },
+        {
+          "nome": "Materiais e Custos Operacionais – Crachás e Lanyards",
+          "gasto": 739.89
+        },
+        {
+          "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "gasto": 558.51
+        },
+        {
+          "nome": "Materiais e Custos Operacionais – Items de Parcerias",
+          "gasto": 4116.63
+        },
+        {
+          "nome": "Viagens e Hospedagem – Transporte Local Board",
+          "gasto": 482.27
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "gente-&-gestão",
+      "nome": "Gente & Gestão",
+      "orcamento": 47575.0,
+      "total_gasto": 11824.6,
+      "disponivel": 35750.4,
+      "percentual": 24.9,
+      "categorias": [
+        {
+          "nome": "Custos de Evento e Espaço – Alimentação Board",
+          "gasto": 430.73
+        },
+        {
+          "nome": "Treinamento e Desenvolvimento – Board",
+          "gasto": 507.65
+        },
+        {
+          "nome": "Viagens e Hospedagem – Board",
+          "gasto": 2816.39
+        },
+        {
+          "nome": "Viagens e Hospedagem – Hospedagem Board",
+          "gasto": 1618.5
+        },
+        {
+          "nome": "Viagens e Hospedagem – Hospedagem Palestrantes",
+          "gasto": 4430.52
+        },
+        {
+          "nome": "Viagens e Hospedagem – Transporte Local Board",
+          "gasto": 2020.81
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "impacto-social",
+      "nome": "Impacto Social",
+      "orcamento": 177165.0,
+      "total_gasto": 563.0,
+      "disponivel": 176602.0,
+      "percentual": 0.3,
+      "categorias": [
+        {
+          "nome": "Viagens e Hospedagem – Board",
+          "gasto": 563.0
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "presidência",
+      "nome": "Presidência",
+      "orcamento": 9505.0,
+      "total_gasto": 1381.32,
+      "disponivel": 8123.68,
+      "percentual": 14.5,
+      "categorias": [
+        {
+          "nome": "Custos de Evento e Espaço – Alimentação Board",
+          "gasto": 392.98
+        },
+        {
+          "nome": "Custos de Evento e Espaço – Estrutura de Espaço",
+          "gasto": 130.81
+        },
+        {
+          "nome": "Viagens e Hospedagem",
+          "gasto": 7817.74
+        },
+        {
+          "nome": "Viagens e Hospedagem – Board",
+          "gasto": 1648.68
+        },
+        {
+          "nome": "Viagens e Hospedagem – Hospedagem Palestrantes",
+          "gasto": 203.63
+        },
+        {
+          "nome": "Viagens e Hospedagem – Transporte Local Board",
+          "gasto": 1286.48
+        },
+        {
+          "nome": "Reconciliation Discrepancies",
+          "gasto": 1381.32
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "rede-brasa",
+      "nome": "Rede BRASA",
+      "orcamento": 8782.97,
+      "total_gasto": 372.77,
+      "disponivel": 8410.2,
+      "percentual": 4.2,
+      "categorias": [
+        {
+          "nome": "Materiais e Custos Operacionais",
+          "gasto": 82.63
+        },
+        {
+          "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "gasto": 98.17
+        },
+        {
+          "nome": "Other Business Expenses",
+          "gasto": 33.94
+        },
+        {
+          "nome": "Reconhecimento e Premiações",
+          "gasto": 158.03
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "relações-corporativas",
+      "nome": "Relações Corporativas",
+      "orcamento": 0.0,
+      "total_gasto": 200.63,
+      "disponivel": 0.0,
+      "percentual": 0,
+      "categorias": [
+        {
+          "nome": "Materiais e Custos Operacionais – Items de Parcerias",
+          "gasto": 200.63
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    },
+    {
+      "slug": "tecnologia",
+      "nome": "Tecnologia",
+      "orcamento": 36854.0,
+      "total_gasto": 2353.39,
+      "disponivel": 34500.61,
+      "percentual": 6.4,
+      "categorias": [
+        {
+          "nome": "Tecnologia e Software",
+          "gasto": 2353.39
+        }
+      ],
+      "lancamentos": [
+        {
+          "data": "2026-04-28",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "descricao": "Payment to Adobe, Inc.",
+          "valor": 69.99
+        },
+        {
+          "data": "2026-04-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-04-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER * PENDING",
+          "valor": 22.46
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LIMA AIRPORT PARTNERS SRL",
+          "valor": 11.86
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *TRIP",
+          "valor": 155.87
+        },
+        {
+          "data": "2026-04-23",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LAN AIRLINES",
+          "valor": 70.0
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 47.08
+        },
+        {
+          "data": "2026-04-22",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DD *DOORDASH SHAKESHAC",
+          "valor": 80.89
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 27.96
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 31.97
+        },
+        {
+          "data": "2026-04-13",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 12PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 12PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "DoorDash",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOORDASH*04/12-2 ORDER",
+          "valor": 42.81
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SUN 10AM",
+          "valor": 7.93
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "OLIVEIRA`S STEAKHOUSE",
+          "valor": 130.81
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 23.91
+        },
+        {
+          "data": "2026-04-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 7PM",
+          "valor": 15.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "TST*RUSSELL HOUSE TAVERN",
+          "valor": 109.2
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "Brower",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DAVID BROWER CENTER",
+          "valor": 100.0
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9AM",
+          "valor": 11.91
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 54.94
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 7PM",
+          "valor": 15.97
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 2PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 2PM",
+          "valor": 13.99
+        },
+        {
+          "data": "2026-04-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 11AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 11AM",
+          "valor": 9.93
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "AMELIAS TRATTORIA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AMELIAS TRATTORIA",
+          "valor": 149.12
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 8AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE FRI 8AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 9PM",
+          "valor": 9.95
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 8PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 8PM",
+          "valor": 10.06
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7PM",
+          "valor": 10.98
+        },
+        {
+          "data": "2026-04-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 5PM",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "Hyatt",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 93.98
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE THU 7AM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE THU 7AM",
+          "valor": 36.99
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-04-08",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE WED 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE WED 6PM",
+          "valor": 67.95
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "QuickBooks Payments",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "descricao": "System-recorded fee for QuickBooks Payments. Fee-name: DiscountRateFee, fee-type: Daily.",
+          "valor": 26.16
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "UBER *EATS",
+          "valor": 111.94
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 7PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 7PM",
+          "valor": 18.93
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 7.97
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 32.04
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE MON 1PM",
+          "valor": 139.3
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "Walgreens",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "WALGREENS #7087",
+          "valor": 7.43
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "BRITISH BANKERS CLUB",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "BRITISH BANKERS CLUB",
+          "valor": 99.22
+        },
+        {
+          "data": "2026-04-06",
+          "tipo": "Expense",
+          "fornecedor": "AUTOGRAPH HOTEL TETRA",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "AUTOGRAPH HOTEL TETRA",
+          "valor": 49.73
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 4.96
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 153.9
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "DOUBLETREE BERKELEY MARI",
+          "valor": 6.0
+        },
+        {
+          "data": "2026-04-05",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 9PM",
+          "conta": "E. DA CUNHA 3177",
+          "descricao": "LYFT *RIDE SAT 9PM",
+          "valor": 92.98
+        }
+      ],
+      "atualizado_em": "2026-05-19T23:15:11.101397"
+    }
+  ]
+}

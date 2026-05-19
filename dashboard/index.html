@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRASA — Painel Financeiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" as="style" onload="this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" /></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --azul:        #065FD8;
+      --azul-escuro: #1A2B77;
+      --verde:       #00863D;
+      --amarelo:     #FFCC02;
+      --laranja:     #FB8C0A;
+      --perigo:      #E03E1A;
+      --fundo:       #F4F4F4;
+      --texto:       #252726;
+      --branco:      #FFFFFF;
+      --borda:       #E0E0E0;
+      --cinza:       #8A8A8A;
+      --radius:      12px;
+      --sombra:      0 2px 12px rgba(0,0,0,.07);
+    }
+
+    body { font-family: 'Lato', sans-serif; background: var(--fundo); color: var(--texto); min-height: 100vh; }
+
+    /* ── Header ── */
+    header {
+      background: var(--azul-escuro);
+      color: var(--branco);
+      padding: 0 28px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    }
+
+    .logo-mark {
+      background: var(--amarelo);
+      color: var(--azul-escuro);
+      font-weight: 900;
+      font-size: 15px;
+      width: 32px; height: 32px;
+      border-radius: 7px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .header-title { font-size: 15px; font-weight: 700; }
+    .header-title span { font-weight: 300; opacity: .7; margin-left: 5px; }
+    .header-right { margin-left: auto; font-size: 12px; opacity: .6; text-align: right; line-height: 1.4; }
+
+    /* ── Page ── */
+    .page { max-width: 860px; margin: 0 auto; padding: 32px 20px 80px; }
+
+    /* ── Selector ── */
+    .sel-title    { font-size: 22px; font-weight: 900; margin-bottom: 6px; }
+    .sel-subtitle { font-size: 14px; color: var(--cinza); margin-bottom: 28px; }
+
+    .dir-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .dir-card-link { text-decoration: none; color: inherit; }
+    .dir-card {
+      background: var(--branco);
+      border: 2px solid var(--borda);
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: border-color .2s, box-shadow .2s, transform .15s;
+      cursor: pointer;
+    }
+    .dir-card-link:hover .dir-card {
+      border-color: var(--azul);
+      box-shadow: 0 4px 20px rgba(6,95,216,.14);
+      transform: translateY(-2px);
+    }
+    .dir-card-name { font-weight: 700; font-size: 14px; margin-bottom: 10px; }
+    .dir-card-pct  { font-size: 26px; font-weight: 900; margin-bottom: 2px; }
+    .dir-card-lbl  { font-size: 11px; color: var(--cinza); text-transform: uppercase; letter-spacing: .5px; }
+    .dir-mini-bar  { height: 5px; background: var(--borda); border-radius: 99px; margin-top: 12px; overflow: hidden; }
+    .dir-mini-fill { height: 100%; border-radius: 99px; }
+
+    /* ── Dashboard header ── */
+    .back-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 13px; font-weight: 700; color: var(--azul);
+      text-decoration: none; margin-bottom: 20px;
+    }
+    .back-link:hover { text-decoration: underline; }
+
+    .dash-header { margin-bottom: 24px; }
+    .dash-name   { font-size: 28px; font-weight: 900; line-height: 1.1; }
+    .dash-period { font-size: 13px; color: var(--cinza); margin-top: 4px; }
+
+    /* ── Alert ── */
+    .alert {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 18px; border-radius: var(--radius);
+      font-size: 14px; font-weight: 700;
+      margin-bottom: 24px;
+      border-left: 4px solid transparent;
+    }
+    .alert.warning { background: #FFF9E6; border-color: var(--amarelo); color: #7A5C00; }
+    .alert.danger  { background: #FFF0EC; border-color: var(--perigo);  color: #8B1A00; }
+    .alert-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .alert.warning .alert-dot { background: var(--amarelo); }
+    .alert.danger  .alert-dot { background: var(--perigo); }
+
+    /* ── Summary cards ── */
+    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-bottom: 24px; }
+    @media (max-width: 580px) { .cards { grid-template-columns: 1fr; } }
+
+    .card {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 20px 20px 20px 24px;
+      box-shadow: var(--sombra);
+      border-left: 4px solid var(--borda);
+      position: relative;
+    }
+    .card.card-blue   { border-color: var(--azul); }
+    .card.card-green  { border-color: var(--verde); }
+    .card.card-yellow { border-color: var(--amarelo); }
+    .card.card-red    { border-color: var(--perigo); }
+
+    .card-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; color: var(--cinza); margin-bottom: 8px; }
+    .card-value { font-size: 26px; font-weight: 900; line-height: 1; }
+    .card-value.blue   { color: var(--azul-escuro); }
+    .card-value.green  { color: var(--verde); }
+    .card-value.yellow { color: #B87D00; }
+    .card-value.red    { color: var(--perigo); }
+    .card-sub  { font-size: 12px; color: var(--cinza); margin-top: 6px; }
+
+    /* ── Progress section ── */
+    .section-card {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--sombra);
+      margin-bottom: 20px;
+    }
+
+    .section-heading {
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .8px;
+      color: var(--azul); margin-bottom: 16px;
+    }
+
+    .prog-label-row {
+      display: flex; justify-content: space-between; align-items: baseline;
+      margin-bottom: 8px;
+    }
+    .prog-label { font-size: 14px; font-weight: 700; }
+    .prog-pct   { font-size: 20px; font-weight: 900; }
+
+    .prog-track { height: 18px; background: var(--borda); border-radius: 99px; overflow: hidden; margin-bottom: 8px; }
+    .prog-fill  { height: 100%; border-radius: 99px; transition: width .6s cubic-bezier(.4,0,.2,1); }
+
+    .prog-ends { display: flex; justify-content: space-between; font-size: 12px; color: var(--cinza); }
+
+    /* ── Categories ── */
+    .cat-list { display: flex; flex-direction: column; gap: 0; }
+
+    .cat-row {
+      display: flex; align-items: center; gap: 14px;
+      padding: 12px 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .cat-row:hover { background: #F5F7FF; }
+
+    .cat-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: var(--azul-escuro);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .cat-icon-inner {
+      width: 14px; height: 14px; border-radius: 3px;
+      background: var(--amarelo);
+    }
+
+    .cat-main { flex: 1; min-width: 0; }
+    .cat-name { font-size: 14px; font-weight: 700; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    .cat-bar-track { height: 6px; background: var(--borda); border-radius: 99px; overflow: hidden; }
+    .cat-bar-fill  { height: 100%; border-radius: 99px; transition: width .4s ease; }
+
+    .cat-right { text-align: right; flex-shrink: 0; min-width: 80px; }
+    .cat-amount { font-size: 15px; font-weight: 900; }
+    .cat-chevron { font-size: 10px; color: var(--cinza); margin-top: 2px; transition: transform .2s; display: block; }
+    .cat-chevron.open { transform: rotate(90deg); }
+
+    .cat-panel {
+      display: none;
+      margin: 0 8px 8px 58px;
+      border-left: 3px solid var(--borda);
+      padding-left: 16px;
+    }
+    .cat-panel.open { display: block; }
+
+    /* ── Transactions ── */
+    .tx-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 11px 0;
+      border-bottom: 1px solid var(--borda);
+    }
+    .tx-item:last-child { border-bottom: none; }
+
+    .tx-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+    .tx-info { flex: 1; min-width: 0; }
+    .tx-vendor { font-size: 14px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .tx-meta   { font-size: 12px; color: var(--cinza); margin-top: 2px; }
+    .tx-amount { font-size: 14px; font-weight: 700; white-space: nowrap; color: var(--texto); }
+
+    /* ── Misc ── */
+    .dash-footer { text-align: center; font-size: 12px; color: var(--cinza); margin-top: 36px; }
+    .loading     { text-align: center; padding: 80px 20px; color: var(--cinza); font-size: 15px; }
+    .hidden      { display: none !important; }
+    .error-msg   { background: #FFF0EC; border: 1px solid #F5C2B8; border-radius: var(--radius); padding: 20px; color: #8B1A00; font-size: 14px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">B</div>
+  <div class="header-title">BRASA <span>Painel Financeiro</span></div>
+  <div class="header-right" id="header-meta"></div>
+</header>
+
+<div class="page">
+  <div class="loading" id="loading">Carregando dados…</div>
+
+  <!-- Selector -->
+  <div id="view-selector" class="hidden">
+    <p class="sel-title">Selecione sua área</p>
+    <p class="sel-subtitle">Clique no card para ver seu painel financeiro</p>
+    <div class="dir-grid" id="dir-grid"></div>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="view-dashboard" class="hidden">
+    <a href="?" class="back-link">← Todas as áreas</a>
+
+    <div class="dash-header">
+      <div class="dash-name" id="dash-name"></div>
+      <div class="dash-period" id="dash-period"></div>
+    </div>
+
+    <div id="alert-box" class="hidden alert">
+      <div class="alert-dot"></div>
+      <span id="alert-text"></span>
+    </div>
+
+    <div class="cards" id="cards-row">
+      <div class="card card-blue">
+        <div class="card-label">Orçamento total</div>
+        <div class="card-value blue" id="card-orcamento"></div>
+        <div class="card-sub">Para o ano de 2026</div>
+      </div>
+      <div class="card card-green" id="card-gasto-wrap">
+        <div class="card-label">Já gastou</div>
+        <div class="card-value" id="card-gasto"></div>
+        <div class="card-sub" id="card-gasto-sub"></div>
+      </div>
+      <div class="card" id="card-disp-wrap">
+        <div class="card-label">Ainda disponível</div>
+        <div class="card-value" id="card-disponivel"></div>
+        <div class="card-sub" id="card-disp-sub">Restante em 2026</div>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <div class="section-heading">Uso do orçamento</div>
+      <div class="prog-label-row">
+        <span class="prog-label">Gasto vs. Limite</span>
+        <span class="prog-pct" id="prog-pct"></span>
+      </div>
+      <div class="prog-track">
+        <div class="prog-fill" id="prog-fill"></div>
+      </div>
+      <div class="prog-ends">
+        <span>$0</span>
+        <span id="prog-max"></span>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <div class="section-heading">Gastos por área</div>
+      <div class="cat-list" id="cat-list"></div>
+    </div>
+
+    <div class="section-card">
+      <div class="section-heading">Últimos lançamentos</div>
+      <div id="tx-list"></div>
+    </div>
+
+    <div class="dash-footer" id="dash-footer"></div>
+  </div>
+
+  <div id="view-error" class="hidden">
+    <div class="error-msg" id="error-msg"></div>
+  </div>
+</div>
+
+<script>
+  const DATA_URL = "../data/directors.json";
+
+  const $ = id => document.getElementById(id);
+
+  const CAT_COLORS = [
+    "#065FD8","#00863D","#FB8C0A","#1A2B77",
+    "#E03E1A","#9B59B6","#16A085","#E67E22",
+  ];
+
+  function fmt(v) {
+    return new Intl.NumberFormat("en-US", {
+      style: "currency", currency: "USD",
+      minimumFractionDigits: 0, maximumFractionDigits: 0,
+    }).format(v);
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    const [y, m, d] = iso.split("T")[0].split("-");
+    const months = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+    return `${parseInt(d)} ${months[parseInt(m)-1]} ${y}`;
+  }
+
+  function barColor(pct) {
+    if (pct >= 90) return "#E03E1A";
+    if (pct >= 70) return "#FB8C0A";
+    return "#00863D";
+  }
+
+  async function loadData() {
+    try {
+      const r = await fetch(DATA_URL + "?t=" + Date.now());
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return await r.json();
+    } catch(e) {
+      throw new Error("Não foi possível carregar os dados financeiros. " +
+        "Verifique se o arquivo data/directors.json existe e está acessível. (" + e.message + ")");
+    }
+  }
+
+  function renderSelector(data) {
+    const grid = $("dir-grid");
+    for (const d of data.diretores) {
+      const pct   = d.percentual;
+      const color = barColor(pct);
+      const a = document.createElement("a");
+      a.className = "dir-card-link";
+      a.href = `?diretor=${encodeURIComponent(d.slug)}`;
+      a.innerHTML = `
+        <div class="dir-card">
+          <div class="dir-card-name">${d.nome}</div>
+          <div class="dir-card-pct" style="color:${color}">${pct}%</div>
+          <div class="dir-card-lbl">do orçamento usado</div>
+          <div class="dir-mini-bar">
+            <div class="dir-mini-fill" style="width:${Math.min(pct,100)}%;background:${color}"></div>
+          </div>
+        </div>`;
+      grid.appendChild(a);
+    }
+    $("view-selector").classList.remove("hidden");
+  }
+
+  function renderDashboard(data, slug) {
+    const d = data.diretores.find(x => x.slug === slug);
+    if (!d) { showError(`Área "${slug}" não encontrada. <a href="?">Voltar</a>`); return; }
+
+    const pct = d.percentual;
+
+    // Alert
+    const alertBox = $("alert-box");
+    if (pct >= 90) {
+      alertBox.className = "alert danger";
+      $("alert-text").textContent = `Atenção: você já usou ${pct}% do orçamento. Entre em contato com a diretoria financeira.`;
+      alertBox.classList.remove("hidden");
+    } else if (pct >= 70) {
+      alertBox.className = "alert warning";
+      $("alert-text").textContent = `Atenção: você já usou ${pct}% do orçamento. Fique de olho nos próximos gastos.`;
+      alertBox.classList.remove("hidden");
+    }
+
+    // Header
+    $("dash-name").textContent = d.nome;
+    $("dash-period").textContent =
+      `Período: ${fmtDate(data.periodo.inicio)} a ${fmtDate(data.periodo.fim)}`;
+
+    // Cards
+    $("card-orcamento").textContent = fmt(d.orcamento);
+
+    const gastoEl  = $("card-gasto");
+    const dispEl   = $("card-disponivel");
+    const gastWrap = $("card-gasto-wrap");
+    const dispWrap = $("card-disp-wrap");
+
+    gastoEl.textContent       = fmt(d.total_gasto);
+    $("card-gasto-sub").textContent = `${pct}% do total`;
+    if (pct >= 90) { gastoEl.className = "card-value red"; gastWrap.className = "card card-red"; }
+    else if (pct >= 70) { gastoEl.className = "card-value yellow"; gastWrap.className = "card card-yellow"; }
+    else { gastoEl.className = "card-value green"; gastWrap.className = "card card-green"; }
+
+    dispEl.textContent = fmt(d.disponivel);
+    if (pct >= 90) { dispEl.className = "card-value red"; dispWrap.className = "card card-red"; }
+    else if (pct >= 70) { dispEl.className = "card-value yellow"; dispWrap.className = "card card-yellow"; }
+    else { dispEl.className = "card-value green"; dispWrap.className = "card card-green"; }
+
+    // Progress bar
+    const fill = $("prog-fill");
+    fill.style.width      = `${Math.min(pct, 100)}%`;
+    fill.style.background = barColor(pct);
+
+    const pctEl = $("prog-pct");
+    pctEl.textContent = `${pct}%`;
+    pctEl.style.color = barColor(pct);
+    $("prog-max").textContent = fmt(d.orcamento);
+
+    // Categories — group sub-categories under their parent using " – " separator
+    const catList = $("cat-list");
+    catList.innerHTML = "";
+
+    if (!d.categorias || d.categorias.length === 0) {
+      catList.innerHTML = `<p style="color:var(--cinza);font-size:14px;padding:8px 0">Sem categorias registradas.</p>`;
+    } else {
+      // Build grouped structure
+      const groupMap = new Map();
+      const groupOrder = [];
+      for (const cat of d.categorias) {
+        const sep = cat.nome.indexOf(" – ");
+        if (sep !== -1) {
+          const parentName = cat.nome.slice(0, sep);
+          const childName  = cat.nome.slice(sep + 3);
+          if (!groupMap.has(parentName)) {
+            groupMap.set(parentName, { nome: parentName, gasto: 0, children: [] });
+            groupOrder.push(parentName);
+          }
+          const g = groupMap.get(parentName);
+          g.gasto += cat.gasto;
+          g.children.push({ nome: childName, gasto: cat.gasto });
+        } else {
+          if (!groupMap.has(cat.nome)) {
+            groupMap.set(cat.nome, { nome: cat.nome, gasto: cat.gasto, children: [] });
+            groupOrder.push(cat.nome);
+          } else {
+            groupMap.get(cat.nome).gasto += cat.gasto;
+          }
+        }
+      }
+
+      const groups   = groupOrder.map(k => groupMap.get(k));
+      const maxGasto = Math.max(...groups.map(g => g.gasto), 1);
+      const allTxs   = d.lancamentos || [];
+
+      groups.forEach((grp, i) => {
+        const color = CAT_COLORS[i % CAT_COLORS.length];
+        const barW  = Math.round((grp.gasto / maxGasto) * 100);
+
+        const wrapper = document.createElement("div");
+
+        const row = document.createElement("div");
+        row.className = "cat-row";
+        row.innerHTML = `
+          <div class="cat-icon"><div class="cat-icon-inner"></div></div>
+          <div class="cat-main">
+            <div class="cat-name">${grp.nome}</div>
+            <div class="cat-bar-track">
+              <div class="cat-bar-fill" style="width:${barW}%;background:${color}"></div>
+            </div>
+          </div>
+          <div class="cat-right">
+            <div class="cat-amount">${fmt(grp.gasto)}</div>
+            <span class="cat-chevron">&#9654;</span>
+          </div>`;
+
+        const panel = document.createElement("div");
+        panel.className = "cat-panel";
+
+        // Sub-category breakdown (if any)
+        if (grp.children.length > 0) {
+          const subMax = Math.max(...grp.children.map(c => c.gasto), 1);
+          grp.children.forEach(child => {
+            const childBarW = Math.round((child.gasto / subMax) * 100);
+            const sub = document.createElement("div");
+            sub.style.cssText = "display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--borda)";
+            sub.innerHTML = `
+              <div style="flex:1;min-width:0">
+                <div style="font-size:13px;font-weight:700;margin-bottom:5px">${child.nome}</div>
+                <div style="height:4px;background:var(--borda);border-radius:99px;overflow:hidden">
+                  <div style="height:100%;width:${childBarW}%;background:${color};border-radius:99px"></div>
+                </div>
+              </div>
+              <div style="font-size:13px;font-weight:900;white-space:nowrap">${fmt(child.gasto)}</div>`;
+            panel.appendChild(sub);
+          });
+        }
+
+        // Transactions for this group
+        if (allTxs.length > 0) {
+          const txHeader = document.createElement("p");
+          txHeader.style.cssText = "font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--cinza);margin:12px 0 6px";
+          txHeader.textContent = "Lançamentos recentes";
+          panel.appendChild(txHeader);
+
+          allTxs.slice(0, 8).forEach(tx => {
+            const item = document.createElement("div");
+            item.className = "tx-item";
+            item.innerHTML = `
+              <div class="tx-dot" style="background:${color}"></div>
+              <div class="tx-info">
+                <div class="tx-vendor">${tx.fornecedor || "—"}</div>
+                <div class="tx-meta">${fmtDate(tx.data)}</div>
+              </div>
+              <div class="tx-amount">${fmt(tx.valor)}</div>`;
+            panel.appendChild(item);
+          });
+        } else {
+          const empty = document.createElement("p");
+          empty.style.cssText = "color:var(--cinza);font-size:13px;padding:8px 0";
+          empty.textContent = "Sem lançamentos registrados.";
+          panel.appendChild(empty);
+        }
+
+        row.addEventListener("click", () => {
+          const chevron = row.querySelector(".cat-chevron");
+          chevron.classList.toggle("open", panel.classList.toggle("open"));
+        });
+
+        wrapper.appendChild(row);
+        wrapper.appendChild(panel);
+        catList.appendChild(wrapper);
+      });
+    }
+
+    // Transactions (all)
+    const txList = $("tx-list");
+    txList.innerHTML = "";
+
+    if (!d.lancamentos || d.lancamentos.length === 0) {
+      txList.innerHTML = `<p style="color:var(--cinza);font-size:14px">Sem lançamentos recentes.</p>`;
+    } else {
+      // Build a color map keyed by category name
+      const colorMap = {};
+      (d.categorias || []).forEach((c, i) => { colorMap[c.nome] = CAT_COLORS[i % CAT_COLORS.length]; });
+
+      d.lancamentos.slice(0, 10).forEach(tx => {
+        // Find which category this tx belongs to
+        const catName = Object.keys(colorMap).find(k =>
+          tx.conta && tx.conta.toLowerCase().startsWith(k.toLowerCase())
+        );
+        const dotColor = catName ? colorMap[catName] : "var(--cinza)";
+
+        const item = document.createElement("div");
+        item.className = "tx-item";
+        item.innerHTML = `
+          <div class="tx-dot" style="background:${dotColor}"></div>
+          <div class="tx-info">
+            <div class="tx-vendor">${tx.fornecedor || "—"}</div>
+            <div class="tx-meta">${fmtDate(tx.data)}</div>
+          </div>
+          <div class="tx-amount">${fmt(tx.valor)}</div>`;
+        txList.appendChild(item);
+      });
+    }
+
+    $("dash-footer").textContent = `Dados atualizados em ${fmtDate(d.atualizado_em)}`;
+    $("view-dashboard").classList.remove("hidden");
+  }
+
+  function showError(msg) {
+    $("error-msg").innerHTML = msg;
+    $("view-error").classList.remove("hidden");
+  }
+
+  async function init() {
+    const slug = new URLSearchParams(window.location.search).get("diretor");
+    try {
+      const data = await loadData();
+      $("header-meta").innerHTML = `Dados de<br>${fmtDate(data.gerado_em)}`;
+      $("loading").classList.add("hidden");
+      slug ? renderDashboard(data, slug) : renderSelector(data);
+    } catch(e) {
+      $("loading").classList.add("hidden");
+      showError(e.message);
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>

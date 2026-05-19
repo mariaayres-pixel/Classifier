@@ -1,0 +1,51 @@
+name: BRASA Dashboard — Sync QuickBooks
+
+on:
+  schedule:
+    # Runs every hour at minute 0 (UTC)
+    - cron: "0 * * * *"
+  workflow_dispatch: {}  # Allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    name: Sync QB → directors.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push updated data/directors.json
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run sync script
+        env:
+          QBO_CLIENT_ID:               ${{ secrets.QBO_CLIENT_ID }}
+          QBO_CLIENT_SECRET:           ${{ secrets.QBO_CLIENT_SECRET }}
+          QBO_REFRESH_TOKEN:           ${{ secrets.QBO_REFRESH_TOKEN }}
+          QBO_REALM_ID:                ${{ secrets.QBO_REALM_ID }}
+          GOOGLE_SHEETS_ID:            ${{ secrets.GOOGLE_SHEETS_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ALERT_EMAIL_FROM:            ${{ secrets.ALERT_EMAIL_FROM }}
+          ALERT_EMAIL_TO:              ${{ secrets.ALERT_EMAIL_TO }}
+          SMTP_HOST:                   ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:                   ${{ secrets.SMTP_PORT }}
+          SMTP_USER:                   ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:               ${{ secrets.SMTP_PASSWORD }}
+        run: python sync.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/directors.json
+          git diff --staged --quiet || git commit -m "chore: atualiza dados financeiros [$(date -u +%Y-%m-%dT%H:%M)Z]"
+          git push
