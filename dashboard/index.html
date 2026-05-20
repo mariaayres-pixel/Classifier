@@ -580,31 +580,44 @@
       });
     }
 
-    // Transactions (all)
+    // colorMap keyed by GROUP name (lowercase) → used in both category panels and Últimos Lançamentos
+    const colorMap = {};
+    groups.forEach((grp, idx) => {
+      colorMap[grp.nome.toLowerCase()] = CAT_COLORS[idx % CAT_COLORS.length];
+    });
+
+    // Helper: given tx.categoria (QB expense account), find matching group color
+    function txColor(tx) {
+      const raw = (tx.categoria || "").toLowerCase();
+      // Strip optional QB parent prefix "ParentAccount:ChildAccount"
+      const acc = raw.includes(":") ? raw.slice(raw.indexOf(":") + 1) : raw;
+      const match = Object.keys(colorMap).find(k => acc.startsWith(k));
+      return match ? colorMap[match] : "var(--cinza)";
+    }
+
+    // Helper: human-readable account label from tx.categoria
+    function txAccount(tx) {
+      const cat = tx.categoria || "";
+      return cat.includes(":") ? cat.slice(cat.indexOf(":") + 1) : cat;
+    }
+
+    // Transactions (all) — trust QB ClassRef entirely, no inference
     const txList = $("tx-list");
     txList.innerHTML = "";
+
+    console.log(`[BRASA] ${d.nome} — lancamentos: ${(d.lancamentos||[]).length}`, (d.lancamentos||[]).slice(0,3));
 
     if (!d.lancamentos || d.lancamentos.length === 0) {
       txList.innerHTML = `<p style="color:var(--cinza);font-size:14px">Sem lançamentos recentes.</p>`;
     } else {
-      // Build a color map keyed by category name
-      const colorMap = {};
-      (d.categorias || []).forEach((c, i) => { colorMap[c.nome] = CAT_COLORS[i % CAT_COLORS.length]; });
-
       d.lancamentos.slice(0, 10).forEach(tx => {
-        // Find which category this tx belongs to
-        const catName = Object.keys(colorMap).find(k =>
-          tx.conta && tx.conta.toLowerCase().startsWith(k.toLowerCase())
-        );
-        const dotColor = catName ? colorMap[catName] : "var(--cinza)";
-
         const item = document.createElement("div");
         item.className = "tx-item";
         item.innerHTML = `
-          <div class="tx-dot" style="background:${dotColor}"></div>
+          <div class="tx-dot" style="background:${txColor(tx)}"></div>
           <div class="tx-info">
             <div class="tx-vendor">${tx.fornecedor || "—"}</div>
-            <div class="tx-meta">${fmtDate(tx.data)}</div>
+            <div class="tx-meta">${fmtDate(tx.data)} · ${txAccount(tx) || tx.conta || ""}</div>
           </div>
           <div class="tx-amount">${fmt(tx.valor)}</div>`;
         txList.appendChild(item);
@@ -623,10 +636,21 @@
   async function init() {
     const slug = new URLSearchParams(window.location.search).get("diretor");
     try {
+      console.log("[BRASA] Fetching data from:", DATA_URL);
       const data = await loadData();
+      console.log("[BRASA] Data loaded. gerado_em:", data.gerado_em,
+        "| diretores:", data.diretores.map(d => d.nome + " (" + d.lancamentos?.length + " lançamentos)"));
       $("header-meta").innerHTML = `Dados de<br>${fmtDate(data.gerado_em)}`;
       $("loading").classList.add("hidden");
-      slug ? renderDashboard(data, slug) : renderSelector(data);
+      if (slug) {
+        const dir = data.diretores.find(x => x.slug === slug);
+        console.log("[BRASA] Rendering director:", slug, "→", dir?.nome,
+          "| categorias:", dir?.categorias?.length,
+          "| lancamentos:", dir?.lancamentos?.length);
+        renderDashboard(data, slug);
+      } else {
+        renderSelector(data);
+      }
     } catch(e) {
       $("loading").classList.add("hidden");
       showError(e.message);
