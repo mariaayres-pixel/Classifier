@@ -283,8 +283,11 @@ def parse_pnl(report: dict) -> dict:
         else:
             section_total = section_cat_total
 
-        if section_total:
-            section_totals.append(section_total)
+        # Use only the sum of non-skipped entries, not the QB section Summary.
+        # This excludes Reconciliation Discrepancies and other internal accounts
+        # that happen to land in "Other Expenses" without a specific class.
+        if section_cat_total:
+            section_totals.append(section_cat_total)
 
     total_gasto = sum(section_totals)
     return {"total_gasto": round(total_gasto, 2), "categorias": categorias}

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-05-20T11:30:16.073310",
+  "gerado_em": "2026-05-20T12:16:39.975276",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-05-20"
@@ -471,7 +471,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "arrecadação",
@@ -944,7 +944,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "comunicação",
@@ -1422,7 +1422,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "conferências",
@@ -1920,7 +1920,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "gente-&-gestão",
@@ -2413,7 +2413,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "impacto-social",
@@ -2881,15 +2881,15 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 12861.64,
+      "total_gasto": 11480.32,
       "disponivel": 0.0,
-      "percentual": 135.3,
+      "percentual": 120.8,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -3374,7 +3374,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "rede-brasa",
@@ -3857,7 +3857,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "relações-corporativas",
@@ -4325,7 +4325,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     },
     {
       "slug": "tecnologia",
@@ -4793,7 +4793,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T11:30:16.073310"
+      "atualizado_em": "2026-05-20T12:16:39.975276"
     }
   ]
 }
