@@ -234,21 +234,20 @@ def _parse_float(v: str) -> float:
         return 0.0
 
 
+SKIP_ACCOUNTS = {"reconciliation discrepancies", "nenhum"}
+
 def parse_pnl(report: dict) -> dict:
     """
     Extracts total expenses and a breakdown by category from a P&L report.
 
-    QB P&L structure (two levels deep):
-      Expenses (section)
-        └── Sub-category A (section)   ← we use Summary total for the category
-              └── Line item (Data row)
-        └── Sub-category B (section)
-              └── Line item (Data row)
+    QB P&L can have two expense sections: "Expenses" and "Other Expenses".
+    We sum both sections for total_gasto and collect categories from both,
+    excluding internal QB accounts (Reconciliation Discrepancies, etc.).
 
     Returns {"total_gasto": float, "categorias": [{nome, gasto}]}
     """
     categorias = []
-    total_gasto = 0.0
+    section_totals = []
 
     rows = report.get("Rows", {}).get("Row", [])
     for section in rows:
@@ -256,28 +255,33 @@ def parse_pnl(report: dict) -> dict:
         if "expense" not in header_name.lower() and "despesa" not in header_name.lower():
             continue
 
-        # Each child row is a sub-category section with its own Summary total
+        section_cat_total = 0.0
+
         for sub in section.get("Rows", {}).get("Row", []):
             if sub.get("type") == "Section":
-                # Use the sub-category Summary total (cleaner than summing line items)
                 summary_cols = sub.get("Summary", {}).get("ColData", [])
                 nome  = summary_cols[0].get("value", "").replace("Total ", "") if summary_cols else ""
                 valor = _parse_float(summary_cols[1].get("value", "0")) if len(summary_cols) > 1 else 0.0
             else:
-                # Flat Data row (no sub-sections)
                 cols  = sub.get("ColData", [])
                 nome  = cols[0].get("value", "") if cols else ""
                 valor = _parse_float(cols[1].get("value", "0")) if len(cols) > 1 else 0.0
 
-            if nome and valor:
+            if nome and valor and nome.lower() not in SKIP_ACCOUNTS:
                 categorias.append({"nome": nome, "gasto": round(valor, 2)})
-                total_gasto += valor
+                section_cat_total += valor
 
-        # Use the Expenses section Summary total as the authoritative figure
+        # Prefer the section's own Summary total; fall back to summing line items
         summary_cols = section.get("Summary", {}).get("ColData", [])
         if len(summary_cols) > 1:
-            total_gasto = _parse_float(summary_cols[1].get("value", str(total_gasto)))
+            section_total = _parse_float(summary_cols[1].get("value", "0"))
+        else:
+            section_total = section_cat_total
 
+        if section_total:
+            section_totals.append(section_total)
+
+    total_gasto = sum(section_totals)
     return {"total_gasto": round(total_gasto, 2), "categorias": categorias}
 
 

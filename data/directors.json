@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-05-19T22:34:58.049083",
+  "gerado_em": "2026-05-20T00:51:56.157513",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-05-19"
+    "fim": "2026-05-20"
   },
   "diretores": [
     {
@@ -470,7 +470,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "arrecadação",
@@ -941,7 +941,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "comunicação",
@@ -1416,7 +1416,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "conferências",
@@ -1907,7 +1907,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "gente-&-gestão",
@@ -2394,7 +2394,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "impacto-social",
@@ -2861,15 +2861,15 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 1381.32,
-      "disponivel": 8123.68,
-      "percentual": 14.5,
+      "total_gasto": 12861.64,
+      "disponivel": 0.0,
+      "percentual": 135.3,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -2894,10 +2894,6 @@
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
           "gasto": 1286.48
-        },
-        {
-          "nome": "Reconciliation Discrepancies",
-          "gasto": 1381.32
         }
       ],
       "lancamentos": [
@@ -3352,7 +3348,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "rede-brasa",
@@ -3831,7 +3827,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "relações-corporativas",
@@ -4298,7 +4294,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     },
     {
       "slug": "tecnologia",
@@ -4765,7 +4761,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-19T22:34:58.049083"
+      "atualizado_em": "2026-05-20T00:51:56.157513"
     }
   ]
 }
