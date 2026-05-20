@@ -92,6 +92,39 @@
     .dir-mini-bar  { height: 5px; background: var(--borda); border-radius: 99px; margin-top: 12px; overflow: hidden; }
     .dir-mini-fill { height: 100%; border-radius: 99px; }
 
+    /* ── Relações Corporativas hero card ── */
+    .dir-card-rc-link { text-decoration: none; color: inherit; grid-column: 1 / -1; }
+    .dir-card-rc {
+      background: var(--azul-escuro);
+      color: var(--branco);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      transition: opacity .2s, transform .15s;
+      cursor: pointer;
+    }
+    .dir-card-rc:hover { opacity: .92; transform: translateY(-2px); }
+    .dir-card-rc-left { flex: 1; min-width: 0; }
+    .dir-card-rc-tag {
+      display: inline-block;
+      background: var(--amarelo);
+      color: var(--azul-escuro);
+      font-size: 10px; font-weight: 900;
+      text-transform: uppercase; letter-spacing: .7px;
+      padding: 3px 10px; border-radius: 99px;
+      margin-bottom: 10px;
+    }
+    .dir-card-rc-name { font-size: 18px; font-weight: 900; margin-bottom: 4px; }
+    .dir-card-rc-sub  { font-size: 13px; opacity: .65; }
+    .dir-card-rc-kpis { display: flex; gap: 32px; flex-shrink: 0; }
+    .dir-card-rc-kpi  { text-align: right; }
+    .dir-card-rc-kpi-val  { font-size: 22px; font-weight: 900; }
+    .dir-card-rc-kpi-lbl  { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; opacity: .6; margin-top: 2px; }
+    .dir-card-rc-arrow { font-size: 20px; opacity: .5; flex-shrink: 0; }
+
     /* ── Dashboard header ── */
     .back-link {
       display: inline-flex; align-items: center; gap: 6px;
@@ -472,21 +505,59 @@
 
   function renderSelector(data) {
     const grid = $("dir-grid");
-    for (const d of data.diretores) {
-      const pct   = d.percentual;
-      const color = barColor(pct);
+
+    // Sort: RC first, then all others
+    const rc     = data.diretores.find(d => d.slug === "relações-corporativas");
+    const others = data.diretores.filter(d => d.slug !== "relações-corporativas");
+    const sorted = rc ? [rc, ...others] : others;
+
+    for (const d of sorted) {
       const a = document.createElement("a");
-      a.className = "dir-card-link";
       a.href = `?diretor=${encodeURIComponent(d.slug)}`;
-      a.innerHTML = `
-        <div class="dir-card">
-          <div class="dir-card-name">${d.nome}</div>
-          <div class="dir-card-pct" style="color:${color}">${pct}%</div>
-          <div class="dir-card-lbl">do orçamento usado</div>
-          <div class="dir-mini-bar">
-            <div class="dir-mini-fill" style="width:${Math.min(pct,100)}%;background:${color}"></div>
-          </div>
-        </div>`;
+
+      if (d.slug === "relações-corporativas") {
+        a.className = "dir-card-rc-link";
+        const receita    = d.receita_total    ?? 0;
+        const aReceber   = d.a_receber        ?? 0;
+        const parcerias  = d.parcerias_ativas ?? 0;
+        a.innerHTML = `
+          <div class="dir-card-rc">
+            <div class="dir-card-rc-left">
+              <div class="dir-card-rc-tag">Centro de Receita</div>
+              <div class="dir-card-rc-name">${d.nome}</div>
+              <div class="dir-card-rc-sub">Parcerias corporativas &amp; patrocinadores</div>
+            </div>
+            <div class="dir-card-rc-kpis">
+              <div class="dir-card-rc-kpi">
+                <div class="dir-card-rc-kpi-val">${fmt(receita)}</div>
+                <div class="dir-card-rc-kpi-lbl">Receita Total</div>
+              </div>
+              <div class="dir-card-rc-kpi">
+                <div class="dir-card-rc-kpi-val">${fmt(aReceber)}</div>
+                <div class="dir-card-rc-kpi-lbl">A Receber</div>
+              </div>
+              <div class="dir-card-rc-kpi">
+                <div class="dir-card-rc-kpi-val">${parcerias}</div>
+                <div class="dir-card-rc-kpi-lbl">Parcerias Ativas</div>
+              </div>
+            </div>
+            <div class="dir-card-rc-arrow">›</div>
+          </div>`;
+      } else {
+        const pct   = d.percentual;
+        const color = barColor(pct);
+        a.className = "dir-card-link";
+        a.innerHTML = `
+          <div class="dir-card">
+            <div class="dir-card-name">${d.nome}</div>
+            <div class="dir-card-pct" style="color:${color}">${pct}%</div>
+            <div class="dir-card-lbl">do orçamento usado</div>
+            <div class="dir-mini-bar">
+              <div class="dir-mini-fill" style="width:${Math.min(pct,100)}%;background:${color}"></div>
+            </div>
+          </div>`;
+      }
+
       grid.appendChild(a);
     }
     $("view-selector").classList.remove("hidden");
