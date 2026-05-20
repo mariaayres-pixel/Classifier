@@ -436,12 +436,14 @@
     const catList = $("cat-list");
     catList.innerHTML = "";
 
+    // Build grouped structure — defined here so colorMap/txColor can access it below
+    const groupMap = new Map();
+    const groupOrder = [];
+    let groups = [];
+
     if (!d.categorias || d.categorias.length === 0) {
       catList.innerHTML = `<p style="color:var(--cinza);font-size:14px;padding:8px 0">Sem categorias registradas.</p>`;
     } else {
-      // Build grouped structure — propagate orcamento per account
-      const groupMap = new Map();
-      const groupOrder = [];
       for (const cat of d.categorias) {
         const sep = cat.nome.indexOf(" – ");  // en-dash separator
         if (sep !== -1) {
@@ -467,7 +469,7 @@
         }
       }
 
-      const groups   = groupOrder.map(k => groupMap.get(k));
+      groups = groupOrder.map(k => groupMap.get(k));
       const maxGasto = Math.max(...groups.map(g => g.gasto), 1);
       const allTxs   = d.lancamentos || [];
 
