@@ -490,6 +490,26 @@ def sync() -> None:
             pnl          = parse_pnl(pnl_report)
             transactions = fetch_transactions(start_date, end_date, class_id)
 
+            # Filter transactions to only those whose expense account (categoria)
+            # appears in this class's P&L — removes shared credit-card noise.
+            if pnl["categorias"]:
+                cat_keys: set[str] = set()
+                for cat in pnl["categorias"]:
+                    nome = cat["nome"].lower().strip()
+                    cat_keys.add(nome)
+                    # Also index the parent name (before " – ") for partial matches
+                    if " – " in nome:
+                        cat_keys.add(nome.split(" – ")[0].strip())
+
+                def _tx_matches(tx: dict) -> bool:
+                    raw = (tx.get("categoria") or "").lower().strip()
+                    # Strip QB "ParentAccount:ChildAccount" prefix
+                    cat = raw.split(":")[-1].strip() if ":" in raw else raw
+                    return any(cat.startswith(k) or k.startswith(cat) for k in cat_keys)
+
+                # Always apply the filter — shows empty rather than unrelated transactions
+                transactions = [tx for tx in transactions if _tx_matches(tx)]
+
             class_budgets = budgets.get(class_name, {})
             orcamento     = class_budgets.get("_total", 0.0)
             total_gasto   = pnl["total_gasto"]
