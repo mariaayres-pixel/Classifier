@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-05-20T00:51:56.157513",
+  "gerado_em": "2026-05-20T11:30:16.073310",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-05-20"
@@ -15,7 +15,8 @@
       "categorias": [
         {
           "nome": "Despesas Administrativas",
-          "gasto": 3931.83
+          "gasto": 3931.83,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -470,7 +471,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "arrecadação",
@@ -482,11 +483,13 @@
       "categorias": [
         {
           "nome": "Despesas Administrativas",
-          "gasto": 203.91
+          "gasto": 203.91,
+          "orcamento": 0.0
         },
         {
           "nome": "Other Business Expenses",
-          "gasto": 25.0
+          "gasto": 25.0,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -941,7 +944,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "comunicação",
@@ -953,15 +956,18 @@
       "categorias": [
         {
           "nome": "Despesas Administrativas",
-          "gasto": 3.0
+          "gasto": 3.0,
+          "orcamento": 0.0
         },
         {
           "nome": "Marketing e Comunicação",
-          "gasto": 1126.12
+          "gasto": 1126.12,
+          "orcamento": 0.0
         },
         {
           "nome": "Tecnologia e Software",
-          "gasto": 8.99
+          "gasto": 8.99,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -1416,7 +1422,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "conferências",
@@ -1428,31 +1434,38 @@
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
-          "gasto": 4240.13
+          "gasto": 4240.13,
+          "orcamento": 48750.0
         },
         {
           "nome": "Custos de Evento e Espaço – Locação",
-          "gasto": 6325.0
+          "gasto": 6325.0,
+          "orcamento": 21000.0
         },
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 238.06
+          "gasto": 238.06,
+          "orcamento": 3100.0
         },
         {
           "nome": "Materiais e Custos Operacionais – Crachás e Lanyards",
-          "gasto": 739.89
+          "gasto": 739.89,
+          "orcamento": 3450.0
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 558.51
+          "gasto": 558.51,
+          "orcamento": 210.0
         },
         {
           "nome": "Materiais e Custos Operacionais – Items de Parcerias",
-          "gasto": 4116.63
+          "gasto": 4116.63,
+          "orcamento": 16700.0
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 482.27
+          "gasto": 482.27,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -1907,7 +1920,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "gente-&-gestão",
@@ -1919,27 +1932,33 @@
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
-          "gasto": 430.73
+          "gasto": 430.73,
+          "orcamento": 2775.0
         },
         {
           "nome": "Treinamento e Desenvolvimento – Board",
-          "gasto": 507.65
+          "gasto": 507.65,
+          "orcamento": 0.0
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 2816.39
+          "gasto": 2816.39,
+          "orcamento": 11000.0
         },
         {
           "nome": "Viagens e Hospedagem – Hospedagem Board",
-          "gasto": 1618.5
+          "gasto": 1618.5,
+          "orcamento": 22000.0
         },
         {
           "nome": "Viagens e Hospedagem – Hospedagem Palestrantes",
-          "gasto": 4430.52
+          "gasto": 4430.52,
+          "orcamento": 0.0
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 2020.81
+          "gasto": 2020.81,
+          "orcamento": 8600.0
         }
       ],
       "lancamentos": [
@@ -2394,7 +2413,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "impacto-social",
@@ -2406,7 +2425,8 @@
       "categorias": [
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 563.0
+          "gasto": 563.0,
+          "orcamento": 4200.0
         }
       ],
       "lancamentos": [
@@ -2861,7 +2881,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "presidência",
@@ -2873,27 +2893,33 @@
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
-          "gasto": 392.98
+          "gasto": 392.98,
+          "orcamento": 0.0
         },
         {
           "nome": "Custos de Evento e Espaço – Estrutura de Espaço",
-          "gasto": 130.81
+          "gasto": 130.81,
+          "orcamento": 0.0
         },
         {
           "nome": "Viagens e Hospedagem",
-          "gasto": 7817.74
+          "gasto": 7817.74,
+          "orcamento": 0.0
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 1648.68
+          "gasto": 1648.68,
+          "orcamento": 7680.0
         },
         {
           "nome": "Viagens e Hospedagem – Hospedagem Palestrantes",
-          "gasto": 203.63
+          "gasto": 203.63,
+          "orcamento": 75.0
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 1286.48
+          "gasto": 1286.48,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -3348,7 +3374,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "rede-brasa",
@@ -3360,19 +3386,23 @@
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 82.63
+          "gasto": 82.63,
+          "orcamento": 57.99
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 98.17
+          "gasto": 98.17,
+          "orcamento": 0.0
         },
         {
           "nome": "Other Business Expenses",
-          "gasto": 33.94
+          "gasto": 33.94,
+          "orcamento": 0.0
         },
         {
           "nome": "Reconhecimento e Premiações",
-          "gasto": 158.03
+          "gasto": 158.03,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -3827,7 +3857,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "relações-corporativas",
@@ -3839,7 +3869,8 @@
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais – Items de Parcerias",
-          "gasto": 200.63
+          "gasto": 200.63,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -4294,7 +4325,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     },
     {
       "slug": "tecnologia",
@@ -4306,7 +4337,8 @@
       "categorias": [
         {
           "nome": "Tecnologia e Software",
-          "gasto": 2353.39
+          "gasto": 2353.39,
+          "orcamento": 0.0
         }
       ],
       "lancamentos": [
@@ -4761,7 +4793,7 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T00:51:56.157513"
+      "atualizado_em": "2026-05-20T11:30:16.073310"
     }
   ]
 }

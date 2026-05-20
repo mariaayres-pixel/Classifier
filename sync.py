@@ -145,24 +145,29 @@ def fetch_classes() -> tuple[dict[str, str], dict[str, str]]:
     return id_to_name, name_to_id
 
 
-def fetch_budgets(year: int) -> dict[str, float]:
+def fetch_budgets(year: int) -> dict[str, dict]:
     """
-    Returns {class_name: budget_amount} from the QB Budget report.
-    Assumes one budget per class/department for the given fiscal year.
+    Returns {class_name: {"_total": X, "AccountName": Y, ...}}
+    Each BudgetDetail line may repeat (monthly entries) — we sum them.
     """
     data = qb_get("/query", {"query": "SELECT * FROM Budget MAXRESULTS 100"})
-    budgets: dict[str, float] = {}
-    year_tags = {str(year), f"FY{str(year)[2:]}"}  # e.g. "2026" or "FY26"
+    budgets: dict[str, dict] = {}
+    year_tags = {str(year), f"FY{str(year)[2:]}"}
     for b in data.get("QueryResponse", {}).get("Budget", []):
         name = b.get("Name", "")
         if not any(tag in name for tag in year_tags):
             continue
         for line in b.get("BudgetDetail", []):
-            class_ref = line.get("ClassRef", {})
-            class_name = class_ref.get("name", "")
-            amount = float(line.get("Amount", 0))
-            if class_name:
-                budgets[class_name] = budgets.get(class_name, 0) + amount
+            class_name   = line.get("ClassRef",   {}).get("name", "")
+            account_name = line.get("AccountRef", {}).get("name", "")
+            amount       = float(line.get("Amount", 0))
+            if not class_name:
+                continue
+            if class_name not in budgets:
+                budgets[class_name] = {"_total": 0.0}
+            budgets[class_name]["_total"] += amount
+            if account_name:
+                budgets[class_name][account_name] = budgets[class_name].get(account_name, 0.0) + amount
     return budgets
 
 
@@ -397,10 +402,17 @@ def sync() -> None:
             pnl          = parse_pnl(pnl_report)
             transactions = fetch_transactions(start_date, end_date, class_id)
 
-            orcamento   = budgets.get(class_name, 0.0)
-            total_gasto = pnl["total_gasto"]
-            disponivel  = max(orcamento - total_gasto, 0.0)
-            percentual  = round((total_gasto / orcamento * 100) if orcamento > 0 else 0, 1)
+            class_budgets = budgets.get(class_name, {})
+            orcamento     = class_budgets.get("_total", 0.0)
+            total_gasto   = pnl["total_gasto"]
+            disponivel    = max(orcamento - total_gasto, 0.0)
+            percentual    = round((total_gasto / orcamento * 100) if orcamento > 0 else 0, 1)
+
+            # Attach per-account budget to each category
+            categorias = []
+            for cat in pnl["categorias"]:
+                cat_orcamento = class_budgets.get(cat["nome"], 0.0)
+                categorias.append({**cat, "orcamento": round(cat_orcamento, 2)})
 
             directors_data.append({
                 "slug":          slug,
@@ -409,7 +421,7 @@ def sync() -> None:
                 "total_gasto":   total_gasto,
                 "disponivel":    round(disponivel, 2),
                 "percentual":    percentual,
-                "categorias":    pnl["categorias"],
+                "categorias":    categorias,
                 "lancamentos":   transactions,
                 "atualizado_em": now.isoformat(),
             })

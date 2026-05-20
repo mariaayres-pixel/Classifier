@@ -439,27 +439,30 @@
     if (!d.categorias || d.categorias.length === 0) {
       catList.innerHTML = `<p style="color:var(--cinza);font-size:14px;padding:8px 0">Sem categorias registradas.</p>`;
     } else {
-      // Build grouped structure
+      // Build grouped structure — propagate orcamento per account
       const groupMap = new Map();
       const groupOrder = [];
       for (const cat of d.categorias) {
-        const sep = cat.nome.indexOf(" – ");
+        const sep = cat.nome.indexOf(" – ");  // en-dash separator
         if (sep !== -1) {
           const parentName = cat.nome.slice(0, sep);
           const childName  = cat.nome.slice(sep + 3);
           if (!groupMap.has(parentName)) {
-            groupMap.set(parentName, { nome: parentName, gasto: 0, children: [] });
+            groupMap.set(parentName, { nome: parentName, gasto: 0, orcamento: 0, children: [] });
             groupOrder.push(parentName);
           }
           const g = groupMap.get(parentName);
-          g.gasto += cat.gasto;
-          g.children.push({ nome: childName, gasto: cat.gasto });
+          g.gasto     += cat.gasto;
+          g.orcamento += cat.orcamento || 0;
+          g.children.push({ nome: childName, gasto: cat.gasto, orcamento: cat.orcamento || 0 });
         } else {
           if (!groupMap.has(cat.nome)) {
-            groupMap.set(cat.nome, { nome: cat.nome, gasto: cat.gasto, children: [] });
+            groupMap.set(cat.nome, { nome: cat.nome, gasto: cat.gasto, orcamento: cat.orcamento || 0, children: [] });
             groupOrder.push(cat.nome);
           } else {
-            groupMap.get(cat.nome).gasto += cat.gasto;
+            const g = groupMap.get(cat.nome);
+            g.gasto     += cat.gasto;
+            g.orcamento += cat.orcamento || 0;
           }
         }
       }
@@ -469,8 +472,12 @@
       const allTxs   = d.lancamentos || [];
 
       groups.forEach((grp, i) => {
-        const color = CAT_COLORS[i % CAT_COLORS.length];
-        const barW  = Math.round((grp.gasto / maxGasto) * 100);
+        const color    = CAT_COLORS[i % CAT_COLORS.length];
+        const hasBudget = grp.orcamento > 0;
+        const pct      = hasBudget ? Math.round(grp.gasto / grp.orcamento * 100) : null;
+        const barW     = hasBudget
+          ? Math.min(pct, 100)
+          : Math.round((grp.gasto / maxGasto) * 100);
 
         const wrapper = document.createElement("div");
 
@@ -481,12 +488,14 @@
           <div class="cat-main">
             <div class="cat-name">${grp.nome}</div>
             <div class="cat-bar-track">
-              <div class="cat-bar-fill" style="width:${barW}%;background:${color}"></div>
+              <div class="cat-bar-fill" style="width:${barW}%;background:${barW >= 90 ? '#E03E1A' : barW >= 70 ? '#FB8C0A' : color}"></div>
             </div>
           </div>
           <div class="cat-right">
             <div class="cat-amount">${fmt(grp.gasto)}</div>
-            <span class="cat-chevron">&#9654;</span>
+            <span class="cat-chevron" style="font-size:11px;color:${hasBudget ? (barW>=90?'#E03E1A':barW>=70?'#FB8C0A':'var(--cinza)') : 'var(--cinza)'}">
+              ${hasBudget ? pct + '%' : '▶'}
+            </span>
           </div>`;
 
         const panel = document.createElement("div");
@@ -496,17 +505,23 @@
         if (grp.children.length > 0) {
           const subMax = Math.max(...grp.children.map(c => c.gasto), 1);
           grp.children.forEach(child => {
-            const childBarW = Math.round((child.gasto / subMax) * 100);
+            const childHasBudget = child.orcamento > 0;
+            const childPct  = childHasBudget ? Math.round(child.gasto / child.orcamento * 100) : null;
+            const childBarW = childHasBudget ? Math.min(childPct, 100) : Math.round((child.gasto / subMax) * 100);
+            const childColor = childBarW >= 90 ? '#E03E1A' : childBarW >= 70 ? '#FB8C0A' : color;
             const sub = document.createElement("div");
             sub.style.cssText = "display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--borda)";
             sub.innerHTML = `
               <div style="flex:1;min-width:0">
                 <div style="font-size:13px;font-weight:700;margin-bottom:5px">${child.nome}</div>
                 <div style="height:4px;background:var(--borda);border-radius:99px;overflow:hidden">
-                  <div style="height:100%;width:${childBarW}%;background:${color};border-radius:99px"></div>
+                  <div style="height:100%;width:${childBarW}%;background:${childColor};border-radius:99px"></div>
                 </div>
               </div>
-              <div style="font-size:13px;font-weight:900;white-space:nowrap">${fmt(child.gasto)}</div>`;
+              <div style="text-align:right;white-space:nowrap">
+                <div style="font-size:13px;font-weight:900">${fmt(child.gasto)}</div>
+                ${childHasBudget ? `<div style="font-size:11px;color:${childColor};font-weight:700">${childPct}%</div>` : ''}
+              </div>`;
             panel.appendChild(sub);
           });
         }
