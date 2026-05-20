@@ -167,7 +167,10 @@ def fetch_budgets(year: int) -> dict[str, dict]:
                 budgets[class_name] = {"_total": 0.0}
             budgets[class_name]["_total"] += amount
             if account_name:
-                budgets[class_name][account_name] = budgets[class_name].get(account_name, 0.0) + amount
+                # QB budget stores "Parent:Sub-account" — keep only the leaf name
+                # so it matches what the P&L reports as the category name.
+                account_key = account_name.split(":")[-1].strip()
+                budgets[class_name][account_key] = budgets[class_name].get(account_key, 0.0) + amount
     return budgets
 
 
@@ -183,6 +186,80 @@ def fetch_pnl(start_date: str, end_date: str, class_id: str) -> dict:
         "accounting_method": "Accrual",
     }
     return qb_get("/reports/ProfitAndLoss", params)
+
+
+def fetch_invoices(start_date: str, end_date: str) -> list[dict]:
+    """
+    Fetches all QB invoices for the year.
+    Relações Corporativas owns ALL revenue — QB uses DepartmentRef (Iniciativa)
+    on invoices, not ClassRef, so we return every invoice without class filtering.
+    """
+    page_size = 200
+    start_pos = 1
+    all_invoices: list = []
+
+    while True:
+        params = {
+            "query": (
+                f"SELECT * FROM Invoice WHERE TxnDate >= '{start_date}' "
+                f"AND TxnDate <= '{end_date}' "
+                f"STARTPOSITION {start_pos} MAXRESULTS {page_size}"
+            ),
+            "minorversion": "75",
+        }
+        data = qb_get("/query", params)
+        page = data.get("QueryResponse", {}).get("Invoice", [])
+        if not page:
+            break
+        all_invoices.extend(page)
+        if len(page) < page_size:
+            break
+        start_pos += page_size
+
+    result = []
+    today = date.today()
+    for inv in sorted(all_invoices, key=lambda x: x.get("TxnDate", ""), reverse=True):
+        balance      = float(inv.get("Balance", 0))
+        total        = float(inv.get("TotalAmt", 0))
+        due_date_str = inv.get("DueDate", "")
+
+        if balance == 0:
+            status = "Pago"
+        elif due_date_str and date.fromisoformat(due_date_str) < today:
+            status = "Atrasado"
+        else:
+            status = "Pendente"
+
+        # Iniciativa comes from DepartmentRef (QB "Location") — not ClassRef
+        dept = inv.get("DepartmentRef") or {}
+        dept_name = dept.get("name", "")
+        if dept_name.lower() in ("nenhum", "none", ""):
+            dept_name = "—"
+
+        # First meaningful line item description
+        descricao = ""
+        for line in inv.get("Line", []):
+            desc = line.get("Description", "")
+            if desc and desc.strip():
+                descricao = desc.strip()
+                break
+
+        result.append({
+            "id":         inv.get("Id", ""),
+            "numero":     inv.get("DocNumber", ""),
+            "parceiro":   inv.get("CustomerRef", {}).get("name", "—"),
+            "iniciativa": dept_name,
+            "descricao":  descricao,
+            "data":       inv.get("TxnDate", ""),
+            "vencimento": due_date_str,
+            "total":      round(total, 2),
+            "emAberto":   round(balance, 2),
+            "status":     status,
+        })
+
+    # Sort descending by data (TxnDate)
+    result.sort(key=lambda x: x["data"], reverse=True)
+    return result
 
 
 def fetch_transactions(start_date: str, end_date: str, class_id: str) -> list[dict]:
@@ -239,20 +316,51 @@ def _parse_float(v: str) -> float:
         return 0.0
 
 
-SKIP_ACCOUNTS = {"reconciliation discrepancies", "nenhum"}
+SKIP_ACCOUNTS = {"reconciliation discrepancies", "nenhum", "other business expenses"}
+
+
+def _collect_expense_rows(rows: list, categorias: list) -> float:
+    """
+    Recursively walk P&L row tree, collecting leaf expense entries.
+    Returns the sum of all collected amounts.
+    """
+    total = 0.0
+    for sub in rows:
+        if sub.get("type") == "Section":
+            sub_rows = sub.get("Rows", {}).get("Row", [])
+            if sub_rows:
+                # Has children — recurse to get leaf entries
+                total += _collect_expense_rows(sub_rows, categorias)
+            else:
+                # Leaf section (no sub-rows) — take its Summary total
+                summary_cols = sub.get("Summary", {}).get("ColData", [])
+                nome  = summary_cols[0].get("value", "").replace("Total ", "") if summary_cols else ""
+                valor = _parse_float(summary_cols[1].get("value", "0")) if len(summary_cols) > 1 else 0.0
+                if nome and valor and nome.lower() not in SKIP_ACCOUNTS:
+                    categorias.append({"nome": nome, "gasto": round(valor, 2)})
+                    total += valor
+        else:
+            cols  = sub.get("ColData", [])
+            nome  = cols[0].get("value", "") if cols else ""
+            valor = _parse_float(cols[1].get("value", "0")) if len(cols) > 1 else 0.0
+            if nome and valor and nome.lower() not in SKIP_ACCOUNTS:
+                categorias.append({"nome": nome, "gasto": round(valor, 2)})
+                total += valor
+    return total
+
 
 def parse_pnl(report: dict) -> dict:
     """
     Extracts total expenses and a breakdown by category from a P&L report.
 
     QB P&L can have two expense sections: "Expenses" and "Other Expenses".
-    We sum both sections for total_gasto and collect categories from both,
-    excluding internal QB accounts (Reconciliation Discrepancies, etc.).
+    We recurse into sub-sections to collect leaf-level categories, excluding
+    internal QB accounts (Reconciliation Discrepancies, Other Business Expenses, etc.).
 
     Returns {"total_gasto": float, "categorias": [{nome, gasto}]}
     """
-    categorias = []
-    section_totals = []
+    categorias: list = []
+    section_totals: list[float] = []
 
     rows = report.get("Rows", {}).get("Row", [])
     for section in rows:
@@ -260,32 +368,9 @@ def parse_pnl(report: dict) -> dict:
         if "expense" not in header_name.lower() and "despesa" not in header_name.lower():
             continue
 
-        section_cat_total = 0.0
-
-        for sub in section.get("Rows", {}).get("Row", []):
-            if sub.get("type") == "Section":
-                summary_cols = sub.get("Summary", {}).get("ColData", [])
-                nome  = summary_cols[0].get("value", "").replace("Total ", "") if summary_cols else ""
-                valor = _parse_float(summary_cols[1].get("value", "0")) if len(summary_cols) > 1 else 0.0
-            else:
-                cols  = sub.get("ColData", [])
-                nome  = cols[0].get("value", "") if cols else ""
-                valor = _parse_float(cols[1].get("value", "0")) if len(cols) > 1 else 0.0
-
-            if nome and valor and nome.lower() not in SKIP_ACCOUNTS:
-                categorias.append({"nome": nome, "gasto": round(valor, 2)})
-                section_cat_total += valor
-
-        # Prefer the section's own Summary total; fall back to summing line items
-        summary_cols = section.get("Summary", {}).get("ColData", [])
-        if len(summary_cols) > 1:
-            section_total = _parse_float(summary_cols[1].get("value", "0"))
-        else:
-            section_total = section_cat_total
-
-        # Use only the sum of non-skipped entries, not the QB section Summary.
-        # This excludes Reconciliation Discrepancies and other internal accounts
-        # that happen to land in "Other Expenses" without a specific class.
+        section_cat_total = _collect_expense_rows(
+            section.get("Rows", {}).get("Row", []), categorias
+        )
         if section_cat_total:
             section_totals.append(section_cat_total)
 
@@ -411,22 +496,42 @@ def sync() -> None:
             disponivel    = max(orcamento - total_gasto, 0.0)
             percentual    = round((total_gasto / orcamento * 100) if orcamento > 0 else 0, 1)
 
-            # Attach per-account budget to each category
+            # Attach per-account budget to each category.
+            # Try exact match first; fall back to just the leaf part after " – "
+            # because QB budget strips the parent prefix while P&L keeps the full name.
             categorias = []
             for cat in pnl["categorias"]:
                 cat_orcamento = class_budgets.get(cat["nome"], 0.0)
+                if not cat_orcamento:
+                    leaf = cat["nome"].split(" – ")[-1].strip()
+                    cat_orcamento = class_budgets.get(leaf, 0.0)
                 categorias.append({**cat, "orcamento": round(cat_orcamento, 2)})
 
+            if class_name == "Relações Corporativas":
+                faturas = fetch_invoices(start_date, end_date)
+                receita_total    = round(sum(f["total"]    for f in faturas), 2)
+                a_receber        = round(sum(f["emAberto"] for f in faturas), 2)
+                parcerias_ativas = len({f["parceiro"] for f in faturas})
+            else:
+                faturas          = []
+                receita_total    = 0.0
+                a_receber        = 0.0
+                parcerias_ativas = 0
+
             directors_data.append({
-                "slug":          slug,
-                "nome":          class_name,
-                "orcamento":     round(orcamento, 2),
-                "total_gasto":   total_gasto,
-                "disponivel":    round(disponivel, 2),
-                "percentual":    percentual,
-                "categorias":    categorias,
-                "lancamentos":   transactions,
-                "atualizado_em": now.isoformat(),
+                "slug":             slug,
+                "nome":             class_name,
+                "orcamento":        round(orcamento, 2),
+                "total_gasto":      total_gasto,
+                "disponivel":       round(disponivel, 2),
+                "percentual":       percentual,
+                "categorias":       categorias,
+                "lancamentos":      transactions,
+                "faturas":          faturas,
+                "receita_total":    receita_total,
+                "a_receber":        a_receber,
+                "parcerias_ativas": parcerias_ativas,
+                "atualizado_em":    now.isoformat(),
             })
 
         output = {

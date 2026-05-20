@@ -232,6 +232,113 @@
     .loading     { text-align: center; padding: 80px 20px; color: var(--cinza); font-size: 15px; }
     .hidden      { display: none !important; }
     .error-msg   { background: #FFF0EC; border: 1px solid #F5C2B8; border-radius: var(--radius); padding: 20px; color: #8B1A00; font-size: 14px; margin-top: 24px; }
+
+    /* ── Revenue Center (RC) panel ── */
+    .rc-kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 700px) { .rc-kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 400px) { .rc-kpi-grid { grid-template-columns: 1fr; } }
+
+    .rc-kpi-card {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--sombra);
+    }
+    .rc-kpi-value {
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1;
+      margin: 6px 0 0;
+    }
+    .rc-kpi-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: var(--cinza);
+    }
+
+    .rc-section {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--sombra);
+      margin-bottom: 20px;
+    }
+    .rc-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: var(--azul);
+      margin-bottom: 16px;
+    }
+
+    .rc-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .rc-table th {
+      background: #F7F8FA;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .6px;
+      color: var(--cinza);
+      padding: 10px 12px;
+      text-align: left;
+    }
+    .rc-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--borda);
+      font-size: 13px;
+    }
+    .rc-table tr:last-child td { border-bottom: none; }
+
+    .rc-status-pill {
+      display: inline-block;
+      border-radius: 99px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+    }
+
+    .rc-partner-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+      flex-shrink: 0;
+    }
+
+    .rc-two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 600px) { .rc-two-col { grid-template-columns: 1fr; } }
+
+    .rc-result-banner {
+      background: #1A2B77;
+      color: white;
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .rc-result-value {
+      color: #FFCC02;
+      font-size: 32px;
+      font-weight: 900;
+    }
   </style>
 </head>
 <body>
@@ -551,13 +658,22 @@
         txHeader.textContent = "Lançamentos recentes";
         panel.appendChild(txHeader);
 
-        if (grpTxs.length === 0) {
+        // When no transactions match the category, fall back to all class transactions
+        const displayTxs = grpTxs.length > 0 ? grpTxs : allTxs;
+        if (grpTxs.length === 0 && allTxs.length > 0) {
+          const note = document.createElement("p");
+          note.style.cssText = "color:var(--cinza);font-size:11px;font-style:italic;padding:2px 0 6px";
+          note.textContent = "Exibindo todos os lançamentos desta área.";
+          panel.appendChild(note);
+        }
+
+        if (displayTxs.length === 0) {
           const empty = document.createElement("p");
           empty.style.cssText = "color:var(--cinza);font-size:13px;padding:4px 0 8px";
           empty.textContent = "Sem lançamentos registrados para esta categoria.";
           panel.appendChild(empty);
         } else {
-          grpTxs.slice(0, 8).forEach(tx => {
+          displayTxs.slice(0, 8).forEach(tx => {
             const item = document.createElement("div");
             item.className = "tx-item";
             item.innerHTML = `
@@ -630,6 +746,191 @@
     $("view-dashboard").classList.remove("hidden");
   }
 
+  function renderPainelReceita(data, slug) {
+    const d = data.diretores.find(x => x.slug === slug);
+    if (!d) { showError(`Área "${slug}" não encontrada. <a href="?">Voltar</a>`); return; }
+
+    $("dash-name").textContent   = d.nome;
+    $("dash-period").textContent = `Período: ${fmtDate(data.periodo.inicio)} a ${fmtDate(data.periodo.fim)}`;
+
+    // KPI cards
+    const cardsEl = $("cards-row");
+    cardsEl.innerHTML = `
+      <div class="rc-kpi-grid">
+        <div class="rc-kpi-card" style="border-left:4px solid #00863D">
+          <div class="rc-kpi-label">Receita Total</div>
+          <div class="rc-kpi-value" style="color:#00863D">${fmt(d.receita_total||0)}</div>
+          <div style="font-size:12px;color:var(--cinza);margin-top:4px">Faturas emitidas em 2026</div>
+        </div>
+        <div class="rc-kpi-card" style="border-left:4px solid #065FD8">
+          <div class="rc-kpi-label">Parcerias Ativas</div>
+          <div class="rc-kpi-value" style="color:#065FD8">${d.parcerias_ativas||0}</div>
+          <div style="font-size:12px;color:var(--cinza);margin-top:4px">Parceiros únicos</div>
+        </div>
+        <div class="rc-kpi-card" style="border-left:4px solid #FB8C0A">
+          <div class="rc-kpi-label">A Receber</div>
+          <div class="rc-kpi-value" style="color:#FB8C0A">${fmt(d.a_receber||0)}</div>
+          <div style="font-size:12px;color:var(--cinza);margin-top:4px">Saldo em aberto</div>
+        </div>
+        <div class="rc-kpi-card" style="border-left:4px solid #E03E1A">
+          <div class="rc-kpi-label">Despesas do Time</div>
+          <div class="rc-kpi-value" style="color:#E03E1A">${fmt(d.total_gasto||0)}</div>
+          <div style="font-size:12px;color:var(--cinza);margin-top:4px">Gastos operacionais</div>
+        </div>
+      </div>`;
+
+    // Hide progress bar section
+    const progSection = document.querySelector("#view-dashboard .section-card");
+    if (progSection) progSection.style.display = "none";
+
+    // Hide transactions section (last .section-card)
+    const allSectionCards = document.querySelectorAll("#view-dashboard .section-card");
+    allSectionCards.forEach(sc => { sc.style.display = "none"; });
+
+    // Partner color palette
+    const RC_PARTNER_COLORS = ["#065FD8","#00863D","#FB8C0A","#7B2D8B","#C0392B","#1A2B77"];
+    const partnerColorMap = new Map();
+    let colorIdx = 0;
+    function getPartnerColor(name) {
+      if (!partnerColorMap.has(name)) {
+        partnerColorMap.set(name, RC_PARTNER_COLORS[colorIdx % RC_PARTNER_COLORS.length]);
+        colorIdx++;
+      }
+      return partnerColorMap.get(name);
+    }
+
+    const faturas = d.faturas || [];
+
+    // Pre-assign colors in order of first appearance
+    faturas.forEach(f => getPartnerColor(f.parceiro));
+
+    // Status pill renderer
+    function statusPill(status) {
+      const styles = {
+        "Pago":      "background:#E1F5EE;color:#00863D",
+        "Pendente":  "background:#FFF8DC;color:#996600",
+        "Atrasado":  "background:#FDECEA;color:#C0392B",
+      };
+      return `<span class="rc-status-pill" style="${styles[status]||''}">${status}</span>`;
+    }
+
+    // Invoice table HTML
+    let tableRows = "";
+    if (faturas.length === 0) {
+      tableRows = `<tr><td colspan="6" style="text-align:center;color:var(--cinza);padding:24px">Nenhuma fatura encontrada.</td></tr>`;
+    } else {
+      for (const f of faturas) {
+        const pColor = getPartnerColor(f.parceiro);
+        const amtStyle = f.status === "Pago" ? "font-weight:700;color:var(--texto)" : "color:var(--cinza)";
+        tableRows += `
+          <tr>
+            <td><span class="rc-partner-dot" style="background:${pColor}"></span>${f.parceiro||"—"}</td>
+            <td style="color:var(--cinza)">#${f.numero||f.id}</td>
+            <td>${f.iniciativa||"—"}</td>
+            <td style="color:var(--cinza)">${fmtDate(f.data)}</td>
+            <td>${statusPill(f.status)}</td>
+            <td style="${amtStyle};text-align:right">${fmt(f.total)}</td>
+          </tr>`;
+      }
+    }
+
+    // Partner breakdown (grouped, sorted by total desc)
+    const partnerTotals = new Map();
+    for (const f of faturas) {
+      partnerTotals.set(f.parceiro, (partnerTotals.get(f.parceiro)||0) + f.total);
+    }
+    const sortedPartners = [...partnerTotals.entries()].sort((a,b) => b[1]-a[1]);
+    const maxPartnerTotal = sortedPartners.length ? sortedPartners[0][1] : 1;
+
+    let partnerRows = "";
+    for (const [name, total] of sortedPartners) {
+      const pColor = getPartnerColor(name);
+      const barW   = Math.round((total / maxPartnerTotal) * 100);
+      partnerRows += `
+        <div style="margin-bottom:12px">
+          <div style="display:flex;align-items:center;margin-bottom:4px">
+            <span class="rc-partner-dot" style="background:${pColor}"></span>
+            <span style="font-size:13px;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${name}</span>
+            <span style="font-size:13px;font-weight:900;margin-left:8px">${fmt(total)}</span>
+          </div>
+          <div style="height:6px;background:var(--borda);border-radius:99px;overflow:hidden">
+            <div style="height:100%;width:${barW}%;background:${pColor};border-radius:99px"></div>
+          </div>
+        </div>`;
+    }
+    if (!partnerRows) partnerRows = `<p style="color:var(--cinza);font-size:13px">Sem dados.</p>`;
+
+    // Expenses breakdown
+    const categorias = d.categorias || [];
+    let expenseRows = "";
+    let totalExp = 0;
+    for (const cat of categorias) {
+      totalExp += cat.gasto;
+      expenseRows += `
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--borda)">
+          <span style="font-size:13px">${cat.nome}</span>
+          <span style="font-size:13px;font-weight:700">${fmt(cat.gasto)}</span>
+        </div>`;
+    }
+    if (!expenseRows) expenseRows = `<p style="color:var(--cinza);font-size:13px">Sem despesas registradas.</p>`;
+    expenseRows += `
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;margin-top:4px">
+        <span style="font-size:13px;font-weight:700">Total</span>
+        <span style="font-size:15px;font-weight:900;color:#E03E1A">${fmt(totalExp)}</span>
+      </div>`;
+
+    // Inject into cat-section (repurpose the categories section-card)
+    const catSection = document.querySelectorAll("#view-dashboard .section-card")[1];
+    if (catSection) {
+      catSection.style.display = "";
+      catSection.innerHTML = `
+        <div class="rc-section-title">Faturas</div>
+        <div style="overflow-x:auto">
+          <table class="rc-table">
+            <thead>
+              <tr>
+                <th>Parceiro</th>
+                <th>Fatura</th>
+                <th>Iniciativa</th>
+                <th>Data</th>
+                <th>Status</th>
+                <th style="text-align:right">Valor</th>
+              </tr>
+            </thead>
+            <tbody>${tableRows}</tbody>
+          </table>
+        </div>
+        <div class="rc-two-col" style="margin-top:24px">
+          <div>
+            <div class="rc-section-title">Receita por Parceiro</div>
+            ${partnerRows}
+          </div>
+          <div>
+            <div class="rc-section-title">Despesas do Time</div>
+            ${expenseRows}
+          </div>
+        </div>`;
+    }
+
+    // Result banner — remove old banner if present, then append
+    const oldBanner = document.getElementById("rc-result-banner");
+    if (oldBanner) oldBanner.remove();
+
+    const resultBanner = document.createElement("div");
+    resultBanner.id = "rc-result-banner";
+    resultBanner.className = "rc-result-banner";
+    resultBanner.innerHTML = `
+      <div>
+        <div style="font-weight:700;font-size:16px">Resultado Líquido 2026</div>
+        <div style="font-size:13px;opacity:.7;margin-top:4px">Receita total − Despesas do time</div>
+      </div>
+      <div class="rc-result-value">${fmt((d.receita_total||0) - (d.total_gasto||0))}</div>`;
+    $("view-dashboard").appendChild(resultBanner);
+
+    $("dash-footer").textContent = `Dados atualizados em ${fmtDate(d.atualizado_em)}`;
+    $("view-dashboard").classList.remove("hidden");
+  }
+
   function showError(msg) {
     $("error-msg").innerHTML = msg;
     $("view-error").classList.remove("hidden");
@@ -649,7 +950,11 @@
         console.log("[BRASA] Rendering director:", slug, "→", dir?.nome,
           "| categorias:", dir?.categorias?.length,
           "| lancamentos:", dir?.lancamentos?.length);
-        renderDashboard(data, slug);
+        if (slug === 'relações-corporativas') {
+          renderPainelReceita(data, slug);
+        } else {
+          renderDashboard(data, slug);
+        }
       } else {
         renderSelector(data);
       }

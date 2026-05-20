@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-05-20T10:36:00.628331",
+  "gerado_em": "2026-05-20T19:47:01.292107",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-05-20"
@@ -9,14 +9,14 @@
       "slug": "administrativo",
       "nome": "Administrativo",
       "orcamento": 18460.73,
-      "total_gasto": 3931.83,
-      "disponivel": 14528.9,
-      "percentual": 21.3,
+      "total_gasto": 3051.83,
+      "disponivel": 15408.9,
+      "percentual": 16.5,
       "categorias": [
         {
-          "nome": "Despesas Administrativas",
-          "gasto": 3931.83,
-          "orcamento": 0.0
+          "nome": "Despesas Administrativas – Contabilidade",
+          "gasto": 3051.83,
+          "orcamento": 6245.28
         }
       ],
       "lancamentos": [
@@ -471,24 +471,23 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "arrecadação",
       "nome": "Arrecadação",
       "orcamento": 2874.0,
-      "total_gasto": 228.91,
-      "disponivel": 2645.09,
-      "percentual": 8.0,
+      "total_gasto": 203.91,
+      "disponivel": 2670.09,
+      "percentual": 7.1,
       "categorias": [
         {
           "nome": "Despesas Administrativas",
           "gasto": 203.91,
-          "orcamento": 0.0
-        },
-        {
-          "nome": "Other Business Expenses",
-          "gasto": 25.0,
           "orcamento": 0.0
         }
       ],
@@ -944,28 +943,42 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 1138.11,
-      "disponivel": 8716.89,
-      "percentual": 11.5,
+      "total_gasto": 1087.68,
+      "disponivel": 8767.32,
+      "percentual": 11.0,
       "categorias": [
         {
-          "nome": "Despesas Administrativas",
+          "nome": "Despesas Administrativas – Taxas Administrativas",
           "gasto": 3.0,
           "orcamento": 0.0
         },
         {
-          "nome": "Marketing e Comunicação",
-          "gasto": 1126.12,
+          "nome": "Marketing e Comunicação – Anúncios",
+          "gasto": 85.71,
+          "orcamento": 830.0
+        },
+        {
+          "nome": "Marketing e Comunicação – Outros",
+          "gasto": 139.98,
           "orcamento": 0.0
         },
         {
-          "nome": "Tecnologia e Software",
+          "nome": "Marketing e Comunicação – Videomaker",
+          "gasto": 850.0,
+          "orcamento": 6340.0
+        },
+        {
+          "nome": "Tecnologia e Software – Outros",
           "gasto": 8.99,
           "orcamento": 0.0
         }
@@ -1422,7 +1435,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "conferências",
@@ -1920,7 +1937,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "gente-&-gestão",
@@ -2413,7 +2434,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "impacto-social",
@@ -2881,7 +2906,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "presidência",
@@ -3374,15 +3403,19 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 372.77,
-      "disponivel": 8410.2,
-      "percentual": 4.2,
+      "total_gasto": 338.83,
+      "disponivel": 8444.14,
+      "percentual": 3.9,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
@@ -3392,11 +3425,6 @@
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
           "gasto": 98.17,
-          "orcamento": 0.0
-        },
-        {
-          "nome": "Other Business Expenses",
-          "gasto": 33.94,
           "orcamento": 0.0
         },
         {
@@ -3857,7 +3885,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "relações-corporativas",
@@ -4325,20 +4357,400 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [
+        {
+          "id": "1063",
+          "numero": "1042",
+          "parceiro": "Crebit Pay",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-05-19",
+          "vencimento": "2026-06-18",
+          "total": 6100.0,
+          "emAberto": 6100.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1021",
+          "numero": "1041",
+          "parceiro": "Bain & Company",
+          "iniciativa": "BRASA Summit EU",
+          "descricao": "Pacote EU 2026 – Bronze + palestrante\nBenefícios incluídos:\n • 3 representantes no evento\n • Stand na Feira de Carreiras\n • Divulgação da empresa nas redes sociais\n • Exposição no backdrop e no aplicativo da Conferência\n • Garantia de palestrante",
+          "data": "2026-04-27",
+          "vencimento": "2026-05-27",
+          "total": 6500.0,
+          "emAberto": 6500.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1017",
+          "numero": "BTG PACTUAL",
+          "parceiro": "BTG PACTUAL NY CORPORATION",
+          "iniciativa": "BRASA Mantenedoria",
+          "descricao": "The purpose of this Agreement is the sponsorship to be provided by BTG Pactual to BRASA exclusively for the development of Projects aimed at connecting with university students through conferences, events, and university visits.",
+          "data": "2026-04-14",
+          "vencimento": "2026-05-14",
+          "total": 200000.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "1014",
+          "numero": "1040",
+          "parceiro": "Minerva University",
+          "iniciativa": "Passaporte BRASA",
+          "descricao": "BRASA Passaporte: Personalizado\n• Uni Fair participation\n• webinar\n• mailing list\n• online info session\n• advertisement on the promotional materials",
+          "data": "2026-04-09",
+          "vencimento": "2026-05-09",
+          "total": 1300.0,
+          "emAberto": 1300.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "885",
+          "numero": "1039",
+          "parceiro": "iFood",
+          "iniciativa": "Brasa em Casa",
+          "descricao": "BRASA em Casa:\n- Divulgação da Empresa nas Redes Sociais\n- Exposição no Backdrop + App da Conferência\n- Divulgação Vaga no Portal\n- Stand na Feira de Carreiras (3 representantes)",
+          "data": "2026-04-06",
+          "vencimento": "2026-05-06",
+          "total": 2500.0,
+          "emAberto": 2500.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "869",
+          "numero": "1038",
+          "parceiro": "Grinnell College",
+          "iniciativa": "—",
+          "descricao": "BRASA Passaporte: BRONZE\n• University Fair Participation\n• Social media post promoting the institution as a BRASA partner (Instagram & LinkedIn) and mailing list \n•  Right to Use Images from the Event for Promotional Material\n•  Logo on the Event Materials \n•  Mailing List",
+          "data": "2026-04-01",
+          "vencimento": "2026-05-01",
+          "total": 875.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "867",
+          "numero": "1036",
+          "parceiro": "London School of Business",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-03-31",
+          "vencimento": "2026-04-30",
+          "total": 1180.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "851",
+          "numero": "1035",
+          "parceiro": "EMS",
+          "iniciativa": "BRASA Summit Innovation",
+          "descricao": "Exposição de Marca\n- 6 semanas de divulgação\n- 2 post LinkedIn\n- 1 post instagram\n- 4 storiee imagem insta\n- 1 storiee vídeo\n- 1 Info Session online",
+          "data": "2026-03-30",
+          "vencimento": "2026-04-29",
+          "total": 3000.0,
+          "emAberto": 3000.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "849",
+          "numero": "1034",
+          "parceiro": "University of Oklahoma",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-03-27",
+          "vencimento": "2026-04-26",
+          "total": 850.0,
+          "emAberto": 850.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "848",
+          "numero": "1033",
+          "parceiro": "Fundacao Itau",
+          "iniciativa": "BRASA Summit AM",
+          "descricao": "Pacote Silver",
+          "data": "2026-03-25",
+          "vencimento": "2026-05-24",
+          "total": 27800.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "843",
+          "numero": "Fundação Itaú",
+          "parceiro": "Fundacao Itau",
+          "iniciativa": "—",
+          "descricao": "Pacote Silver",
+          "data": "2026-03-23",
+          "vencimento": "2026-05-22",
+          "total": 27800.0,
+          "emAberto": 27800.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "791",
+          "numero": "1031",
+          "parceiro": "Itaú",
+          "iniciativa": "—",
+          "descricao": "MANTENEDORIA BRASA - R$360,000.00 por ano (2026, 2027)\n- Pacotes GOLD nas quatro conferências presenciais BRASA\n• 5 Participantes em cada evento\n• Stand na Feira de Carreiras\n• Divulgação da empresa nas Redes Sociais\n• Divulgação de vaga no Portal BRASA\n• Exposição no Backdrop + App da Conferência\n• Mailing List dos Participantes\n• Itens co-branded no kit do participante (Exposição Alta)\n• Workshop na conferência\n• Acesso ao Portal de Talentos BRASA (com CVs dos Participantes)\n• Slot de vídeo na conferência\n• Sala de Entrevista na conferência\n• Garantia de convite à palestrante na conferência\n\n- Co-criação de iniciativas personalizadas com a Rede BRASA, feito a realização de info-sessions, case studies, treinamentos e workshops online com a Rede BRASA\n\n- Exposição nos canais digitais da BRASA:\n• Divulgação completa de até 5 vagas anuais no nosso portal de talentos;\n• Divulgações mensais na Newsletter quinzenal da BRASA (40k subscribers);\n• Posts bimestrais no Instagram da BRASA (52k seguidores) e LinkedIn (25k seguidores);\n• Exposição como Mantenedor BRASA em todas iniciativas com a Rede;\n\n- Outros benefícios\n• Presença de 2 representantes no Welcome Dinner BRASA em todas as conferências;\n• Participação no programa BRASA Next com mentores;\n• Concepção de Roadshow em universidades norte americanas e europeias;\n• Avaliador no Painel Final de Bolsas e Iniciativas exclusivas com bolsistas BRASA\n• Produção de todos os materiais que serão utilizados nas conferências",
+          "data": "2026-02-24",
+          "vencimento": "2026-03-26",
+          "total": 60000.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "790",
+          "numero": "TAKO",
+          "parceiro": "TAKO",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-02-23",
+          "vencimento": "2026-04-24",
+          "total": 5665.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "756",
+          "numero": "1030",
+          "parceiro": "Grupo NC (deleted)",
+          "iniciativa": "—",
+          "descricao": "Exposição de Marca\n- 6 semanas de divulgação\n- 2 post LinkedIn\n- 1 post instagram\n- 4 storiee imagem insta\n- 1 storiee vídeo\n- 1 Info Session online",
+          "data": "2026-01-23",
+          "vencimento": "2026-02-22",
+          "total": 3000.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "767",
+          "numero": "Concordia",
+          "parceiro": "Concordia University Wisconsin",
+          "iniciativa": "—",
+          "descricao": "Passaporte Bronze",
+          "data": "2026-01-23",
+          "vencimento": "2026-03-24",
+          "total": 875.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "752",
+          "numero": "1029",
+          "parceiro": "Rice University",
+          "iniciativa": "Passaporte BRASA",
+          "descricao": "GOLD Package",
+          "data": "2026-01-21",
+          "vencimento": "2026-02-20",
+          "total": 1581.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "748",
+          "numero": "Illinois",
+          "parceiro": "Illinois Institute of Technology",
+          "iniciativa": "—",
+          "descricao": "\"BRASA Passaporte: GOLD\n- University Fair Participation\n- Post Intagram e LinkedIn (BRASA Partner)\n- Right to use images for promotional material\n- Logo on event's material\n- Mailing List \n- Webinar with BRASA Mentees\n- BRASA Newsletter Advertisement \n- Promotional Video\"",
+          "data": "2026-01-18",
+          "vencimento": "2026-03-19",
+          "total": 1550.0,
+          "emAberto": 1550.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "745",
+          "numero": "John Cabot University",
+          "parceiro": "John Cabot University",
+          "iniciativa": "Passaporte BRASA",
+          "descricao": "• University Fair Participation\n• Social media post promoting the institution as a BRASA partner (Instagram & LinkedIn)\n•  Right to Use Images from the Event for Promotional Material\n•  Logo on the Event Materials",
+          "data": "2026-01-15",
+          "vencimento": "2026-03-16",
+          "total": 695.25,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "736",
+          "numero": "1019",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-05-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "735",
+          "numero": "1018",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-04-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "733",
+          "numero": "1016",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-02-05",
+          "total": 958.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "734",
+          "numero": "1017",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-03-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Atrasado"
+        },
+        {
+          "id": "732",
+          "numero": "1015",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-01-10",
+          "total": 958.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
+          "id": "742",
+          "numero": "1025",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-11-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "741",
+          "numero": "1024",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-10-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "740",
+          "numero": "1023",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-09-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "739",
+          "numero": "1022",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-08-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "743",
+          "numero": "1026",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-12-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "738",
+          "numero": "1021",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-07-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "737",
+          "numero": "1020",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-06-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        }
+      ],
+      "receita_total": 362767.25,
+      "a_receber": 59180.0,
+      "parcerias_ativas": 18,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 2353.39,
-      "disponivel": 34500.61,
-      "percentual": 6.4,
+      "total_gasto": 1992.14,
+      "disponivel": 34861.86,
+      "percentual": 5.4,
       "categorias": [
         {
-          "nome": "Tecnologia e Software",
-          "gasto": 2353.39,
+          "nome": "Tecnologia e Software – Adobe etc.",
+          "gasto": 178.08,
           "orcamento": 0.0
+        },
+        {
+          "nome": "Tecnologia e Software – AWS",
+          "gasto": 102.48,
+          "orcamento": 24720.0
+        },
+        {
+          "nome": "Tecnologia e Software – Outros",
+          "gasto": 1523.65,
+          "orcamento": 7934.0
+        },
+        {
+          "nome": "Tecnologia e Software – Zoom / Twilio / Zapier",
+          "gasto": 187.93,
+          "orcamento": 4200.0
         }
       ],
       "lancamentos": [
@@ -4793,7 +5205,11 @@
           "valor": 92.98
         }
       ],
-      "atualizado_em": "2026-05-20T10:36:00.628331"
+      "faturas": [],
+      "receita_total": 0.0,
+      "a_receber": 0.0,
+      "parcerias_ativas": 0,
+      "atualizado_em": "2026-05-20T19:47:01.292107"
     }
   ]
 }
