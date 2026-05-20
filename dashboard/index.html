@@ -198,10 +198,15 @@
 
     .cat-bar-track { height: 6px; background: var(--borda); border-radius: 99px; overflow: hidden; }
     .cat-bar-fill  { height: 100%; border-radius: 99px; transition: width .4s ease; }
+    .cat-bar-caption {
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 11px; margin-top: 4px; gap: 8px;
+    }
 
-    .cat-right { text-align: right; flex-shrink: 0; min-width: 80px; }
+    .cat-right { text-align: right; flex-shrink: 0; min-width: 90px; }
     .cat-amount { font-size: 15px; font-weight: 900; }
-    .cat-chevron { font-size: 10px; color: var(--cinza); margin-top: 2px; transition: transform .2s; display: block; }
+    .cat-budget-label { font-size: 11px; color: var(--cinza); margin-top: 2px; }
+    .cat-chevron { font-size: 9px; color: var(--cinza); margin-top: 4px; transition: transform .2s; display: block; }
     .cat-chevron.open { transform: rotate(90deg); }
 
     .cat-panel {
@@ -581,30 +586,40 @@
       const allTxs   = d.lancamentos || [];
 
       groups.forEach((grp, i) => {
-        const color    = CAT_COLORS[i % CAT_COLORS.length];
+        const color     = CAT_COLORS[i % CAT_COLORS.length];
         const hasBudget = grp.orcamento > 0;
-        const pct      = hasBudget ? Math.round(grp.gasto / grp.orcamento * 100) : null;
-        const barW     = hasBudget
+        const pct       = hasBudget ? Math.round(grp.gasto / grp.orcamento * 100) : null;
+        const barW      = hasBudget
           ? Math.min(pct, 100)
           : Math.round((grp.gasto / maxGasto) * 100);
+        const bcolor    = hasBudget ? (pct >= 90 ? '#E03E1A' : pct >= 70 ? '#FB8C0A' : color) : color;
+        const restante  = hasBudget ? Math.max(grp.orcamento - grp.gasto, 0) : 0;
 
         const wrapper = document.createElement("div");
 
         const row = document.createElement("div");
         row.className = "cat-row";
         row.innerHTML = `
-          <div class="cat-icon"><div class="cat-icon-inner"></div></div>
+          <div class="cat-icon" style="background:${color}18">
+            <div class="cat-icon-inner" style="background:${color}"></div>
+          </div>
           <div class="cat-main">
             <div class="cat-name">${grp.nome}</div>
-            <div class="cat-bar-track">
-              <div class="cat-bar-fill" style="width:${barW}%;background:${barW >= 90 ? '#E03E1A' : barW >= 70 ? '#FB8C0A' : color}"></div>
+            <div class="cat-bar-track" style="${!hasBudget ? 'opacity:.5' : ''}">
+              <div class="cat-bar-fill" style="width:${barW}%;background:${bcolor}"></div>
+            </div>
+            <div class="cat-bar-caption">
+              ${hasBudget
+                ? `<span style="color:${bcolor};font-weight:700">${pct}% do orçamento${pct > 100 ? ' ⚠' : ''}</span>
+                   <span style="color:var(--cinza)">Restante: ${fmt(restante)}</span>`
+                : `<span style="color:var(--cinza);font-style:italic">Sem orçamento definido</span>`
+              }
             </div>
           </div>
           <div class="cat-right">
             <div class="cat-amount">${fmt(grp.gasto)}</div>
-            <span class="cat-chevron" style="font-size:11px;color:${hasBudget ? (barW>=90?'#E03E1A':barW>=70?'#FB8C0A':'var(--cinza)') : 'var(--cinza)'}">
-              ${hasBudget ? pct + '%' : '▶'}
-            </span>
+            ${hasBudget ? `<div class="cat-budget-label">de ${fmt(grp.orcamento)}</div>` : ''}
+            <span class="cat-chevron">▶</span>
           </div>`;
 
         const panel = document.createElement("div");
@@ -615,21 +630,29 @@
           const subMax = Math.max(...grp.children.map(c => c.gasto), 1);
           grp.children.forEach(child => {
             const childHasBudget = child.orcamento > 0;
-            const childPct  = childHasBudget ? Math.round(child.gasto / child.orcamento * 100) : null;
-            const childBarW = childHasBudget ? Math.min(childPct, 100) : Math.round((child.gasto / subMax) * 100);
-            const childColor = childBarW >= 90 ? '#E03E1A' : childBarW >= 70 ? '#FB8C0A' : color;
+            const childPct    = childHasBudget ? Math.round(child.gasto / child.orcamento * 100) : null;
+            const childBarW   = childHasBudget ? Math.min(childPct, 100) : Math.round((child.gasto / subMax) * 100);
+            const childBcolor = childHasBudget ? (childPct >= 90 ? '#E03E1A' : childPct >= 70 ? '#FB8C0A' : color) : color;
+            const childRest   = childHasBudget ? Math.max(child.orcamento - child.gasto, 0) : 0;
             const sub = document.createElement("div");
-            sub.style.cssText = "display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--borda)";
+            sub.style.cssText = "display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--borda)";
             sub.innerHTML = `
               <div style="flex:1;min-width:0">
                 <div style="font-size:13px;font-weight:700;margin-bottom:5px">${child.nome}</div>
-                <div style="height:4px;background:var(--borda);border-radius:99px;overflow:hidden">
-                  <div style="height:100%;width:${childBarW}%;background:${childColor};border-radius:99px"></div>
+                <div style="height:4px;background:var(--borda);border-radius:99px;overflow:hidden;${!childHasBudget?'opacity:.5':''}">
+                  <div style="height:100%;width:${childBarW}%;background:${childBcolor};border-radius:99px"></div>
                 </div>
+                ${childHasBudget
+                  ? `<div style="display:flex;justify-content:space-between;font-size:11px;margin-top:3px">
+                       <span style="color:${childBcolor};font-weight:700">${childPct}% do orçamento</span>
+                       <span style="color:var(--cinza)">Restante: ${fmt(childRest)}</span>
+                     </div>`
+                  : `<div style="font-size:11px;color:var(--cinza);margin-top:3px;font-style:italic">Sem orçamento definido</div>`
+                }
               </div>
-              <div style="text-align:right;white-space:nowrap">
+              <div style="text-align:right;white-space:nowrap;padding-left:8px">
                 <div style="font-size:13px;font-weight:900">${fmt(child.gasto)}</div>
-                ${childHasBudget ? `<div style="font-size:11px;color:${childColor};font-weight:700">${childPct}%</div>` : ''}
+                ${childHasBudget ? `<div style="font-size:11px;color:var(--cinza)">de ${fmt(child.orcamento)}</div>` : ''}
               </div>`;
             panel.appendChild(sub);
           });
@@ -676,11 +699,14 @@
           displayTxs.slice(0, 8).forEach(tx => {
             const item = document.createElement("div");
             item.className = "tx-item";
+            const txCat = (tx.categoria || "").includes(":")
+              ? tx.categoria.slice(tx.categoria.indexOf(":") + 1)
+              : (tx.categoria || "");
             item.innerHTML = `
               <div class="tx-dot" style="background:${color}"></div>
               <div class="tx-info">
                 <div class="tx-vendor">${tx.fornecedor || "—"}</div>
-                <div class="tx-meta">${fmtDate(tx.data)}</div>
+                <div class="tx-meta">${fmtDate(tx.data)}${txCat ? ' · ' + txCat : ''}</div>
               </div>
               <div class="tx-amount">${fmt(tx.valor)}</div>`;
             panel.appendChild(item);
