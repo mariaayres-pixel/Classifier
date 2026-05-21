@@ -12,19 +12,22 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --azul:        #065FD8;
-      --azul-escuro: #1A2B77;
-      --verde:       #00863D;
-      --amarelo:     #FFCC02;
-      --laranja:     #FB8C0A;
-      --perigo:      #E03E1A;
-      --fundo:       #F4F4F4;
-      --texto:       #252726;
-      --branco:      #FFFFFF;
-      --borda:       #E0E0E0;
-      --cinza:       #8A8A8A;
-      --radius:      12px;
-      --sombra:      0 2px 12px rgba(0,0,0,.07);
+      /* ── BRASA brand palette ── */
+      --azul:           #065FD8;  /* Azul Vívido */
+      --azul-escuro:    #1A2B77;  /* Azul Escuro */
+      --verde:          #00863D;  /* Verde Folha */
+      --verde-escuro:   #03571A;  /* Verde Escuro */
+      --amarelo:        #FFCC02;  /* Sol da Saudade */
+      --laranja:        #FB8C0A;  /* Laranja */
+      --verde-vivido:   #4BBF4B;  /* Verde Vívido */
+      --perigo:         #C0392B;  /* danger red */
+      --fundo:          #F4F4F4;  /* Luz da BRASA */
+      --texto:          #252726;  /* Noite Urbana */
+      --branco:         #FFFFFF;
+      --borda:          #E0E0E0;
+      --cinza:          #8A8A8A;
+      --radius:         12px;
+      --sombra:         0 2px 12px rgba(0,0,0,.07);
     }
 
     body { font-family: 'Lato', sans-serif; background: var(--fundo); color: var(--texto); min-height: 100vh; }
@@ -45,18 +48,13 @@
     }
 
     .logo-mark {
-      background: var(--amarelo);
-      color: var(--azul-escuro);
-      font-weight: 900;
-      font-size: 15px;
-      width: 32px; height: 32px;
-      border-radius: 7px;
       display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
+      flex-shrink: 0; height: 38px;
     }
+    .logo-mark svg { display: block; }
 
-    .header-title { font-size: 15px; font-weight: 700; }
-    .header-title span { font-weight: 300; opacity: .7; margin-left: 5px; }
+    .header-title { font-size: 15px; font-weight: 900; letter-spacing: .3px; }
+    .header-title span { font-weight: 300; opacity: .65; margin-left: 6px; font-size: 13px; letter-spacing: 0; }
     .header-right { margin-left: auto; font-size: 12px; opacity: .6; text-align: right; line-height: 1.4; }
 
     /* ── Page ── */
@@ -382,7 +380,18 @@
 <body>
 
 <header>
-  <div class="logo-mark">B</div>
+  <div class="logo-mark">
+    <!-- BRASA crest — white monochrome version for dark backgrounds -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 60" height="38" width="33" aria-label="BRASA">
+      <!-- Shield outer (subtle fill) -->
+      <path d="M26 1 C43 1 51 10 51 22 L51 38 C51 53 37 59 26 59 C15 59 1 53 1 38 L1 22 C1 10 9 1 26 1Z"
+            fill="rgba(255,255,255,0.10)"/>
+      <!-- Upper arch element: dome top, chevron (^) bottom edge pointing upward -->
+      <path d="M8 23 Q26 11 44 23 L44 40 L26 30 L8 40 Z" fill="white"/>
+      <!-- Lower oval / lens -->
+      <ellipse cx="26" cy="51" rx="13" ry="7" fill="white"/>
+    </svg>
+  </div>
   <div class="header-title">BRASA <span>Painel Financeiro</span></div>
   <div class="header-right" id="header-meta"></div>
 </header>
@@ -467,9 +476,16 @@
 
   const $ = id => document.getElementById(id);
 
+  // Category colours — BRASA brand palette only
   const CAT_COLORS = [
-    "#065FD8","#00863D","#FB8C0A","#1A2B77",
-    "#E03E1A","#9B59B6","#16A085","#E67E22",
+    "#065FD8",  // Azul Vívido
+    "#00863D",  // Verde Folha
+    "#FB8C0A",  // Laranja
+    "#1A2B77",  // Azul Escuro
+    "#03571A",  // Verde Escuro
+    "#4BBF4B",  // Verde Vívido
+    "#FFCC02",  // Amarelo (used on dark bg sub-items)
+    "#065FD8",  // cycle back
   ];
 
   function fmt(v) {
