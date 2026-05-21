@@ -145,11 +145,36 @@ def fetch_classes() -> tuple[dict[str, str], dict[str, str]]:
     return id_to_name, name_to_id
 
 
+def fetch_account_types() -> dict[str, str]:
+    """
+    Returns {account_name: account_type} for all active QB accounts.
+    Used to distinguish income from expense accounts in the budget.
+    """
+    data = qb_get("/query", {"query": "SELECT * FROM Account WHERE Active = true MAXRESULTS 1000"})
+    result: dict[str, str] = {}
+    for acc in data.get("QueryResponse", {}).get("Account", []):
+        full_name = acc.get("FullyQualifiedName", acc.get("Name", ""))
+        acc_type  = acc.get("AccountType", "")
+        result[full_name] = acc_type
+        # Also index by leaf (after last ":")
+        if ":" in full_name:
+            result[full_name.split(":")[-1].strip()] = acc_type
+    return result
+
+
 def fetch_budgets(year: int) -> dict[str, dict]:
     """
     Returns {class_name: {"_total": X, "AccountName": Y, ...}}
     Each BudgetDetail line may repeat (monthly entries) — we sum them.
+    Only expense-type accounts are counted in _total; income accounts
+    (e.g. grant/revenue budgets) are stored but excluded from _total
+    so that the budget % gauge reflects spending vs expense budget only.
     """
+    # QB account types that represent income — excluded from expense _total
+    INCOME_TYPES = {"Income", "Other Income"}
+
+    account_types = fetch_account_types()
+
     data = qb_get("/query", {"query": "SELECT * FROM Budget MAXRESULTS 100"})
     budgets: dict[str, dict] = {}
     year_tags = {str(year), f"FY{str(year)[2:]}"}
@@ -165,7 +190,16 @@ def fetch_budgets(year: int) -> dict[str, dict]:
                 continue
             if class_name not in budgets:
                 budgets[class_name] = {"_total": 0.0}
-            budgets[class_name]["_total"] += amount
+
+            # Resolve account type (full name first, then leaf)
+            acc_type = account_types.get(account_name, "")
+            if not acc_type and account_name and ":" in account_name:
+                acc_type = account_types.get(account_name.split(":")[-1].strip(), "")
+
+            # Only add expense accounts to _total (skip income/revenue budgets)
+            if acc_type not in INCOME_TYPES:
+                budgets[class_name]["_total"] += amount
+
             if account_name:
                 # QB budget stores "Parent:Sub-account" — keep only the leaf name
                 # so it matches what the P&L reports as the category name.
