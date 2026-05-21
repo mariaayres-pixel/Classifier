@@ -491,23 +491,30 @@ def sync() -> None:
             transactions = fetch_transactions(start_date, end_date, class_id)
 
             # Filter transactions to only those whose expense account (categoria)
-            # appears in this class's P&L — removes shared credit-card noise.
+            # exactly matches a category in this class's P&L.
+            # This enforces class integrity: a transaction only appears in a
+            # director's panel if its expense account is in that class's P&L.
+            # We do NOT expand to parent account names — "Viagens e Hospedagem"
+            # alone is too broad and would include transactions from other classes
+            # that merely share the same parent account.
             if pnl["categorias"]:
                 cat_keys: set[str] = set()
                 for cat in pnl["categorias"]:
                     nome = cat["nome"].lower().strip()
-                    cat_keys.add(nome)
-                    # Also index the parent name (before " – ") for partial matches
+                    cat_keys.add(nome)                           # full name, e.g. "viagens e hospedagem – transporte local board"
                     if " – " in nome:
-                        cat_keys.add(nome.split(" – ")[0].strip())
+                        cat_keys.add(nome.split(" – ")[-1].strip())  # leaf only, e.g. "transporte local board"
 
                 def _tx_matches(tx: dict) -> bool:
                     raw = (tx.get("categoria") or "").lower().strip()
-                    # Strip QB "ParentAccount:ChildAccount" prefix
-                    cat = raw.split(":")[-1].strip() if ":" in raw else raw
-                    return any(cat.startswith(k) or k.startswith(cat) for k in cat_keys)
+                    # Strip QB "ParentAccount:ChildAccount" colon prefix
+                    if ":" in raw:
+                        raw = raw.split(":")[-1].strip()
+                    # Check full account name OR just the leaf (last segment after " – ")
+                    leaf = raw.split(" – ")[-1].strip() if " – " in raw else raw
+                    return raw in cat_keys or leaf in cat_keys
 
-                # Always apply the filter — shows empty rather than unrelated transactions
+                # Always apply the filter — shows empty rather than wrong-class transactions
                 transactions = [tx for tx in transactions if _tx_matches(tx)]
 
             class_budgets = budgets.get(class_name, {})
