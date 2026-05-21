@@ -263,6 +263,26 @@
     .tx-meta   { font-size: 12px; color: var(--cinza); margin-top: 2px; }
     .tx-amount { font-size: 14px; font-weight: 700; white-space: nowrap; color: var(--texto); }
 
+    /* ── Org summary bar ── */
+    .org-bar {
+      background: #14236a;
+      padding: 12px 28px;
+      display: flex;
+      gap: 36px;
+      align-items: center;
+    }
+    .org-kpi { color: #fff; }
+    .org-kpi-val { font-size: 20px; font-weight: 900; line-height: 1; }
+    .org-kpi-lbl { font-size: 10px; text-transform: uppercase; letter-spacing: .6px; opacity: .55; margin-top: 3px; }
+    .org-kpi-sep { width: 1px; background: rgba(255,255,255,.15); align-self: stretch; min-height: 32px; }
+
+    /* ── Status badges ── */
+    .dir-card-badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 99px; flex-shrink: 0; }
+    .badge-ok       { background: #e8f8ef; color: #03571A; }
+    .badge-warn     { background: #fff3e0; color: #FB8C0A; }
+    .badge-danger   { background: #fdecea; color: #C0392B; }
+    .dir-card-remaining { font-size: 12px; color: var(--cinza); margin-bottom: 12px; }
+
     /* ── Misc ── */
     .dash-footer { text-align: center; font-size: 12px; color: var(--cinza); margin-top: 36px; }
     .loading     { text-align: center; padding: 80px 20px; color: var(--cinza); font-size: 15px; }
@@ -384,13 +404,31 @@
   <div class="header-right" id="header-meta"></div>
 </header>
 
+<!-- Org summary bar (only visible on selector) -->
+<div id="org-bar" class="hidden org-bar">
+  <div class="org-kpi">
+    <div class="org-kpi-val" id="org-gasto"></div>
+    <div class="org-kpi-lbl">Gasto total YTD</div>
+  </div>
+  <div class="org-kpi-sep"></div>
+  <div class="org-kpi">
+    <div class="org-kpi-val" id="org-orcamento"></div>
+    <div class="org-kpi-lbl">Orçamento total</div>
+  </div>
+  <div class="org-kpi-sep"></div>
+  <div class="org-kpi">
+    <div class="org-kpi-val" id="org-pct"></div>
+    <div class="org-kpi-lbl" id="org-periodo"></div>
+  </div>
+</div>
+
 <div class="page">
   <div class="loading" id="loading">Carregando dados…</div>
 
   <!-- Selector -->
   <div id="view-selector" class="hidden">
     <p class="sel-title">Selecione sua área</p>
-    <p class="sel-subtitle">Clique no card para ver seu painel financeiro</p>
+    <p class="sel-subtitle" id="sel-subtitle">Clique no card para ver seu painel financeiro</p>
     <div class="dir-grid" id="dir-grid"></div>
   </div>
 
@@ -409,15 +447,15 @@
     </div>
 
     <div class="cards" id="cards-row">
+      <div class="card" id="card-pct-wrap">
+        <div class="card-label">% do orçamento usado</div>
+        <div class="card-value" id="card-pct-val" style="font-size:34px"></div>
+        <div class="card-sub" id="card-pct-sub"></div>
+      </div>
       <div class="card card-blue">
         <div class="card-label">Orçamento total</div>
         <div class="card-value blue" id="card-orcamento"></div>
         <div class="card-sub">Para o ano de 2026</div>
-      </div>
-      <div class="card card-green" id="card-gasto-wrap">
-        <div class="card-label">Já gastou</div>
-        <div class="card-value" id="card-gasto"></div>
-        <div class="card-sub" id="card-gasto-sub"></div>
       </div>
       <div class="card" id="card-disp-wrap">
         <div class="card-label">Ainda disponível</div>
@@ -507,10 +545,34 @@
     }
   }
 
+  function statusBadge(pct) {
+    if (pct >= 90) return ['badge-danger', 'Crítico'];
+    if (pct >= 70) return ['badge-warn',   'Atenção'];
+    return ['badge-ok', 'No prazo'];
+  }
+
   function renderSelector(data) {
     const grid = $("dir-grid");
 
-    // Sort: RC first, then all others
+    // ── Org-wide summary bar ──────────────────────────────
+    const expense = data.diretores.filter(d => d.slug !== "relações-corporativas");
+    const totalGasto = expense.reduce((s, d) => s + (d.total_gasto  ?? 0), 0);
+    const totalOrc   = expense.reduce((s, d) => s + (d.orcamento    ?? 0), 0);
+    const orgPct     = totalOrc > 0 ? Math.round(totalGasto / totalOrc * 100) : 0;
+
+    $("org-gasto").textContent     = fmt(totalGasto);
+    $("org-orcamento").textContent = fmt(totalOrc);
+    $("org-pct").textContent       = orgPct + "% usado";
+
+    // Period label from data
+    const inicio = data.periodo?.inicio ? fmtDate(data.periodo.inicio) : "";
+    const fim    = data.periodo?.fim    ? fmtDate(data.periodo.fim)    : "";
+    $("org-periodo").textContent   = inicio && fim ? `${inicio} – ${fim}` : "2026";
+
+    $("org-bar").classList.remove("hidden");
+
+    // ── Cards ─────────────────────────────────────────────
+    // Sort: RC first, then others
     const rc     = data.diretores.find(d => d.slug === "relações-corporativas");
     const others = data.diretores.filter(d => d.slug !== "relações-corporativas");
     const sorted = rc ? [rc, ...others] : others;
@@ -521,9 +583,9 @@
 
       if (d.slug === "relações-corporativas") {
         a.className = "dir-card-rc-link";
-        const receita    = d.receita_total    ?? 0;
-        const aReceber   = d.a_receber        ?? 0;
-        const parcerias  = d.parcerias_ativas ?? 0;
+        const receita   = d.receita_total    ?? 0;
+        const aReceber  = d.a_receber        ?? 0;
+        const parcerias = d.parcerias_ativas ?? 0;
         a.innerHTML = `
           <div class="dir-card-rc">
             <div class="dir-card-rc-left">
@@ -548,14 +610,22 @@
             <div class="dir-card-rc-arrow">›</div>
           </div>`;
       } else {
-        const pct   = d.percentual;
-        const color = barColor(pct);
+        const pct       = d.percentual;
+        const color     = barColor(pct);
+        const [cls, lbl] = statusBadge(pct);
+        const disp      = (d.orcamento ?? 0) - (d.total_gasto ?? 0);
+        const dispTxt   = disp >= 0
+          ? `${fmt(disp)} restantes de ${fmt(d.orcamento ?? 0)}`
+          : `Excedeu em ${fmt(Math.abs(disp))}`;
         a.className = "dir-card-link";
         a.innerHTML = `
           <div class="dir-card">
-            <div class="dir-card-name">${d.nome}</div>
+            <div class="dir-card-name" style="display:flex;align-items:center;justify-content:space-between;gap:8px">
+              <span>${d.nome}</span>
+              <span class="dir-card-badge ${cls}">${lbl}</span>
+            </div>
             <div class="dir-card-pct" style="color:${color}">${pct}%</div>
-            <div class="dir-card-lbl">do orçamento usado</div>
+            <div class="dir-card-remaining">${dispTxt}</div>
             <div class="dir-mini-bar">
               <div class="dir-mini-fill" style="width:${Math.min(pct,100)}%;background:${color}"></div>
             </div>
@@ -590,20 +660,23 @@
     $("dash-period").textContent =
       `Período: ${fmtDate(data.periodo.inicio)} a ${fmtDate(data.periodo.fim)}`;
 
+    // Hide org bar when in detail view
+    $("org-bar").classList.add("hidden");
+
     // Cards
     $("card-orcamento").textContent = fmt(d.orcamento);
 
-    const gastoEl  = $("card-gasto");
+    // % usado — dominant number
+    const pctEl   = $("card-pct-val");
+    const pctWrap = $("card-pct-wrap");
+    pctEl.textContent = `${pct}%`;
+    $("card-pct-sub").textContent = `${fmt(d.total_gasto)} gastos`;
+    if (pct >= 90) { pctEl.className = "card-value red"; pctWrap.className = "card card-red"; }
+    else if (pct >= 70) { pctEl.className = "card-value yellow"; pctWrap.className = "card card-yellow"; }
+    else { pctEl.className = "card-value green"; pctWrap.className = "card card-green"; }
+
     const dispEl   = $("card-disponivel");
-    const gastWrap = $("card-gasto-wrap");
     const dispWrap = $("card-disp-wrap");
-
-    gastoEl.textContent       = fmt(d.total_gasto);
-    $("card-gasto-sub").textContent = `${pct}% do total`;
-    if (pct >= 90) { gastoEl.className = "card-value red"; gastWrap.className = "card card-red"; }
-    else if (pct >= 70) { gastoEl.className = "card-value yellow"; gastWrap.className = "card card-yellow"; }
-    else { gastoEl.className = "card-value green"; gastWrap.className = "card card-green"; }
-
     dispEl.textContent = fmt(d.disponivel);
     if (pct >= 90) { dispEl.className = "card-value red"; dispWrap.className = "card card-red"; }
     else if (pct >= 70) { dispEl.className = "card-value yellow"; dispWrap.className = "card card-yellow"; }
@@ -614,9 +687,9 @@
     fill.style.width      = `${Math.min(pct, 100)}%`;
     fill.style.background = barColor(pct);
 
-    const pctEl = $("prog-pct");
-    pctEl.textContent = `${pct}%`;
-    pctEl.style.color = barColor(pct);
+    const progPctEl = $("prog-pct");
+    progPctEl.textContent = `${pct}%`;
+    progPctEl.style.color = barColor(pct);
     $("prog-max").textContent = fmt(d.orcamento);
 
     // Categories — group sub-categories under their parent using " – " separator
