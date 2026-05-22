@@ -593,6 +593,137 @@
     .pf-asset-name { font-weight: 700; }
     .pf-ret-pos { color: var(--verde); font-weight: 700; }
     .pf-ret-neg { color: var(--perigo); font-weight: 700; }
+
+    /* ═══════════════════════════════════════════
+       RESPONSIVE — mobile (≤ 600px)
+       ═══════════════════════════════════════════ */
+    @media (max-width: 600px) {
+
+      /* Page padding */
+      .page { padding: 20px 14px 60px; }
+
+      /* ── Header ── */
+      header { padding: 0 16px; gap: 10px; }
+      .header-right { font-size: 11px; }
+
+      /* ── Org summary bar ── */
+      .org-bar {
+        padding: 10px 16px;
+        gap: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+      }
+      /* hide separators on mobile */
+      .org-kpi-sep { display: none; }
+      .org-kpi-val { font-size: 16px; }
+      .org-kpi-lbl { font-size: 9px; }
+      /* third KPI spans full width */
+      .org-bar .org-kpi:nth-child(5) { grid-column: 1 / -1; }
+
+      /* ── Selector title ── */
+      .sel-title { font-size: 18px; }
+
+      /* ── RC hero card ── */
+      .dir-card-rc {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px 18px;
+      }
+      .dir-card-rc-kpis {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px 24px;
+        width: 100%;
+      }
+      .dir-card-rc-kpi { text-align: left; }
+      .dir-card-rc-kpi-val { font-size: 18px; }
+      .dir-card-rc-arrow { display: none; }
+
+      /* ── Department cards: single column ── */
+      .dir-grid { grid-template-columns: 1fr; }
+
+      /* ── Portfolio hero card ── */
+      .portfolio-card-body {
+        flex-direction: column;
+        padding: 20px 18px 16px;
+        gap: 16px;
+      }
+      .portfolio-card-left {
+        flex: none;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 16px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,.12);
+      }
+      .portfolio-card-kpis {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+      }
+      /* fix borders for 2-col layout */
+      .portfolio-card-kpi:nth-child(3),
+      .portfolio-card-kpi:nth-child(6) { border-right: 1px solid rgba(255,255,255,.08); }
+      .portfolio-card-kpi:nth-child(2),
+      .portfolio-card-kpi:nth-child(4),
+      .portfolio-card-kpi:nth-child(6) { border-right: none; }
+      .portfolio-card-kpi:nth-child(4),
+      .portfolio-card-kpi:nth-child(5),
+      .portfolio-card-kpi:nth-child(6) { border-bottom: 1px solid rgba(255,255,255,.08); }
+      .portfolio-card-kpi:nth-child(5),
+      .portfolio-card-kpi:nth-child(6) { border-bottom: none; }
+      .portfolio-card-kpi { padding: 10px 14px; }
+      .portfolio-card-kpi-val { font-size: 15px; }
+      .portfolio-alloc-legend { padding: 10px 18px; gap: 12px; }
+
+      /* ── Dashboard header ── */
+      .dash-name { font-size: 22px; }
+      .cards { grid-template-columns: 1fr 1fr; }
+
+      /* ── RC two-col ── */
+      .rc-two-col { grid-template-columns: 1fr; }
+
+      /* ── RC result banner ── */
+      .rc-result-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 20px 18px;
+      }
+      .rc-result-value { font-size: 26px; }
+
+      /* ── Portfolio detail — benchmark banner ── */
+      .pf-bench-banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 18px;
+      }
+      .pf-bench-item {
+        padding: 0;
+        border-right: none;
+        border-bottom: none;
+      }
+      .pf-bench-val { font-size: 16px; }
+
+      /* ── Portfolio detail — KPI grid ── */
+      .pf-kpi-grid { grid-template-columns: 1fr 1fr; }
+      .pf-kpi-val { font-size: 18px; }
+
+      /* ── Portfolio section padding ── */
+      .pf-section { padding: 18px 14px; }
+
+      /* ── Asset tables: horizontal scroll + hide return columns ── */
+      .pf-asset-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      .pf-asset-table th.hide-mobile,
+      .pf-asset-table td.hide-mobile { display: none; }
+
+      /* ── Section cards ── */
+      .section-card { padding: 18px; }
+      .rc-section { padding: 18px; }
+    }
   </style>
 </head>
 <body>
@@ -1460,22 +1591,22 @@
           <td class="pf-asset-name">${a.name}</td>
           <td>${fmtBrl(a.value_brl)}</td>
           <td>${Math.round((a.weight_pct||0)*100)}%</td>
-          <td class="${monCls}">${fmtPct(a.monthly_pct*100)}</td>
-          <td class="${annCls}">${fmtPct(a.annual_pct*100)}</td>
+          <td class="${monCls} hide-mobile">${fmtPct(a.monthly_pct*100)}</td>
+          <td class="${annCls} hide-mobile">${fmtPct(a.annual_pct*100)}</td>
         </tr>`;
       }).join("");
 
       sec.innerHTML = `
         <div class="pf-section-title" style="color:${color}">${label}</div>
-        <div style="overflow-x:auto">
+        <div class="pf-asset-table-wrap">
           <table class="pf-asset-table">
             <thead>
               <tr>
                 <th>Ativo</th>
                 <th>Valor BRL</th>
                 <th>Peso</th>
-                <th>Mês</th>
-                <th>12m</th>
+                <th class="hide-mobile">Mês</th>
+                <th class="hide-mobile">12m</th>
               </tr>
             </thead>
             <tbody>${rows}</tbody>
