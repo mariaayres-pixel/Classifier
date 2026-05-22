@@ -1,0 +1,40 @@
+name: BRASA Dashboard — Sync Portfolio
+
+on:
+  schedule:
+    # Runs daily at 14:00 UTC (11am BRT / 10am EST)
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}  # Allow manual trigger from GitHub UI
+
+jobs:
+  sync-portfolio:
+    name: Sync Portfolio → portfolio.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-portfolio.txt
+
+      - name: Run portfolio sync
+        env:
+          PORTFOLIO_CONFIG: ${{ secrets.PORTFOLIO_CONFIG }}
+        run: python portfolio/sync_portfolio.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/portfolio.json
+          git diff --staged --quiet || git commit -m "chore: atualiza dados do portfolio [$(date -u +%Y-%m-%dT%H:%M)Z]"
+          git push
