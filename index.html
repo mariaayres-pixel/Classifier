@@ -396,14 +396,21 @@
       font-weight: 900;
     }
 
-    /* ── Portfolio hero card ── */
+    /* ── Portfolio hero card (selector) ── */
     .portfolio-card {
-      background: var(--azul-escuro);
+      background: #1A2B77;
       color: var(--branco);
       border-radius: var(--radius);
       overflow: hidden;
       margin-top: 28px;
       box-shadow: 0 4px 24px rgba(26,43,119,.22);
+      cursor: pointer;
+      transition: opacity .2s, transform .15s, box-shadow .15s;
+    }
+    .portfolio-card:hover {
+      opacity: .95;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(26,43,119,.3);
     }
     .portfolio-card-body {
       padding: 26px 28px 22px;
@@ -420,7 +427,7 @@
     .portfolio-card-tag {
       display: inline-block;
       background: var(--amarelo);
-      color: var(--azul-escuro);
+      color: #1A2B77;
       font-size: 9px; font-weight: 900;
       text-transform: uppercase; letter-spacing: .8px;
       padding: 3px 10px; border-radius: 99px;
@@ -487,6 +494,105 @@
       margin-left: auto; font-size: 11px; opacity: .4;
     }
     .portfolio-loading { font-size: 13px; opacity: .5; font-style: italic; padding: 20px; }
+
+    /* ── Portfolio detail view ── */
+    .pf-kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 660px) { .pf-kpi-grid { grid-template-columns: repeat(2,1fr); } }
+
+    .pf-kpi-card {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--sombra);
+    }
+    .pf-kpi-lbl {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .7px; color: var(--cinza); margin-bottom: 6px;
+    }
+    .pf-kpi-val {
+      font-size: 22px; font-weight: 900; line-height: 1;
+    }
+    .pf-kpi-sub { font-size: 11px; color: var(--cinza); margin-top: 4px; }
+
+    .pf-bench-banner {
+      background: #1A2B77;
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      display: flex;
+      gap: 0;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+    .pf-bench-item {
+      flex: 1;
+      padding: 0 24px;
+      border-right: 1px solid rgba(255,255,255,.12);
+    }
+    .pf-bench-item:first-child { padding-left: 0; }
+    .pf-bench-item:last-child  { padding-right: 0; border-right: none; }
+    .pf-bench-lbl { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .7px; opacity: .5; margin-bottom: 5px; }
+    .pf-bench-val { font-size: 20px; font-weight: 900; }
+    .pf-bench-val.pos { color: #6FD97F; }
+    .pf-bench-val.neg { color: #FF8C7C; }
+    .pf-bench-sub { font-size: 11px; opacity: .5; margin-top: 3px; }
+
+    .pf-section {
+      background: var(--branco);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--sombra);
+      margin-bottom: 20px;
+    }
+    .pf-section-title {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .8px; color: var(--azul); margin-bottom: 18px;
+    }
+
+    /* Allocation type bars */
+    .pf-alloc-row { margin-bottom: 16px; }
+    .pf-alloc-row:last-child { margin-bottom: 0; }
+    .pf-alloc-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .pf-alloc-label {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; font-weight: 700;
+    }
+    .pf-alloc-right { text-align: right; }
+    .pf-alloc-val  { font-size: 15px; font-weight: 900; }
+    .pf-alloc-pct  { font-size: 11px; color: var(--cinza); margin-top: 1px; }
+    .pf-alloc-track {
+      height: 8px; background: var(--borda);
+      border-radius: 99px; overflow: hidden;
+    }
+    .pf-alloc-fill { height: 100%; border-radius: 99px; transition: width .5s cubic-bezier(.4,0,.2,1); }
+
+    /* Asset table */
+    .pf-asset-table { width: 100%; border-collapse: collapse; }
+    .pf-asset-table th {
+      background: #F7F8FA;
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .6px; color: var(--cinza);
+      padding: 9px 12px; text-align: left;
+    }
+    .pf-asset-table th:last-child,
+    .pf-asset-table td:last-child { text-align: right; }
+    .pf-asset-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--borda);
+      font-size: 13px;
+    }
+    .pf-asset-table tr:last-child td { border-bottom: none; }
+    .pf-asset-name { font-weight: 700; }
+    .pf-ret-pos { color: var(--verde); font-weight: 700; }
+    .pf-ret-neg { color: var(--perigo); font-weight: 700; }
   </style>
 </head>
 <body>
@@ -600,6 +706,32 @@
     </div>
 
     <div class="dash-footer" id="dash-footer"></div>
+  </div>
+
+  <!-- Portfolio detail view -->
+  <div id="view-portfolio" class="hidden">
+    <a href="?" class="back-link">← Todas as áreas</a>
+    <div class="dash-header">
+      <div class="dash-name">Portfólio de Investimentos</div>
+      <div class="dash-period" id="pf-period"></div>
+    </div>
+
+    <!-- 4 KPI cards -->
+    <div class="pf-kpi-grid" id="pf-kpi-grid"></div>
+
+    <!-- Benchmark banner -->
+    <div class="pf-bench-banner" id="pf-bench-banner"></div>
+
+    <!-- Allocation by type -->
+    <div class="pf-section">
+      <div class="pf-section-title">Alocação por tipo</div>
+      <div id="pf-alloc-types"></div>
+    </div>
+
+    <!-- Assets per type -->
+    <div id="pf-asset-sections"></div>
+
+    <div class="dash-footer" id="pf-footer"></div>
   </div>
 
   <div id="view-error" class="hidden">
@@ -747,7 +879,15 @@
     $("view-selector").classList.remove("hidden");
 
     // Load portfolio card asynchronously (non-blocking)
-    loadPortfolio().then(renderPortfolioCard);
+    loadPortfolio().then(p => {
+      renderPortfolioCard(p);
+      // Wire up click → detail view
+      const card = $("portfolio-card-wrap");
+      card.style.cursor = "pointer";
+      card.addEventListener("click", () => {
+        if (p) showPortfolioDetail(p);
+      });
+    });
   }
 
   function renderDashboard(data, slug) {
@@ -1218,6 +1358,135 @@
     $("view-dashboard").classList.remove("hidden");
   }
 
+  function showPortfolioDetail(p) {
+    // Hide all views, show portfolio detail
+    $("view-selector").classList.add("hidden");
+    $("org-bar").classList.add("hidden");
+    $("view-dashboard").classList.add("hidden");
+    $("view-portfolio").classList.remove("hidden");
+
+    const s = p.summary;
+    const asOf = p.as_of
+      ? new Date(p.as_of).toLocaleDateString("pt-BR", { day:"2-digit", month:"long", year:"numeric" })
+      : "";
+
+    $("pf-period").textContent = `Atualizado em ${asOf} · USD/BRL ${(p.fx_rate||0).toFixed(4)}`;
+
+    // ── 4 KPI cards ──────────────────────────────────────────────────────
+    const kpis = [
+      { lbl:"Total BRL",     val: fmtBrl(s.total_brl),      sub: `${fmtUsd(s.total_usd)} USD`,  color:"#1A2B77" },
+      { lbl:"Retorno mensal",val: fmtPct(s.monthly_pct),    sub: "Último mês (ponderado)",        color: s.monthly_pct >= 0 ? "#00863D" : "#C0392B" },
+      { lbl:"Retorno 12m",   val: fmtPct(s.annual_pct),     sub: "Retorno anual composto",        color: s.annual_pct  >= 0 ? "#00863D" : "#C0392B" },
+      { lbl:"CDI 12m",       val: fmtPct(s.cdi_annual_pct), sub: "Benchmark renda fixa BR",       color:"#065FD8" },
+    ];
+    $("pf-kpi-grid").innerHTML = kpis.map(k => `
+      <div class="pf-kpi-card" style="border-left:4px solid ${k.color}">
+        <div class="pf-kpi-lbl">${k.lbl}</div>
+        <div class="pf-kpi-val" style="color:${k.color}">${k.val}</div>
+        <div class="pf-kpi-sub">${k.sub}</div>
+      </div>`).join("");
+
+    // ── Benchmark banner ─────────────────────────────────────────────────
+    const benchItems = [
+      { lbl:"Portfolio 12m",    val: fmtPct(s.annual_pct),          sub:"Retorno composto 12 meses",     cls: s.annual_pct >= 0 ? "pos" : "neg" },
+      { lbl:"CDI 12m",          val: fmtPct(s.cdi_annual_pct),      sub:"Taxa DI acumulada",             cls:"" },
+      { lbl:"vs CDI",           val: fmtPp(s.vs_cdi_pp),            sub:"Diferença em pontos base",     cls: s.vs_cdi_pp >= 0 ? "pos" : "neg" },
+      { lbl:"S&P 500 BRL 12m",  val: fmtPct(s.sp500_brl_annual_pct),sub:"S&P 500 convertido p/ BRL",   cls:"" },
+      { lbl:"vs S&P 500 BRL",   val: fmtPp(s.vs_sp500_brl_pp),      sub:"Diferença em pontos base",     cls: s.vs_sp500_brl_pp >= 0 ? "pos" : "neg" },
+    ];
+    $("pf-bench-banner").innerHTML = benchItems.map(b => `
+      <div class="pf-bench-item">
+        <div class="pf-bench-lbl">${b.lbl}</div>
+        <div class="pf-bench-val ${b.cls}">${b.val}</div>
+        <div class="pf-bench-sub">${b.sub}</div>
+      </div>`).join("");
+
+    // ── Allocation by type ────────────────────────────────────────────────
+    const alloc = p.allocation_by_type || {};
+    const totalBrl = s.total_brl;
+    const allocEl = $("pf-alloc-types");
+    allocEl.innerHTML = "";
+
+    // Sort by fraction desc
+    const allocSorted = Object.entries(alloc).sort((a,b) => b[1]-a[1]);
+    for (const [type, frac] of allocSorted) {
+      const color = ALLOC_COLORS[type] || "#065FD8";
+      const label = ALLOC_LABELS[type] || type;
+      const valueBrl = frac * totalBrl;
+      const pct = Math.round(frac * 100);
+      const row = document.createElement("div");
+      row.className = "pf-alloc-row";
+      row.innerHTML = `
+        <div class="pf-alloc-header">
+          <div class="pf-alloc-label">
+            <div class="portfolio-alloc-dot" style="background:${color}"></div>
+            ${label}
+          </div>
+          <div class="pf-alloc-right">
+            <div class="pf-alloc-val">${fmtBrl(valueBrl)}</div>
+            <div class="pf-alloc-pct">${pct}% do portfólio</div>
+          </div>
+        </div>
+        <div class="pf-alloc-track">
+          <div class="pf-alloc-fill" style="width:${pct}%;background:${color}"></div>
+        </div>`;
+      allocEl.appendChild(row);
+    }
+
+    // ── Assets grouped by type ────────────────────────────────────────────
+    const sectionsEl = $("pf-asset-sections");
+    sectionsEl.innerHTML = "";
+
+    const byType = {};
+    for (const a of (p.assets || [])) {
+      (byType[a.type] = byType[a.type] || []).push(a);
+    }
+
+    // Render in same order as allocation
+    const typeOrder = allocSorted.map(([t]) => t);
+    for (const type of typeOrder) {
+      const assets = byType[type];
+      if (!assets || assets.length === 0) continue;
+      const color = ALLOC_COLORS[type] || "#065FD8";
+      const label = ALLOC_LABELS[type] || type;
+
+      const sec = document.createElement("div");
+      sec.className = "pf-section";
+
+      const rows = assets.map(a => {
+        const annCls = (a.annual_pct * 100) >= 0 ? "pf-ret-pos" : "pf-ret-neg";
+        const monCls = (a.monthly_pct * 100) >= 0 ? "pf-ret-pos" : "pf-ret-neg";
+        return `<tr>
+          <td class="pf-asset-name">${a.name}</td>
+          <td>${fmtBrl(a.value_brl)}</td>
+          <td>${Math.round((a.weight_pct||0)*100)}%</td>
+          <td class="${monCls}">${fmtPct(a.monthly_pct*100)}</td>
+          <td class="${annCls}">${fmtPct(a.annual_pct*100)}</td>
+        </tr>`;
+      }).join("");
+
+      sec.innerHTML = `
+        <div class="pf-section-title" style="color:${color}">${label}</div>
+        <div style="overflow-x:auto">
+          <table class="pf-asset-table">
+            <thead>
+              <tr>
+                <th>Ativo</th>
+                <th>Valor BRL</th>
+                <th>Peso</th>
+                <th>Mês</th>
+                <th>12m</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+      sectionsEl.appendChild(sec);
+    }
+
+    $("pf-footer").textContent = `Dados de ${asOf} · Portfólio BRASA`;
+  }
+
   function showError(msg) {
     $("error-msg").innerHTML = msg;
     $("view-error").classList.remove("hidden");
@@ -1334,19 +1603,23 @@
   }
 
   async function init() {
-    const slug = new URLSearchParams(window.location.search).get("diretor");
+    const params = new URLSearchParams(window.location.search);
+    const slug   = params.get("diretor");
+    const view   = params.get("view");
+
     try {
       console.log("[BRASA] Fetching data from:", DATA_URL);
       const data = await loadData();
-      console.log("[BRASA] Data loaded. gerado_em:", data.gerado_em,
-        "| diretores:", data.diretores.map(d => d.nome + " (" + d.lancamentos?.length + " lançamentos)"));
       $("header-meta").innerHTML = `Dados de<br>${fmtDate(data.gerado_em)}`;
       $("loading").classList.add("hidden");
-      if (slug) {
+
+      if (view === "portfolio") {
+        // Direct link to portfolio detail — load portfolio.json separately
+        const p = await loadPortfolio();
+        if (p) showPortfolioDetail(p);
+        else showError("Não foi possível carregar os dados do portfólio.");
+      } else if (slug) {
         const dir = data.diretores.find(x => x.slug === slug);
-        console.log("[BRASA] Rendering director:", slug, "→", dir?.nome,
-          "| categorias:", dir?.categorias?.length,
-          "| lancamentos:", dir?.lancamentos?.length);
         if (slug === 'relações-corporativas') {
           renderPainelReceita(data, slug);
         } else {
