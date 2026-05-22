@@ -397,45 +397,96 @@
     }
 
     /* ── Portfolio hero card ── */
-    .portfolio-card-link { text-decoration: none; color: inherit; grid-column: 1 / -1; }
     .portfolio-card {
       background: var(--verde-escuro);
       color: var(--branco);
       border-radius: var(--radius);
-      padding: 24px 28px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      transition: opacity .2s, transform .15s;
-      cursor: default;
+      overflow: hidden;
       margin-top: 28px;
+      box-shadow: 0 4px 24px rgba(3,87,26,.22);
     }
-    .portfolio-card-left { flex: 1; min-width: 0; }
+    .portfolio-card-body {
+      padding: 26px 28px 22px;
+      display: flex;
+      align-items: flex-start;
+      gap: 0;
+    }
+    .portfolio-card-left {
+      flex: 0 0 220px;
+      min-width: 0;
+      padding-right: 24px;
+      border-right: 1px solid rgba(255,255,255,.12);
+    }
     .portfolio-card-tag {
       display: inline-block;
       background: var(--amarelo);
       color: var(--verde-escuro);
-      font-size: 10px; font-weight: 900;
-      text-transform: uppercase; letter-spacing: .7px;
+      font-size: 9px; font-weight: 900;
+      text-transform: uppercase; letter-spacing: .8px;
       padding: 3px 10px; border-radius: 99px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
-    .portfolio-card-name { font-size: 18px; font-weight: 900; margin-bottom: 4px; }
-    .portfolio-card-sub  { font-size: 13px; opacity: .65; }
-    .portfolio-card-kpis { display: flex; gap: 28px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
-    .portfolio-card-kpi  { text-align: right; }
-    .portfolio-card-kpi-val  { font-size: 20px; font-weight: 900; }
-    .portfolio-card-kpi-val.pos { color: #4BBF4B; }
-    .portfolio-card-kpi-val.neg { color: #FF7C6E; }
-    .portfolio-card-kpi-lbl  { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; opacity: .6; margin-top: 2px; }
-    .portfolio-card-alloc { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
-    .portfolio-alloc-pill {
-      font-size: 11px; font-weight: 700;
-      padding: 3px 10px; border-radius: 99px;
-      background: rgba(255,255,255,.12);
+    .portfolio-card-name {
+      font-size: 17px; font-weight: 900;
+      line-height: 1.2; margin-bottom: 6px;
     }
-    .portfolio-loading { font-size: 13px; opacity: .5; font-style: italic; }
+    .portfolio-card-sub {
+      font-size: 11px; opacity: .5; line-height: 1.5;
+    }
+    /* 2×3 KPI grid */
+    .portfolio-card-kpis {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      padding-left: 4px;
+    }
+    .portfolio-card-kpi {
+      padding: 10px 20px;
+      border-right: 1px solid rgba(255,255,255,.08);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .portfolio-card-kpi:nth-child(3),
+    .portfolio-card-kpi:nth-child(6) { border-right: none; }
+    .portfolio-card-kpi:nth-child(4),
+    .portfolio-card-kpi:nth-child(5),
+    .portfolio-card-kpi:nth-child(6) { border-bottom: none; }
+    .portfolio-card-kpi-val {
+      font-size: 18px; font-weight: 900; line-height: 1; margin-bottom: 5px;
+    }
+    .portfolio-card-kpi-val.pos { color: #6FD97F; }
+    .portfolio-card-kpi-val.neg { color: #FF8C7C; }
+    .portfolio-card-kpi-lbl {
+      font-size: 9px; text-transform: uppercase;
+      letter-spacing: .7px; opacity: .5; font-weight: 700;
+    }
+    /* Allocation bar */
+    .portfolio-alloc-bar {
+      height: 5px;
+      display: flex;
+      overflow: hidden;
+    }
+    .portfolio-alloc-seg { height: 100%; transition: width .4s ease; }
+    /* Allocation legend row */
+    .portfolio-alloc-legend {
+      padding: 12px 28px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+    .portfolio-alloc-item {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 11px; font-weight: 700; opacity: .75;
+    }
+    .portfolio-alloc-dot {
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+    }
+    .portfolio-alloc-meta {
+      margin-left: auto; font-size: 11px; opacity: .4;
+    }
+    .portfolio-loading { font-size: 13px; opacity: .5; font-style: italic; padding: 20px; }
   </style>
 </head>
 <body>
@@ -473,17 +524,20 @@
     <div class="dir-grid" id="dir-grid"></div>
 
     <!-- Portfolio card -->
-    <div id="portfolio-card-wrap" class="portfolio-card-link hidden">
+    <div id="portfolio-card-wrap" class="hidden">
       <div class="portfolio-card">
-        <div class="portfolio-card-left">
-          <div class="portfolio-card-tag">Portfólio de Investimentos</div>
-          <div class="portfolio-card-name">BRASA Investment Portfolio</div>
-          <div class="portfolio-card-sub" id="portfolio-sub">Carregando dados…</div>
-          <div class="portfolio-card-alloc" id="portfolio-alloc"></div>
+        <div class="portfolio-alloc-bar" id="portfolio-alloc-bar"></div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-left">
+            <div class="portfolio-card-tag">Portfólio de Investimentos</div>
+            <div class="portfolio-card-name">BRASA Investment Portfolio</div>
+            <div class="portfolio-card-sub" id="portfolio-sub">Carregando…</div>
+          </div>
+          <div class="portfolio-card-kpis" id="portfolio-kpis">
+            <div class="portfolio-loading">Carregando…</div>
+          </div>
         </div>
-        <div class="portfolio-card-kpis" id="portfolio-kpis">
-          <div class="portfolio-loading">Carregando…</div>
-        </div>
+        <div class="portfolio-alloc-legend" id="portfolio-alloc-legend"></div>
       </div>
     </div>
   </div>
@@ -1207,51 +1261,74 @@
     }
   }
 
+  // Allocation color palette (on dark green bg)
+  const ALLOC_COLORS = {
+    "BR Fund":         "#FFCC02",
+    "Fixed Income":    "#6FD97F",
+    "US Equity":       "#65B0FF",
+    "US Money Market": "#FB8C0A",
+  };
+  const ALLOC_LABELS = {
+    "BR Fund":         "Fundos BR",
+    "Fixed Income":    "Renda Fixa",
+    "US Equity":       "US Equity",
+    "US Money Market": "Money Market",
+  };
+
   function renderPortfolioCard(p) {
     const wrap = $("portfolio-card-wrap");
-    if (!p || !p.summary) {
-      // File doesn't exist yet — hide silently
-      return;
-    }
+    if (!p || !p.summary) return;   // file not yet generated — stay hidden
 
     const s = p.summary;
-    const asOf = p.as_of ? new Date(p.as_of).toLocaleDateString("pt-BR", { day:"2-digit", month:"short", year:"numeric" }) : "";
+    const asOf = p.as_of
+      ? new Date(p.as_of).toLocaleDateString("pt-BR", { day:"2-digit", month:"short", year:"numeric" })
+      : "";
 
     // Sub-line
-    $("portfolio-sub").textContent = `Atualizado em ${asOf} · FX ${(p.fx_rate||0).toFixed(4)}`;
+    $("portfolio-sub").textContent = `${asOf} · USD/BRL ${(p.fx_rate||0).toFixed(4)}`;
 
-    // Allocation pills
-    const allocEl = $("portfolio-alloc");
-    allocEl.innerHTML = "";
-    const typeLabels = {
-      "BR Fund":        "Fundos BR",
-      "Fixed Income":   "Renda Fixa",
-      "US Equity":      "US Equity",
-      "US Money Market":"Money Market",
-    };
+    // ── Allocation bar (top stripe) ───────────────────────────────────────
+    const barEl = $("portfolio-alloc-bar");
+    barEl.innerHTML = "";
     for (const [type, frac] of Object.entries(p.allocation_by_type || {})) {
-      const pill = document.createElement("span");
-      pill.className = "portfolio-alloc-pill";
-      pill.textContent = `${typeLabels[type] || type}  ${Math.round(frac * 100)}%`;
-      allocEl.appendChild(pill);
+      const seg = document.createElement("div");
+      seg.className = "portfolio-alloc-seg";
+      seg.style.width = (frac * 100) + "%";
+      seg.style.background = ALLOC_COLORS[type] || "#fff";
+      barEl.appendChild(seg);
     }
 
-    // KPI blocks
+    // ── KPIs — 2×3 grid ──────────────────────────────────────────────────
     const kpis = [
-      { val: fmtBrl(s.total_brl),        lbl: "Total BRL",       cls: "" },
-      { val: fmtUsd(s.total_usd),        lbl: "Total USD",       cls: "" },
-      { val: fmtPct(s.monthly_pct),      lbl: "Retorno mensal",  cls: s.monthly_pct >= 0 ? "pos" : "neg" },
-      { val: fmtPct(s.annual_pct),       lbl: "Retorno 12m",     cls: s.annual_pct  >= 0 ? "pos" : "neg" },
-      { val: fmtPp(s.vs_cdi_pp),         lbl: "vs CDI",          cls: s.vs_cdi_pp   >= 0 ? "pos" : "neg" },
-      { val: fmtPp(s.vs_sp500_brl_pp),   lbl: "vs S&P500 BRL",  cls: s.vs_sp500_brl_pp >= 0 ? "pos" : "neg" },
+      { val: fmtBrl(s.total_brl),       lbl: "Total BRL",      cls: "" },
+      { val: fmtPct(s.monthly_pct),     lbl: "Retorno mensal", cls: s.monthly_pct >= 0 ? "pos" : "neg" },
+      { val: fmtPp(s.vs_cdi_pp),        lbl: "vs CDI",         cls: s.vs_cdi_pp   >= 0 ? "pos" : "neg" },
+      { val: fmtUsd(s.total_usd),       lbl: "Total USD",      cls: "" },
+      { val: fmtPct(s.annual_pct),      lbl: "Retorno 12m",    cls: s.annual_pct  >= 0 ? "pos" : "neg" },
+      { val: fmtPp(s.vs_sp500_brl_pp),  lbl: "vs S&P500 BRL",  cls: s.vs_sp500_brl_pp >= 0 ? "pos" : "neg" },
     ];
 
-    const kpisEl = $("portfolio-kpis");
-    kpisEl.innerHTML = kpis.map(k => `
+    $("portfolio-kpis").innerHTML = kpis.map(k => `
       <div class="portfolio-card-kpi">
         <div class="portfolio-card-kpi-val ${k.cls}">${k.val}</div>
         <div class="portfolio-card-kpi-lbl">${k.lbl}</div>
       </div>`).join("");
+
+    // ── Allocation legend row (bottom) ────────────────────────────────────
+    const legendEl = $("portfolio-alloc-legend");
+    legendEl.innerHTML = "";
+    for (const [type, frac] of Object.entries(p.allocation_by_type || {})) {
+      const item = document.createElement("div");
+      item.className = "portfolio-alloc-item";
+      item.innerHTML = `
+        <div class="portfolio-alloc-dot" style="background:${ALLOC_COLORS[type]||'#fff'}"></div>
+        ${ALLOC_LABELS[type] || type} <span style="opacity:.5;font-weight:400">${Math.round(frac*100)}%</span>`;
+      legendEl.appendChild(item);
+    }
+    const meta = document.createElement("div");
+    meta.className = "portfolio-alloc-meta";
+    meta.textContent = `CDI 12m ${fmtPct(s.cdi_annual_pct)} · S&P500 BRL ${fmtPct(s.sp500_brl_annual_pct)}`;
+    legendEl.appendChild(meta);
 
     wrap.classList.remove("hidden");
   }
