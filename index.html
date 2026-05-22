@@ -1532,16 +1532,18 @@
 
   // Allocation color palette (on dark green bg)
   const ALLOC_COLORS = {
-    "BR Fund":         "#FFCC02",
-    "Fixed Income":    "#6FD97F",
-    "US Equity":       "#65B0FF",
-    "US Money Market": "#FB8C0A",
+    "BR Fund":          "#FFCC02",
+    "Fixed Income":     "#6FD97F",
+    "US Fixed Income":  "#65B0FF",
+    "US Equity":        "#A78BFA",  // kept for backward compat
+    "US Money Market":  "#FB8C0A",
   };
   const ALLOC_LABELS = {
-    "BR Fund":         "Fundos BR",
-    "Fixed Income":    "Renda Fixa",
-    "US Equity":       "US Equity",
-    "US Money Market": "Money Market",
+    "BR Fund":          "Fundos BR",
+    "Fixed Income":     "Renda Fixa BR",
+    "US Fixed Income":  "Renda Fixa EUA",
+    "US Equity":        "US Equity",
+    "US Money Market":  "Money Market",
   };
 
   function renderPortfolioCard(p) {

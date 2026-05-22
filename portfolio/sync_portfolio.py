@@ -167,7 +167,7 @@ def build_portfolio_data(config: dict) -> dict:
             monthly = td.get("monthly", pd.DataFrame())
             asset_rows.append({
                 "name": tc.get("name", t),
-                "type": "US Equity",
+                "type": tc.get("type", "US Equity"),  # use explicit type from config, default US Equity
                 "value_brl": value_brl,
                 "value_usd": value_usd,
                 "monthly_pct": last_monthly_return(monthly, ret_col) / 100,
