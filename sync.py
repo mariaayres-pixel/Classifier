@@ -78,19 +78,45 @@ def get_access_token() -> str:
 
 
 def _update_env_token(access_token: str, refresh_token: str) -> None:
+    # 1. Update local .env if it exists (for local dev)
     env_path = Path(".env")
-    if not env_path.exists():
+    if env_path.exists():
+        import re
+        text = env_path.read_text()
+        for key, value in [("QBO_ACCESS_TOKEN", access_token), ("QBO_REFRESH_TOKEN", refresh_token)]:
+            pattern = rf"^{re.escape(key)}\s*=.*$"
+            replacement = f"{key}={value}"
+            if re.search(pattern, text, flags=re.MULTILINE):
+                text = re.sub(pattern, replacement, text, flags=re.MULTILINE)
+            else:
+                text = text.rstrip("\n") + f"\n{replacement}\n"
+        env_path.write_text(text)
+
+    # 2. Persist rotated refresh token back to GitHub Secrets so next run works
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        _update_github_secret("QBO_REFRESH_TOKEN", refresh_token)
+
+
+def _update_github_secret(secret_name: str, secret_value: str) -> None:
+    """Update a GitHub Actions secret via gh CLI using GH_PAT_SECRETS."""
+    import subprocess
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    pat  = os.environ.get("GH_PAT_SECRETS", "")
+    if not repo or not pat:
+        print(f"[WARN] Skipping GitHub secret update for {secret_name}: GH_PAT_SECRETS not set")
         return
-    import re
-    text = env_path.read_text()
-    for key, value in [("QBO_ACCESS_TOKEN", access_token), ("QBO_REFRESH_TOKEN", refresh_token)]:
-        pattern = rf"^{re.escape(key)}\s*=.*$"
-        replacement = f"{key}={value}"
-        if re.search(pattern, text, flags=re.MULTILINE):
-            text = re.sub(pattern, replacement, text, flags=re.MULTILINE)
+    try:
+        result = subprocess.run(
+            ["gh", "secret", "set", secret_name, "--repo", repo, "--body", secret_value],
+            env={**os.environ, "GH_TOKEN": pat},
+            capture_output=True, text=True, timeout=30,
+        )
+        if result.returncode == 0:
+            print(f"[INFO] GitHub secret {secret_name} updated with rotated token")
         else:
-            text = text.rstrip("\n") + f"\n{replacement}\n"
-    env_path.write_text(text)
+            print(f"[WARN] Failed to update GitHub secret {secret_name}: {result.stderr.strip()}")
+    except Exception as exc:
+        print(f"[WARN] Failed to update GitHub secret {secret_name}: {exc}")
 
 
 def qb_get(path: str, params: dict | None = None, attempt: int = 1) -> dict:
