@@ -40,6 +40,8 @@ jobs:
           SMTP_PORT:                   ${{ secrets.SMTP_PORT }}
           SMTP_USER:                   ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD:               ${{ secrets.SMTP_PASSWORD }}
+          # PAT with secrets:write — lets sync.py persist rotated QB refresh tokens
+          GH_PAT_SECRETS:              ${{ secrets.GH_PAT_SECRETS }}
         run: python sync.py
 
       - name: Commit and push updated data
