@@ -1177,7 +1177,7 @@
             </div>
             <div class="cat-bar-caption">
               ${hasBudget
-                ? `<span style="color:${bcolor};font-weight:700">${pct}% do orçamento${pct > 100 ? ' ⚠' : ''}</span>
+                ? `<span style="color:${bcolor};font-weight:700">${pct}% do orçamento${pct > 100 ? ' ' : ''}</span>
                    <span style="color:var(--cinza)">Restante: ${fmt(restante)}</span>`
                 : `<span style="color:var(--cinza);font-style:italic">Sem orçamento definido</span>`
               }
@@ -1786,11 +1786,11 @@
 
   function slaChip(sla) {
     if (!sla || sla.rule === null) return `<span style="color:var(--cinza);font-size:13px">—</span>`;
-    if (sla.assinadoAt)           return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">✅ Assinado</span>`;
-    if (sla.breached)             return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">🔴 Vencido</span>`;
-    if (sla.daysRemaining <= 1)   return `<span style="background:#E03E1A;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">⚠️ ${sla.daysRemaining}d</span>`;
-    if (sla.daysRemaining <= 2)   return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">🟠 ${sla.daysRemaining}d</span>`;
-    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">🟢 ${sla.daysRemaining}d</span>`;
+    if (sla.assinadoAt)           return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Assinado</span>`;
+    if (sla.breached)             return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Vencido</span>`;
+    if (sla.daysRemaining <= 1)   return `<span style="background:#E03E1A;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restante</span>`;
+    if (sla.daysRemaining <= 2)   return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restantes</span>`;
+    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restantes</span>`;
   }
 
   const ASSIGNEE_NAMES = { joyce: 'Joyce', guilherme: 'Guilherme' };
