@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T22:01:55.984765+00:00",
+  "updatedAt": "2026-05-27T22:05:54.473981+00:00",
   "tasks": [
     {
       "company": "Sabesp",
@@ -29,7 +29,7 @@
       "company": "Visalex",
       "assignee": "joyce",
       "status": "Em Produ\u00e7\u00e3o",
-      "createdAt": null,
+      "createdAt": "2026-05-26T01:51:20+00:00",
       "taskUrl": "https://app.clickup.com/t/869defp0g",
       "assinadoAt": null
     },
@@ -109,7 +109,7 @@
       "company": "Boston Consulting Group",
       "assignee": "guilherme",
       "status": "Em Produ\u00e7\u00e3o",
-      "createdAt": null,
+      "createdAt": "2026-05-27T20:31:03+00:00",
       "taskUrl": "https://app.clickup.com/t/869dfdr2x",
       "assinadoAt": null
     },
