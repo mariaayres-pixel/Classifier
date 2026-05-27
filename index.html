@@ -1007,12 +1007,13 @@
 
       grid.appendChild(a);
     }
-    // ── Parcerias SLA card ────────────────────────────────
+
+    // ── Parcerias card ────────────────────────────────────
     loadParcerias().then(p => {
       if (!p) return;
       const total    = p.tasks?.length || 0;
-      const breached = (p.tasks||[]).filter(t => t.sla?.breached).length;
-      const warning  = (p.tasks||[]).filter(t => !t.sla?.breached && t.sla?.daysRemaining <= 2).length;
+      const active   = (p.tasks||[]).filter(t => t.status !== 'Assinado').length;
+      const assinado = total - active;
       const a = document.createElement("a");
       a.href = "?view=parcerias";
       a.className = "dir-card-rc-link";
@@ -1020,21 +1021,21 @@
         <div class="dir-card-rc" style="background:linear-gradient(135deg,#1A2B77 0%,#065FD8 100%)">
           <div class="dir-card-rc-left">
             <div class="dir-card-rc-tag" style="background:rgba(255,255,255,.15);color:#fff">Pipeline Contratos</div>
-            <div class="dir-card-rc-name" style="color:#fff">Parcerias 2026 — SLA</div>
+            <div class="dir-card-rc-name" style="color:#fff">Parcerias 2026 — Tempo de Entrega</div>
             <div class="dir-card-rc-sub" style="color:rgba(255,255,255,.7)">Status dos contratos em andamento</div>
           </div>
           <div class="dir-card-rc-kpis">
             <div class="dir-card-rc-kpi">
               <div class="dir-card-rc-kpi-val" style="color:#fff">${total}</div>
+              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Total</div>
+            </div>
+            <div class="dir-card-rc-kpi">
+              <div class="dir-card-rc-kpi-val" style="color:#7FFFB3">${assinado}</div>
+              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Assinados</div>
+            </div>
+            <div class="dir-card-rc-kpi">
+              <div class="dir-card-rc-kpi-val" style="color:#FFD580">${active}</div>
               <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Em andamento</div>
-            </div>
-            <div class="dir-card-rc-kpi">
-              <div class="dir-card-rc-kpi-val" style="color:${breached > 0 ? '#FFB3B3' : '#7FFFB3'}">${breached}</div>
-              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">SLA vencido</div>
-            </div>
-            <div class="dir-card-rc-kpi">
-              <div class="dir-card-rc-kpi-val" style="color:${warning > 0 ? '#FFD580' : '#7FFFB3'}">${warning}</div>
-              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Atenção</div>
             </div>
           </div>
           <div class="dir-card-rc-arrow" style="color:#fff">›</div>
@@ -1770,86 +1771,6 @@
     wrap.classList.remove("hidden");
   }
 
-  // ── Parcerias SLA view ────────────────────────────────────────────────────
-
-  const PARCERIAS_URL = "data/parcerias.json";
-
-  async function loadParcerias() {
-    try {
-      const r = await fetch(PARCERIAS_URL + "?t=" + Date.now());
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return await r.json();
-    } catch(e) {
-      return null;
-    }
-  }
-
-  function slaChip(sla) {
-    if (!sla || sla.rule === null) return `<span style="color:var(--cinza);font-size:13px">—</span>`;
-    if (sla.assinadoAt)           return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Assinado</span>`;
-    if (sla.breached)             return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Vencido</span>`;
-    if (sla.daysRemaining <= 1)   return `<span style="background:#E03E1A;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restante</span>`;
-    if (sla.daysRemaining <= 2)   return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restantes</span>`;
-    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${sla.daysRemaining}d restantes</span>`;
-  }
-
-  const ASSIGNEE_NAMES = { joyce: 'Joyce', guilherme: 'Guilherme' };
-  const STATUS_ORDER   = ['Em Produção','Minuta Enviada','Em Revisão pelo Parceiro','Aguardando Assinatura','Assinado'];
-
-  function renderParcerias(data) {
-    $("loading").classList.add("hidden");
-    const vs = $("view-selector");
-    vs.classList.remove("hidden");
-    vs.innerHTML = '';
-    const main = vs;
-
-    const tasks = (data?.tasks || []).slice().sort((a,b) => {
-      const ai = STATUS_ORDER.indexOf(a.status), bi = STATUS_ORDER.indexOf(b.status);
-      return ai - bi;
-    });
-
-    const updatedAt = data?.updatedAt ? new Date(data.updatedAt).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo'}) : '—';
-
-    main.innerHTML = `
-      <div style="max-width:960px;margin:28px auto;padding:0 16px">
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px">
-          <a href="index.html" style="color:var(--azul);text-decoration:none;font-size:14px">← Voltar</a>
-          <h1 style="font-size:22px;font-weight:700;color:var(--azul-escuro)">Pipeline Parcerias 2026</h1>
-          <span style="margin-left:auto;font-size:12px;color:var(--cinza)">Atualizado: ${updatedAt}</span>
-        </div>
-
-        ${tasks.length === 0 ? `<p style="color:var(--cinza);text-align:center;padding:40px">Nenhuma parceria ativa no momento.</p>` : `
-        <div style="background:var(--branco);border-radius:var(--radius);box-shadow:var(--sombra);overflow:hidden">
-          <table style="width:100%;border-collapse:collapse;font-size:14px">
-            <thead>
-              <tr style="background:var(--azul-escuro);color:#fff">
-                <th style="padding:12px 16px;text-align:left;font-weight:600">Empresa</th>
-                <th style="padding:12px 16px;text-align:left;font-weight:600">Status</th>
-                <th style="padding:12px 16px;text-align:left;font-weight:600">Responsável</th>
-                <th style="padding:12px 16px;text-align:center;font-weight:600">SLA</th>
-                <th style="padding:12px 16px;text-align:center;font-weight:600">ClickUp</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${tasks.map((t,i) => `
-                <tr style="border-bottom:1px solid var(--borda);${i%2===0?'background:#FAFAFA':''}">
-                  <td style="padding:12px 16px;font-weight:600;color:var(--azul-escuro)">${t.company}</td>
-                  <td style="padding:12px 16px;color:var(--texto)">${t.status}</td>
-                  <td style="padding:12px 16px;color:var(--texto)">${ASSIGNEE_NAMES[t.assignee] || t.assignee}</td>
-                  <td style="padding:12px 16px;text-align:center">${slaChip(t.sla)}</td>
-                  <td style="padding:12px 16px;text-align:center">
-                    ${t.taskUrl ? `<a href="${t.taskUrl}" target="_blank" style="color:var(--azul);font-size:12px">Ver tarefa →</a>` : '—'}
-                  </td>
-                </tr>
-              `).join('')}
-            </tbody>
-          </table>
-        </div>
-        `}
-      </div>
-    `;
-  }
-
   async function init() {
     const params = new URLSearchParams(window.location.search);
     const slug   = params.get("diretor");
@@ -1887,6 +1808,90 @@
   }
 
   init();
+
+  // ── Parcerias pipeline view ───────────────────────────────────────────────
+
+  const PARCERIAS_URL = "data/parcerias.json";
+
+  async function loadParcerias() {
+    try {
+      const r = await fetch(PARCERIAS_URL + "?t=" + Date.now());
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return await r.json();
+    } catch(e) {
+      return null;
+    }
+  }
+
+  function tempoChip(task) {
+    if (task.status === 'Assinado' || task.assinadoAt)
+      return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Assinado</span>`;
+    if (!task.createdAt)
+      return `<span style="color:var(--cinza);font-size:13px">—</span>`;
+    const days = Math.floor((Date.now() - new Date(task.createdAt).getTime()) / (1000 * 60 * 60 * 24));
+    if (days >= 10) return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
+    if (days >= 5)  return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
+    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
+  }
+
+  const ASSIGNEE_NAMES = { joyce: 'Joyce', guilherme: 'Guilherme' };
+  const STATUS_ORDER   = ['Em Produção','Minuta Enviada','Em Revisão pelo Parceiro','Aguardando Assinatura','Assinado'];
+
+  function renderParcerias(data) {
+    $("loading").classList.add("hidden");
+    const vs = $("view-selector");
+    vs.classList.remove("hidden");
+    vs.innerHTML = '';
+
+    const tasks = (data?.tasks || []).slice().sort((a,b) => {
+      const ai = STATUS_ORDER.indexOf(a.status), bi = STATUS_ORDER.indexOf(b.status);
+      return ai - bi;
+    });
+
+    const updatedAt = data?.updatedAt
+      ? new Date(data.updatedAt).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo'})
+      : '—';
+
+    vs.innerHTML = `
+      <div style="max-width:960px;margin:28px auto;padding:0 16px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px">
+          <a href="index.html" style="color:var(--azul);text-decoration:none;font-size:14px">← Voltar</a>
+          <h1 style="font-size:22px;font-weight:700;color:var(--azul-escuro)">Pipeline Parcerias 2026</h1>
+          <span style="margin-left:auto;font-size:12px;color:var(--cinza)">Atualizado: ${updatedAt}</span>
+        </div>
+
+        ${tasks.length === 0 ? `<p style="color:var(--cinza);text-align:center;padding:40px">Nenhuma parceria ativa no momento.</p>` : `
+        <div style="background:var(--branco);border-radius:var(--radius);box-shadow:var(--sombra);overflow:hidden">
+          <table style="width:100%;border-collapse:collapse;font-size:14px">
+            <thead>
+              <tr style="background:var(--azul-escuro);color:#fff">
+                <th style="padding:12px 16px;text-align:left;font-weight:600">Empresa</th>
+                <th style="padding:12px 16px;text-align:left;font-weight:600">Status</th>
+                <th style="padding:12px 16px;text-align:left;font-weight:600">Responsável</th>
+                <th style="padding:12px 16px;text-align:center;font-weight:600">Tempo de Entrega</th>
+                <th style="padding:12px 16px;text-align:center;font-weight:600">ClickUp</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tasks.map((t,i) => `
+                <tr style="border-bottom:1px solid var(--borda);${i%2===0?'background:#FAFAFA':''}">
+                  <td style="padding:12px 16px;font-weight:600;color:var(--azul-escuro)">${t.company}</td>
+                  <td style="padding:12px 16px;color:var(--texto)">${t.status}</td>
+                  <td style="padding:12px 16px;color:var(--texto)">${ASSIGNEE_NAMES[t.assignee] || t.assignee}</td>
+                  <td style="padding:12px 16px;text-align:center">${tempoChip(t)}</td>
+                  <td style="padding:12px 16px;text-align:center">
+                    ${t.taskUrl ? `<a href="${t.taskUrl}" target="_blank" style="color:var(--azul);font-size:12px">Ver tarefa →</a>` : '—'}
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+        `}
+      </div>
+    `;
+  }
+
 </script>
 </body>
 </html>
