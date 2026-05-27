@@ -1843,10 +1843,12 @@
     vs.classList.remove("hidden");
     vs.innerHTML = '';
 
-    const tasks = (data?.tasks || []).slice().sort((a,b) => {
-      const ai = STATUS_ORDER.indexOf(a.status), bi = STATUS_ORDER.indexOf(b.status);
-      return ai - bi;
-    });
+    const tasks = (data?.tasks || [])
+      .filter(t => t.status !== 'Assinado' && !t.assinadoAt)
+      .sort((a,b) => {
+        const ai = STATUS_ORDER.indexOf(a.status), bi = STATUS_ORDER.indexOf(b.status);
+        return ai - bi;
+      });
 
     const updatedAt = data?.updatedAt
       ? new Date(data.updatedAt).toLocaleString('pt-BR', {timeZone:'America/Sao_Paulo'})
