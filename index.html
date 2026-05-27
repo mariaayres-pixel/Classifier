@@ -1797,8 +1797,11 @@
   const STATUS_ORDER   = ['Em Produção','Minuta Enviada','Em Revisão pelo Parceiro','Aguardando Assinatura','Assinado'];
 
   function renderParcerias(data) {
-    const main = $("main-content");
-    if (!main) return;
+    $("loading").classList.add("hidden");
+    const vs = $("view-selector");
+    vs.classList.remove("hidden");
+    vs.innerHTML = '';
+    const main = vs;
 
     const tasks = (data?.tasks || []).slice().sort((a,b) => {
       const ai = STATUS_ORDER.indexOf(a.status), bi = STATUS_ORDER.indexOf(b.status);
