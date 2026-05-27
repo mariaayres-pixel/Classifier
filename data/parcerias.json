@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-05-27T19:00:00.654Z",
+  "tasks": [
+    {
+      "company": "Visalex",
+      "assignee": "joyce",
+      "status": "Em Produção",
+      "createdAt": "2026-05-26T01:51:20.995Z",
+      "taskUrl": "https://app.clickup.com/t/869defp0g",
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T01:51:20.995Z",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    }
+  ]
+}
