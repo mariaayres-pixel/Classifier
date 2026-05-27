@@ -1818,10 +1818,11 @@
       return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">Assinado</span>`;
     if (!task.createdAt)
       return `<span style="color:var(--cinza);font-size:13px">—</span>`;
-    const days = Math.floor((Date.now() - new Date(task.createdAt).getTime()) / (1000 * 60 * 60 * 24));
-    if (days >= 10) return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
-    if (days >= 5)  return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
-    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${days}d</span>`;
+    const days  = Math.floor((Date.now() - new Date(task.createdAt).getTime()) / (1000 * 60 * 60 * 24));
+    const label = days === 0 ? 'hoje' : `${days}d`;
+    if (days >= 10) return `<span style="background:var(--perigo);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${label}</span>`;
+    if (days >= 5)  return `<span style="background:var(--laranja);color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${label}</span>`;
+    return `<span style="background:#00863D;color:#fff;padding:2px 10px;border-radius:20px;font-size:12px">${label}</span>`;
   }
 
   const ASSIGNEE_NAMES = { joyce: 'Joyce', guilherme: 'Guilherme' };
