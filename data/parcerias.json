@@ -1,15 +1,352 @@
 {
-  "updatedAt": "2026-05-27T21:00:01.561Z",
+  "updatedAt": "2026-05-27T21:21:31.702082+00:00",
   "tasks": [
+    {
+      "company": "Ita\u00fa",
+      "assignee": "joyce",
+      "status": "Em Revis\u00e3o pelo Parceiro",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": null,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Spotahome",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "TAKO",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Funda\u00e7\u00e3o Ita\u00fa",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "University of Oklahoma",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "iFood",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Sabesp",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Bain & Company",
+      "assignee": "guilherme",
+      "status": "Assinado",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": "2026-05-27T21:21:31.702082+00:00",
+      "sla": {
+        "rule": null,
+        "deadlineAt": null,
+        "daysRemaining": null,
+        "breached": false
+      }
+    },
+    {
+      "company": "Vetto AI",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Crebit Pay",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "London Business School",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Grinnell College",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Minerva University",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
     {
       "company": "Visalex",
       "assignee": "joyce",
-      "status": "Em Produção",
-      "createdAt": "2026-05-26T01:51:20.995Z",
-      "taskUrl": "https://app.clickup.com/t/869defp0g",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
       "sla": {
         "rule": 1,
-        "deadlineAt": "2026-05-29T01:51:20.995Z",
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "CERC",
+      "assignee": "guilherme",
+      "status": "Minuta Enviada",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": null,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Navegantes",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Galapagos Capital",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Flowa",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "N\u00faclea",
+      "assignee": "guilherme",
+      "status": "Em Revis\u00e3o pelo Parceiro",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": null,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "OneVC",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Mappit",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Wildlife",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Enter",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Ambev",
+      "assignee": "joyce",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Spectra Investimentos",
+      "assignee": "guilherme",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
         "daysRemaining": 2,
         "breached": false
       }
@@ -17,13 +354,14 @@
     {
       "company": "Boston Consulting Group",
       "assignee": "guilherme",
-      "status": "Em Produção",
-      "createdAt": "2026-05-27T20:31:04.335Z",
-      "taskUrl": "https://app.clickup.com/t/869dfdr2x",
+      "status": "Em Produ\u00e7\u00e3o",
+      "createdAt": "2026-05-26T21:21:31.702082+00:00",
+      "taskUrl": "",
+      "assinadoAt": null,
       "sla": {
         "rule": 1,
-        "deadlineAt": "2026-05-30T20:31:04.335Z",
-        "daysRemaining": 3,
+        "deadlineAt": "2026-05-29T21:21:31.702082+00:00",
+        "daysRemaining": 2,
         "breached": false
       }
     }
