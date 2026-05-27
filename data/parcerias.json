@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T20:00:01.375Z",
+  "updatedAt": "2026-05-27T21:00:01.561Z",
   "tasks": [
     {
       "company": "Visalex",
@@ -11,6 +11,19 @@
         "rule": 1,
         "deadlineAt": "2026-05-29T01:51:20.995Z",
         "daysRemaining": 2,
+        "breached": false
+      }
+    },
+    {
+      "company": "Boston Consulting Group",
+      "assignee": "guilherme",
+      "status": "Em Produção",
+      "createdAt": "2026-05-27T20:31:04.335Z",
+      "taskUrl": "https://app.clickup.com/t/869dfdr2x",
+      "sla": {
+        "rule": 1,
+        "deadlineAt": "2026-05-30T20:31:04.335Z",
+        "daysRemaining": 3,
         "breached": false
       }
     }
