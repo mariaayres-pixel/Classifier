@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T22:05:54.473981+00:00",
+  "updatedAt": "2026-05-27T22:19:16.691744+00:00",
   "tasks": [
     {
       "company": "Sabesp",
@@ -44,7 +44,7 @@
     {
       "company": "Flowa",
       "assignee": "joyce",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6jr",
       "assinadoAt": null
@@ -60,7 +60,7 @@
     {
       "company": "OneVC",
       "assignee": "joyce",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6jy",
       "assinadoAt": null
@@ -68,7 +68,7 @@
     {
       "company": "Mappit",
       "assignee": "guilherme",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6k0",
       "assinadoAt": null
@@ -76,7 +76,7 @@
     {
       "company": "Wildlife",
       "assignee": "joyce",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6k3",
       "assinadoAt": null
@@ -84,7 +84,7 @@
     {
       "company": "Enter",
       "assignee": "guilherme",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6k4",
       "assinadoAt": null
@@ -92,7 +92,7 @@
     {
       "company": "Ambev",
       "assignee": "joyce",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6k5",
       "assinadoAt": null
@@ -100,7 +100,7 @@
     {
       "company": "Spectra Investimentos",
       "assignee": "guilherme",
-      "status": "Em Produ\u00e7\u00e3o",
+      "status": "Em Revis\u00e3o pelo Parceiro",
       "createdAt": null,
       "taskUrl": "https://app.clickup.com/t/869dfe6k8",
       "assinadoAt": null
