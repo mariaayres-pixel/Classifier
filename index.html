@@ -1011,9 +1011,7 @@
     // ── Parcerias card ────────────────────────────────────
     loadParcerias().then(p => {
       if (!p) return;
-      const total    = p.tasks?.length || 0;
-      const active   = (p.tasks||[]).filter(t => t.status !== 'Assinado').length;
-      const assinado = total - active;
+      const active = (p.tasks||[]).filter(t => t.status !== 'Assinado' && !t.assinadoAt).length;
       const a = document.createElement("a");
       a.href = "?view=parcerias";
       a.className = "dir-card-rc-link";
@@ -1025,14 +1023,6 @@
             <div class="dir-card-rc-sub" style="color:rgba(255,255,255,.7)">Status dos contratos em andamento</div>
           </div>
           <div class="dir-card-rc-kpis">
-            <div class="dir-card-rc-kpi">
-              <div class="dir-card-rc-kpi-val" style="color:#fff">${total}</div>
-              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Total</div>
-            </div>
-            <div class="dir-card-rc-kpi">
-              <div class="dir-card-rc-kpi-val" style="color:#7FFFB3">${assinado}</div>
-              <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Assinados</div>
-            </div>
             <div class="dir-card-rc-kpi">
               <div class="dir-card-rc-kpi-val" style="color:#FFD580">${active}</div>
               <div class="dir-card-rc-kpi-lbl" style="color:rgba(255,255,255,.7)">Em andamento</div>
