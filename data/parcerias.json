@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T13:00:17.422Z",
+  "updatedAt": "2026-06-03T14:00:14.160Z",
   "tasks": [
     {
       "company": "Visalex",
@@ -334,7 +334,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-06-04T13:55:58.714Z",
-        "daysRemaining": 2,
+        "daysRemaining": 1,
         "breached": false
       }
     },
