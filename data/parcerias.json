@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T21:00:15.135Z",
+  "updatedAt": "2026-06-06T22:00:14.423Z",
   "tasks": [
     {
       "company": "Visalex",
@@ -36,7 +36,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:54.551Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -49,7 +49,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:02.850Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -76,7 +76,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:04.813Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -103,7 +103,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:06.841Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -116,7 +116,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:07.179Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -129,7 +129,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:08.444Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -142,7 +142,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:08.761Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -155,7 +155,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:09.705Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -168,7 +168,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:10.365Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -182,7 +182,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:46.616Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -196,7 +196,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:47.909Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -210,7 +210,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:48.257Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -224,7 +224,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:49.213Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -238,7 +238,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:51.216Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -252,7 +252,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:51.662Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -266,7 +266,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:05:52.883Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -280,7 +280,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:01.204Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -294,7 +294,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:01.950Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -308,7 +308,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:02.259Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
@@ -322,7 +322,7 @@
       "sla": {
         "rule": 1,
         "deadlineAt": "2026-05-30T21:20:03.434Z",
-        "daysRemaining": -6,
+        "daysRemaining": -7,
         "breached": true
       }
     },
