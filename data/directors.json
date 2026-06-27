@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-06-27T12:04:32.418769",
+  "gerado_em": "2026-06-27T14:22:03.995426",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-06-27"
@@ -80,7 +80,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "arrecadação",
@@ -101,7 +101,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "comunicação",
@@ -161,7 +161,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "conferências",
@@ -279,58 +279,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SAT 9PM",
           "valor": 23.91
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 7PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "Brower",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "DAVID BROWER CENTER",
-          "valor": 100.0
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9AM",
-          "valor": 11.91
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 7PM",
-          "valor": 15.97
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 2PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 2PM",
-          "valor": 13.99
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "gente-&-gestão",
@@ -470,67 +425,27 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SAT 9PM",
           "valor": 23.91
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 7PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "TST*RUSSELL HOUSE TAVERN",
-          "valor": 109.2
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9AM",
-          "valor": 11.91
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 7PM",
-          "valor": 15.97
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 2PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 2PM",
-          "valor": 13.99
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 563.0,
-      "disponivel": 102462.0,
-      "percentual": 0.5,
+      "total_gasto": 2907.62,
+      "disponivel": 100117.38,
+      "percentual": 2.8,
       "categorias": [
+        {
+          "nome": "Viagens e Hospedagem",
+          "gasto": 2344.62,
+          "orcamento": 5340.0
+        },
         {
           "nome": "Viagens e Hospedagem – Board",
           "gasto": 563.0,
@@ -539,6 +454,69 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "valor": 499.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 388.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 509.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 284.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 148.0
+        },
+        {
+          "data": "2026-06-21",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/21",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/21",
+          "valor": 199.62
+        },
+        {
           "data": "2026-04-23",
           "tipo": "Expense",
           "fornecedor": "LATAMN AIRLINE",
@@ -546,13 +524,31 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "LAN AIRLINES",
           "valor": 70.0
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "HYATT REGENCY CAMBRIDGE",
+          "conta": "E. DA CUNHA 3177",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "HYATT REGENCY CAMBRIDGE",
+          "valor": 92.76
+        },
+        {
+          "data": "2026-04-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA 3177",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 8.92
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "presidência",
@@ -594,6 +590,69 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "valor": 499.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 388.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 509.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 284.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 148.0
+        },
+        {
+          "data": "2026-06-21",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/21",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/21",
+          "valor": 199.62
+        },
         {
           "data": "2026-04-24",
           "tipo": "Expense",
@@ -719,67 +778,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SAT 9PM",
           "valor": 23.91
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 7PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "TST*RUSSELL HOUSE TAVERN",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "TST*RUSSELL HOUSE TAVERN",
-          "valor": 109.2
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9AM",
-          "valor": 11.91
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "HYATT REGENCY CAMBRIDGE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "HYATT REGENCY CAMBRIDGE",
-          "valor": 54.94
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 7PM",
-          "valor": 15.97
-        },
-        {
-          "data": "2026-04-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 2PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 2PM",
-          "valor": 13.99
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "rede-brasa",
@@ -810,7 +815,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "relações-corporativas",
@@ -853,6 +858,18 @@
           "status": "Pago"
         },
         {
+          "id": "1560",
+          "numero": "1043",
+          "parceiro": "Base Exchange S.A.",
+          "iniciativa": "—",
+          "descricao": "BRASA em Casa 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\n\nBRASA Summit Américas 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\"",
+          "data": "2026-06-25",
+          "vencimento": "2026-07-25",
+          "total": 15750.0,
+          "emAberto": 15750.0,
+          "status": "Pendente"
+        },
+        {
           "id": "1561",
           "numero": "1044",
           "parceiro": "Spectra Investimentos",
@@ -862,18 +879,6 @@
           "vencimento": "2026-07-25",
           "total": 2155.0,
           "emAberto": 2155.0,
-          "status": "Pendente"
-        },
-        {
-          "id": "1560",
-          "numero": "1043",
-          "parceiro": "Flowa",
-          "iniciativa": "—",
-          "descricao": "BRASA em Casa 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\n\nBRASA Summit Américas 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\"",
-          "data": "2026-06-25",
-          "vencimento": "2026-07-25",
-          "total": 15750.0,
-          "emAberto": 15750.0,
           "status": "Pendente"
         },
         {
@@ -1252,7 +1257,7 @@
       "receita_total": 417517.37,
       "a_receber": 153007.56,
       "parcerias_ativas": 23,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     },
     {
       "slug": "tecnologia",
@@ -1325,7 +1330,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-06-27T12:04:32.418769"
+      "atualizado_em": "2026-06-27T14:22:03.995426"
     }
   ]
 }
