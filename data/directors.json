@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-03T20:07:53.046867",
+  "gerado_em": "2026-07-03T21:54:45.254899",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-07-03"
@@ -80,7 +80,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "arrecadação",
@@ -101,7 +101,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "comunicação",
@@ -161,7 +161,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "conferências",
@@ -285,7 +285,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "gente-&-gestão",
@@ -431,7 +431,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "impacto-social",
@@ -548,7 +548,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "presidência",
@@ -784,7 +784,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "rede-brasa",
@@ -815,7 +815,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "relações-corporativas",
@@ -833,6 +833,42 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "1577",
+          "numero": "1048",
+          "parceiro": "Enter",
+          "iniciativa": "—",
+          "descricao": "PACOTE GOLD\n• Quatro Representantes na Conferência\n• Stand na Feira de Carreiras\n• Divulgação da empresa nas Redes Sociais\n• Divulgação de vaga no Portal BRASA\n• Exposição no Backdrop + App da Conferência\n• Mailing List dos Participantes\n• Itens co-branded no kit do participante\n• Workshop na conferência\n• Acesso ao Portal de Talentos BRASA (com CVs dos Participantes)\n• Slot de vídeo na conferência\n• Garantia de convite à palestrante na conferência\n• Imersão BRASA x Enter\"",
+          "data": "2026-07-03",
+          "vencimento": "2026-08-02",
+          "total": 6000.0,
+          "emAberto": 6000.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1576",
+          "numero": "1047",
+          "parceiro": "Nuclea",
+          "iniciativa": "—",
+          "descricao": "BRASA em Casa 2026 (Silver)\n\n4 Representantes na Conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nDivulgação de vaga no Portal BRASA\nExposição no Backdrop + App da Conferência\nMailing List dos Participantes\nItens co-branded no kit do participante (Exposição baixa)\nWorkshop na conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)",
+          "data": "2026-07-03",
+          "vencimento": "2026-08-02",
+          "total": 3690.0,
+          "emAberto": 3690.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1575",
+          "numero": "1047",
+          "parceiro": "Ambev S A",
+          "iniciativa": "—",
+          "descricao": "\"PACOTE BRONZE BeC\nRepresentantes na Conferência: 2\nDivulgação da Empresa nas Redes Sociais\nLogo no Backdrop\nStand na Feira de Carreiras\nWorkshop na Conferência\"",
+          "data": "2026-07-03",
+          "vencimento": "2026-08-02",
+          "total": 9000.0,
+          "emAberto": 9000.0,
+          "status": "Pendente"
+        },
         {
           "id": "1565",
           "numero": "1046",
@@ -1254,10 +1290,10 @@
           "status": "Pendente"
         }
       ],
-      "receita_total": 417517.37,
-      "a_receber": 153007.56,
-      "parcerias_ativas": 23,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "receita_total": 436207.37,
+      "a_receber": 171697.56,
+      "parcerias_ativas": 26,
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     },
     {
       "slug": "tecnologia",
@@ -1330,7 +1366,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-03T20:07:53.046867"
+      "atualizado_em": "2026-07-03T21:54:45.254899"
     }
   ]
 }
