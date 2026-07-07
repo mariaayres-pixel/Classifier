@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-07-06T23:56:30.584219",
+  "gerado_em": "2026-07-07T02:12:40.080819",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-07-06"
+    "fim": "2026-07-07"
   },
   "diretores": [
     {
       "slug": "administrativo",
       "nome": "Administrativo",
       "orcamento": 18460.73,
-      "total_gasto": 3331.83,
-      "disponivel": 15128.9,
-      "percentual": 18.0,
+      "total_gasto": 3346.83,
+      "disponivel": 15113.9,
+      "percentual": 18.1,
       "categorias": [
         {
           "nome": "Despesas Administrativas – Contabilidade",
@@ -25,62 +25,26 @@
         },
         {
           "nome": "Despesas Administrativas – Taxas Bancárias (2)",
-          "gasto": 255.0,
+          "gasto": 270.0,
           "orcamento": 0.0
         }
       ],
       "lancamentos": [
         {
-          "data": "2026-05-06",
-          "tipo": "Expense",
-          "fornecedor": "ONLINE DOMESTIC WIRE FEE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "ONLINE DOMESTIC WIRE FEE",
-          "valor": 25.0
-        },
-        {
-          "data": "2026-05-05",
-          "tipo": "Expense",
+          "data": "2026-07-02",
+          "tipo": "Check",
           "fornecedor": "PayPal",
           "conta": "BUS COMPLETE CHK (5669) - 2",
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "ONLINE DOMESTIC WIRE FEE",
-          "valor": 25.0
-        },
-        {
-          "data": "2026-05-04",
-          "tipo": "Expense",
-          "fornecedor": "STICHTING ONLINE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "ONLINE DOMESTIC WIRE FEE",
-          "valor": 25.0
-        },
-        {
-          "data": "2026-05-01",
-          "tipo": "Check",
-          "fornecedor": "INTERNATIONAL INCOMING WIRE FEE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "INTERNATIONAL INCOMING WIRE FEE",
+          "descricao": "DOMESTIC INCOMING WIRE FEE",
           "valor": 15.0
-        },
-        {
-          "data": "2026-05-01",
-          "tipo": "Expense",
-          "fornecedor": "STICHTING ONLINE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "ONLINE DOMESTIC WIRE FEE",
-          "valor": 25.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "arrecadação",
@@ -101,15 +65,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 1087.68,
-      "disponivel": 8767.32,
-      "percentual": 11.0,
+      "total_gasto": 1749.57,
+      "disponivel": 8105.43,
+      "percentual": 17.8,
       "categorias": [
         {
           "nome": "Despesas Administrativas – Taxas Administrativas",
@@ -118,8 +82,13 @@
         },
         {
           "nome": "Marketing e Comunicação – Anúncios",
-          "gasto": 85.71,
+          "gasto": 126.31,
           "orcamento": 830.0
+        },
+        {
+          "nome": "Marketing e Comunicação – Sites",
+          "gasto": 621.29,
+          "orcamento": 510.0
         },
         {
           "nome": "Marketing e Comunicação – Videomaker",
@@ -139,29 +108,236 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-04-28",
+          "data": "2026-07-02",
           "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "Enzo Pereira - PayPal - 3",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "Payment to Adobe, Inc.",
-          "valor": 69.99
+          "fornecedor": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 23.26
         },
         {
-          "data": "2026-04-22",
+          "data": "2026-07-01",
           "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "ADOBE *XXX-XXX-6687",
-          "valor": 38.1
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0701 FACEBK *J27RCTRKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX2210                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0629 FACEBK *2TXNLU5KD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX9223                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 14.21
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *GFBKSS5B42",
+          "valor": 0.06
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0627 FACEBK *RKWQXTVKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX1066                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0628 FACEBK *22VCVUHKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3220                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 7.8
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 264.03
+        },
+        {
+          "data": "2026-06-28",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *CEACGSRB42",
+          "valor": 4.26
+        },
+        {
+          "data": "2026-06-28",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *6R6P5TMB42",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-06-26",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *VAQMSSHB42",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-06-26",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *JV6N5TMB42",
+          "valor": 0.61
+        },
+        {
+          "data": "2026-06-26",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0625 FACEBK *L8YF3WMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX6210                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-25",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *GPDFBTVA42",
+          "valor": 5.01
+        },
+        {
+          "data": "2026-06-25",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *5SMATR9B42",
+          "valor": 16.1
+        },
+        {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0624 FACEBK *2W7BWSDKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX9091                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 3.92
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *M5VZSSMB42",
+          "valor": 0.06
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0622 FACEBK *P4XTVT5KD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX6094                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *QMH4PR9B42",
+          "valor": 10.02
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *YZYD5SHB42",
+          "valor": 0.04
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "LinkedIn",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "LinkedIn SN PXXXXXX1180",
+          "valor": 121.92
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0621 FACEBK *MXCFKU5LD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX8088                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0618 FACEBK *YNYT9VMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3217                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 15.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0619 FACEBK *F2LBEVMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3212                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 19.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "conferências",
@@ -209,83 +385,20 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-04-24",
+          "data": "2026-06-25",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER * PENDING",
-          "valor": 22.46
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LIMA AIRPORT PARTNERS SRL",
-          "valor": 11.86
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER *TRIP",
-          "valor": 155.87
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 7PM",
-          "valor": 27.96
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 31.97
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10AM",
-          "valor": 7.93
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9PM",
-          "valor": 23.91
+          "fornecedor": "PG *CAMISA DIMONA E MA",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "PG *CAMISA DIMONA E MA",
+          "valor": 333.51
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "gente-&-gestão",
@@ -328,131 +441,91 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-04-24",
+          "data": "2026-06-23",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER * PENDING",
-          "valor": 22.46
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LIMA AIRPORT PARTNERS SRL",
-          "valor": 11.86
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER *TRIP",
-          "valor": 155.87
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "LAN AIRLINES",
-          "valor": 70.0
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "DoorDash",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "DD *DOORDASH SHAKESHAC",
-          "valor": 80.89
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 7PM",
-          "valor": 27.96
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 31.97
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "DoorDash",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "DOORDASH*04/12-2 ORDER",
-          "valor": 42.81
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10AM",
-          "valor": 7.93
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9PM",
-          "valor": 23.91
+          "fornecedor": "Airbnb",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AIRBNB * HMBZ5XEHSF AIRBNB.COM CA 06/24",
+          "valor": 1510.22
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 2907.62,
-      "disponivel": 100117.38,
-      "percentual": 2.8,
+      "total_gasto": 7608.8,
+      "disponivel": 95416.2,
+      "percentual": 7.4,
       "categorias": [
         {
           "nome": "Viagens e Hospedagem",
-          "gasto": 2344.62,
+          "gasto": 5275.58,
           "orcamento": 5340.0
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 563.0,
+          "gasto": 823.0,
           "orcamento": 4200.0
+        },
+        {
+          "nome": "Viagens e Hospedagem – Hospedagem Board",
+          "gasto": 1510.22,
+          "orcamento": 2400.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
+          "valor": 484.4
+        },
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "Brasil Brazil",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
+          "valor": 14.53
+        },
+        {
+          "data": "2026-06-28",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "valor": 117.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "valor": 466.25
+        },
         {
           "data": "2026-06-24",
           "tipo": "Expense",
@@ -470,6 +543,51 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
           "valor": 317.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Airbnb",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AIRBNB * HMBZ5XEHSF AIRBNB.COM CA 06/24",
+          "valor": 1510.22
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "BUS SERVICOS*CLIC",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "BUS SERVICOS*CLIC",
+          "valor": 52.28
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 500.59
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 408.96
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 569.95
         },
         {
           "data": "2026-06-22",
@@ -506,49 +624,13 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
           "valor": 148.0
-        },
-        {
-          "data": "2026-06-21",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/21",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/21",
-          "valor": 199.62
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "LAN AIRLINES",
-          "valor": 70.0
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "HYATT REGENCY CAMBRIDGE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "HYATT REGENCY CAMBRIDGE",
-          "valor": 92.76
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 8.92
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "presidência",
@@ -591,6 +673,51 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
+          "valor": 484.4
+        },
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "Brasil Brazil",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
+          "valor": 14.53
+        },
+        {
+          "data": "2026-06-28",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "valor": 117.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "valor": 466.25
+        },
+        {
           "data": "2026-06-24",
           "tipo": "Expense",
           "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/24",
@@ -607,6 +734,42 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
           "valor": 317.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "BUS SERVICOS*CLIC",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "BUS SERVICOS*CLIC",
+          "valor": 52.28
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 500.59
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 408.96
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 569.95
         },
         {
           "data": "2026-06-22",
@@ -643,160 +806,25 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
           "valor": 148.0
-        },
-        {
-          "data": "2026-06-21",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/21",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/21",
-          "valor": 199.62
-        },
-        {
-          "data": "2026-04-24",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER * PENDING",
-          "valor": 22.46
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LIMA AIRPORT PARTNERS SRL",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LIMA AIRPORT PARTNERS SRL",
-          "valor": 11.86
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBER *TRIP",
-          "valor": 155.87
-        },
-        {
-          "data": "2026-04-23",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "LAN AIRLINES",
-          "valor": 70.0
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "DoorDash",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "DD *DOORDASH SHAKESHAC",
-          "valor": 80.89
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 7PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 7PM",
-          "valor": 27.96
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 31.97
-        },
-        {
-          "data": "2026-04-13",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 12PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 12PM",
-          "valor": 15.94
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "DoorDash",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Alimentação Board",
-          "descricao": "DOORDASH*04/12-2 ORDER",
-          "valor": 42.81
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "HYATT REGENCY CAMBRIDGE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "HYATT REGENCY CAMBRIDGE",
-          "valor": 92.76
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 8.92
-        },
-        {
-          "data": "2026-04-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10AM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10AM",
-          "valor": 7.93
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "OLIVEIRA`S STEAKHOUSE",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Custos de Evento e Espaço – Estrutura de Espaço",
-          "descricao": "OLIVEIRA`S STEAKHOUSE",
-          "valor": 130.81
-        },
-        {
-          "data": "2026-04-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 9PM",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 9PM",
-          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 338.83,
-      "disponivel": 8444.14,
-      "percentual": 3.9,
+      "total_gasto": 1255.55,
+      "disponivel": 7527.42,
+      "percentual": 14.3,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 82.63,
+          "gasto": 416.14,
           "orcamento": 57.99
         },
         {
@@ -805,17 +833,176 @@
           "orcamento": 0.0
         },
         {
-          "nome": "Reconhecimento e Premiações",
-          "gasto": 158.03,
-          "orcamento": 0.0
+          "nome": "Reconhecimento e Premiações – Prêmios",
+          "gasto": 283.24,
+          "orcamento": 2482.48
+        },
+        {
+          "nome": "Viagens e Hospedagem",
+          "gasto": 458.0,
+          "orcamento": 600.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "LATAMN AIRLINE",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
+          "valor": 484.4
+        },
+        {
+          "data": "2026-06-30",
+          "tipo": "Expense",
+          "fornecedor": "Brasil Brazil",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
+          "valor": 14.53
+        },
+        {
+          "data": "2026-06-28",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
+          "valor": 117.0
+        },
+        {
+          "data": "2026-06-27",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
+          "valor": 466.25
+        },
+        {
+          "data": "2026-06-25",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*XE2B86VB3",
+          "valor": 50.0
+        },
+        {
+          "data": "2026-06-25",
+          "tipo": "Expense",
+          "fornecedor": "PG *CAMISA DIMONA E MA",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "PG *CAMISA DIMONA E MA",
+          "valor": 333.51
+        },
+        {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/24",
+          "valor": 499.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
+          "valor": 317.0
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "BUS SERVICOS*CLIC",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "BUS SERVICOS*CLIC",
+          "valor": 52.28
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 500.59
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 408.96
+        },
+        {
+          "data": "2026-06-23",
+          "tipo": "Expense",
+          "fornecedor": "Kiwi.com",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Kiwi.com",
+          "valor": 569.95
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 388.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 509.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
+          "valor": 284.0
+        },
+        {
+          "data": "2026-06-22",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
+          "valor": 148.0
+        }
+      ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "relações-corporativas",
@@ -1293,15 +1480,15 @@
       "receita_total": 436207.37,
       "a_receber": 171697.56,
       "parcerias_ativas": 26,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 2042.14,
-      "disponivel": 34811.86,
-      "percentual": 5.5,
+      "total_gasto": 3396.47,
+      "disponivel": 33457.53,
+      "percentual": 9.2,
       "categorias": [
         {
           "nome": "Tecnologia e Software – Adobe etc.",
@@ -1310,12 +1497,12 @@
         },
         {
           "nome": "Tecnologia e Software – AWS",
-          "gasto": 102.48,
+          "gasto": 481.5,
           "orcamento": 24720.0
         },
         {
           "nome": "Tecnologia e Software – Outros",
-          "gasto": 1162.4,
+          "gasto": 2137.71,
           "orcamento": 7934.0
         },
         {
@@ -1326,47 +1513,65 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-05-16",
+          "data": "2026-07-02",
           "tipo": "Expense",
-          "fornecedor": "ZOOM.COM XXX-XXX-9666",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Zoom / Twilio / Zapier",
-          "descricao": "ZOOM.COM XXX-XXX-9666",
-          "valor": 50.0
+          "fornecedor": "Amazon",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
+          "descricao": "PURCHASE   0702 Amazon web services                         aws.amazon.coWA XXXXX1661XXXXXXXXXX5492                     CKCD 4816 XXXXXXXXXX043053",
+          "valor": 180.15
         },
         {
-          "data": "2026-04-28",
+          "data": "2026-07-02",
           "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "Enzo Pereira - PayPal - 3",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "Payment to Adobe, Inc.",
-          "valor": 69.99
+          "fornecedor": "Amazon",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
+          "descricao": "PURCHASE   0702 Amazon web services                         aws.amazon.coWA XXXXX1661XXXXXXXXXX6656                     CKCD 4816 XXXXXXXXXX043053",
+          "valor": 5.09
         },
         {
-          "data": "2026-04-26",
+          "data": "2026-07-02",
           "tipo": "Expense",
-          "fornecedor": "ZOOM.COM XXX-XXX-9666",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Zoom / Twilio / Zapier",
-          "descricao": "ZOOM.COM XXX-XXX-9666",
-          "valor": 16.99
+          "fornecedor": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 23.26
         },
         {
-          "data": "2026-04-22",
+          "data": "2026-06-29",
           "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "E. DA CUNHA 3177",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "ADOBE *XXX-XXX-6687",
-          "valor": 38.1
+          "fornecedor": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 7.8
+        },
+        {
+          "data": "2026-06-29",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 264.03
+        },
+        {
+          "data": "2026-06-24",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 3.92
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-06T23:56:30.584219"
+      "atualizado_em": "2026-07-07T02:12:40.080819"
     }
   ]
 }
