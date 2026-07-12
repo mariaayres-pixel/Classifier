@@ -1,0 +1,686 @@
+<!doctype html>
+<title>Conciliação Financeira · BRASA em Casa 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --azul-vivido:#065FD8;
+    --verde-escuro:#03571A;
+    --amarelo:#FFCC02;
+    --azul-escuro:#1A2B77;
+    --verde-folha:#00863D;
+    --laranja:#FB8C0A;
+    --verde-vivido:#4BBF4B;
+    --amarelo-claro:#F5D566;
+
+    --bg:#F4F4F4;
+    --surface:#FFFFFF;
+    --ink:#252726;
+    --ink-soft:#585a59;
+    --ink-faint:#8a8c8b;
+    --border:#e2e4e2;
+    --track:#eef0ef;
+    --hero-from:var(--azul-escuro);
+    --hero-to:var(--verde-escuro);
+    --hero-ink:#F4F4F4;
+    --hero-sub:#dfe6f7;
+    --hero-caption:#c9d3ec;
+    --shadow-card: 0 12px 28px rgba(26,43,119,0.10);
+    --shadow-soft: 0 8px 24px rgba(37,39,38,0.06);
+    --shadow-tile: 0 6px 18px rgba(37,39,38,0.06);
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14151a;
+      --surface:#1c1e24;
+      --ink:#eceef2;
+      --ink-soft:#b7bac2;
+      --ink-faint:#82868f;
+      --border:#2c2f37;
+      --track:#2a2d34;
+      --hero-from:#0d1638;
+      --hero-to:#04350f;
+      --hero-ink:#eceef2;
+      --hero-sub:#c3cdea;
+      --hero-caption:#a9b6d6;
+      --shadow-card: 0 12px 28px rgba(0,0,0,0.35);
+      --shadow-soft: 0 8px 24px rgba(0,0,0,0.30);
+      --shadow-tile: 0 6px 18px rgba(0,0,0,0.30);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14151a;
+    --surface:#1c1e24;
+    --ink:#eceef2;
+    --ink-soft:#b7bac2;
+    --ink-faint:#82868f;
+    --border:#2c2f37;
+    --track:#2a2d34;
+    --hero-from:#0d1638;
+    --hero-to:#04350f;
+    --hero-ink:#eceef2;
+    --hero-sub:#c3cdea;
+    --hero-caption:#a9b6d6;
+    --shadow-card: 0 12px 28px rgba(0,0,0,0.35);
+    --shadow-soft: 0 8px 24px rgba(0,0,0,0.30);
+    --shadow-tile: 0 6px 18px rgba(0,0,0,0.30);
+  }
+  :root[data-theme="light"]{
+    --bg:#F4F4F4;
+    --surface:#FFFFFF;
+    --ink:#252726;
+    --ink-soft:#585a59;
+    --ink-faint:#8a8c8b;
+    --border:#e2e4e2;
+    --track:#eef0ef;
+    --hero-from:var(--azul-escuro);
+    --hero-to:var(--verde-escuro);
+    --hero-ink:#F4F4F4;
+    --hero-sub:#dfe6f7;
+    --hero-caption:#c9d3ec;
+    --shadow-card: 0 12px 28px rgba(26,43,119,0.10);
+    --shadow-soft: 0 8px 24px rgba(37,39,38,0.06);
+    --shadow-tile: 0 6px 18px rgba(37,39,38,0.06);
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+
+  body{
+    font-family:"Lato", sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.5;
+    padding-bottom:60px;
+  }
+
+  /* ----- HERO ----- */
+  .hero{
+    background: linear-gradient(135deg, var(--hero-from) 0%, var(--hero-to) 100%);
+    color:var(--hero-ink);
+    padding:64px 24px 96px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute;
+    top:-120px; right:-120px;
+    width:340px; height:340px;
+    border-radius:50%;
+    background:radial-gradient(circle, var(--amarelo) 0%, transparent 70%);
+    opacity:0.18;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;
+    bottom:-160px; left:-80px;
+    width:280px; height:280px;
+    border-radius:50%;
+    background:radial-gradient(circle, var(--verde-vivido) 0%, transparent 70%);
+    opacity:0.15;
+  }
+  .hero-inner{
+    max-width:1080px;
+    margin:0 auto;
+    position:relative;
+    z-index:1;
+  }
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    font-weight:700;
+    color:var(--amarelo);
+    margin-bottom:18px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:8px; height:8px;
+    background:var(--amarelo);
+    border-radius:2px;
+    display:inline-block;
+  }
+  h1{
+    font-size:clamp(32px, 5vw, 48px);
+    font-weight:900;
+    line-height:1.08;
+    max-width:720px;
+    text-wrap:balance;
+  }
+  .hero-sub{
+    margin-top:16px;
+    font-size:17px;
+    max-width:600px;
+    color:var(--hero-sub);
+    font-weight:300;
+  }
+
+  .hero-roi{
+    margin-top:40px;
+    display:flex;
+    align-items:flex-end;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  .roi-figure{
+    font-family:"Lato", sans-serif;
+    font-weight:900;
+    font-size:clamp(56px, 9vw, 88px);
+    line-height:1;
+    color:var(--hero-ink);
+    letter-spacing:-0.02em;
+  }
+  .roi-figure sup{
+    font-size:0.34em;
+    color:var(--amarelo);
+    font-weight:700;
+  }
+  .roi-caption{
+    font-size:14px;
+    color:var(--hero-caption);
+    max-width:280px;
+    padding-bottom:10px;
+    font-weight:300;
+  }
+  .roi-caption strong{color:var(--hero-ink); font-weight:700;}
+
+  /* ----- CONTAINER ----- */
+  .wrap{
+    max-width:1080px;
+    margin:-56px auto 0;
+    padding:0 24px;
+    position:relative;
+    z-index:2;
+  }
+
+  /* ----- SUMMARY CARDS ----- */
+  .summary-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:16px;
+  }
+  .card{
+    background:var(--surface);
+    border-radius:14px;
+    padding:24px 22px;
+    box-shadow:var(--shadow-card);
+    border-top:4px solid var(--azul-vivido);
+  }
+  .card.green{border-top-color:var(--verde-folha);}
+  .card.orange{border-top-color:var(--laranja);}
+  .card.yellow{border-top-color:var(--amarelo);}
+  .card-label{
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    font-weight:700;
+    color:var(--ink-faint);
+    margin-bottom:10px;
+  }
+  .card-value{
+    font-size:30px;
+    font-weight:900;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+    font-variant-numeric:tabular-nums;
+  }
+  .card-value.pos{color:var(--verde-folha);}
+  .card-sub{
+    font-size:12.5px;
+    color:var(--ink-faint);
+    margin-top:6px;
+    font-weight:400;
+  }
+
+  /* ----- SECTIONS ----- */
+  section{
+    margin-top:56px;
+  }
+  .section-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .section-head h2{
+    font-size:24px;
+    font-weight:700;
+    color:var(--azul-escuro);
+  }
+  :root[data-theme="dark"] .section-head h2,
+  @media (prefers-color-scheme: dark){
+    .section-head h2{ color:#8fa4e8; }
+  }
+  .section-head .tag{
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--verde-folha);
+    background:rgba(0,134,61,0.12);
+    padding:4px 10px;
+    border-radius:100px;
+  }
+
+  .flow-panel{
+    background:var(--surface);
+    border-radius:16px;
+    padding:28px;
+    box-shadow:var(--shadow-soft);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+  }
+  @media (max-width:720px){
+    .flow-panel{grid-template-columns:1fr;}
+    .summary-grid{grid-template-columns:1fr 1fr;}
+  }
+
+  .flow-col h3{
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    font-weight:700;
+    margin-bottom:16px;
+    color:var(--ink);
+  }
+  .flow-col.entradas h3{color:var(--verde-folha);}
+  .flow-col.saidas h3{color:var(--laranja);}
+
+  .bar-row{
+    display:grid;
+    grid-template-columns:130px 1fr 90px;
+    align-items:center;
+    gap:12px;
+    margin-bottom:12px;
+    font-size:13.5px;
+  }
+  .bar-track{
+    background:var(--track);
+    border-radius:6px;
+    height:12px;
+    overflow:hidden;
+  }
+  .bar-fill{
+    height:100%;
+    border-radius:6px;
+  }
+  .bar-row .val{
+    text-align:right;
+    font-weight:700;
+    font-variant-numeric:tabular-nums;
+  }
+  .flow-total-row{
+    margin-top:18px;
+    padding-top:14px;
+    border-top:2px dashed var(--border);
+    display:flex;
+    justify-content:space-between;
+    font-weight:900;
+    font-size:16px;
+    font-variant-numeric:tabular-nums;
+  }
+  .flow-total-row.entradas-total{color:var(--verde-folha);}
+  .flow-total-row.saidas-total{color:var(--laranja);}
+
+  /* Team breakdown */
+  .team-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:14px;
+  }
+  @media (max-width:720px){.team-grid{grid-template-columns:1fr;}}
+
+  .team-card{
+    background:var(--surface);
+    border-radius:14px;
+    padding:20px 22px;
+    box-shadow:var(--shadow-tile);
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .team-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .team-name{
+    font-weight:700;
+    font-size:15px;
+  }
+  .team-value{
+    font-weight:900;
+    font-size:20px;
+    font-variant-numeric:tabular-nums;
+  }
+  .team-bar-track{
+    background:var(--track);
+    border-radius:6px;
+    height:10px;
+    overflow:hidden;
+  }
+  .team-bar-fill{height:100%; border-radius:6px;}
+  .team-pct{
+    font-size:12px;
+    color:var(--ink-faint);
+    font-weight:400;
+  }
+
+  /* note / footer */
+  .note{
+    margin-top:14px;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    font-weight:300;
+    line-height:1.6;
+  }
+  .note strong{color:var(--ink); font-weight:700;}
+
+  footer{
+    max-width:1080px;
+    margin:64px auto 0;
+    padding:24px 24px 0;
+    font-size:12px;
+    color:var(--ink-faint);
+    border-top:1px solid var(--border);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+
+  .legend-dot{
+    display:inline-block;
+    width:9px; height:9px;
+    border-radius:50%;
+    margin-right:6px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ transition:none !important; animation:none !important; }
+  }
+</style>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Conciliação Financeira · BRASA em Casa 2026</div>
+    <h1>Conciliação Financeira do BRASA em Casa 2026</h1>
+    <p class="hero-sub">Panorama consolidado de entradas, gastos por time e retorno sobre investimento da edição 2026 do BRASA em Casa — valores em USD.</p>
+    <div class="hero-roi">
+      <div class="roi-figure">5,85<sup>x</sup></div>
+      <div class="roi-caption"><strong>ROI do evento.</strong> Para cada US$ 1 gasto, o BeC gerou US$ 5,85 em entradas.</div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="summary-grid">
+    <div class="card green">
+      <div class="card-label">Total de Entradas</div>
+      <div class="card-value pos">$43.192,50</div>
+      <div class="card-sub">Corporativo + ingressos</div>
+    </div>
+    <div class="card orange">
+      <div class="card-label">Total de Gastos</div>
+      <div class="card-value">$16.847,67</div>
+      <div class="card-sub">Todos os times · sem Almoço Institucional</div>
+    </div>
+    <div class="card yellow">
+      <div class="card-label">Entradas Corp.</div>
+      <div class="card-value pos">$39.186,37</div>
+      <div class="card-sub">9 parceiros/patrocinadores</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Venda de Ingressos</div>
+      <div class="card-value pos">$4.006,13</div>
+      <div class="card-sub">685 ingressos vendidos</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-head">
+      <h2>Entradas vs. Saídas</h2>
+      <span class="tag">Em USD</span>
+    </div>
+    <div class="flow-panel">
+      <div class="flow-col entradas">
+        <h3>Entradas Corporativas</h3>
+        <div class="bar-row">
+          <span>Fundação Itaú</span>
+          <div class="bar-track"><div class="bar-fill" style="width:100%; background:var(--verde-folha);"></div></div>
+          <span class="val">$9.267</span>
+        </div>
+        <div class="bar-row">
+          <span>Boston Cons. Group</span>
+          <div class="bar-track"><div class="bar-fill" style="width:85%; background:var(--verde-folha);"></div></div>
+          <span class="val">$7.890</span>
+        </div>
+        <div class="bar-row">
+          <span>Enter</span>
+          <div class="bar-track"><div class="bar-fill" style="width:65%; background:var(--verde-folha);"></div></div>
+          <span class="val">$6.000</span>
+        </div>
+        <div class="bar-row">
+          <span>Núclea</span>
+          <div class="bar-track"><div class="bar-fill" style="width:40%; background:var(--verde-folha);"></div></div>
+          <span class="val">$3.690</span>
+        </div>
+        <div class="bar-row">
+          <span>Sabesp</span>
+          <div class="bar-track"><div class="bar-fill" style="width:32%; background:var(--verde-folha);"></div></div>
+          <span class="val">$3.000</span>
+        </div>
+        <div class="bar-row">
+          <span>Ruvo</span>
+          <div class="bar-track"><div class="bar-fill" style="width:31%; background:var(--verde-folha);"></div></div>
+          <span class="val">$2.920</span>
+        </div>
+        <div class="bar-row">
+          <span>Spectra</span>
+          <div class="bar-track"><div class="bar-fill" style="width:23%; background:var(--verde-folha);"></div></div>
+          <span class="val">$2.155</span>
+        </div>
+        <div class="bar-row">
+          <span>iFood</span>
+          <div class="bar-track"><div class="bar-fill" style="width:27%; background:var(--verde-folha);"></div></div>
+          <span class="val">$2.500</span>
+        </div>
+        <div class="bar-row">
+          <span>Ambev</span>
+          <div class="bar-track"><div class="bar-fill" style="width:19%; background:var(--verde-folha);"></div></div>
+          <span class="val">$1.765</span>
+        </div>
+        <div class="flow-total-row entradas-total">
+          <span>Total Entradas Corp.</span>
+          <span>$39.186,37</span>
+        </div>
+      </div>
+
+      <div class="flow-col saidas">
+        <h3>Composição das Saídas</h3>
+        <div class="bar-row">
+          <span>Impacto Social</span>
+          <div class="bar-track"><div class="bar-fill" style="width:100%; background:var(--laranja);"></div></div>
+          <span class="val">$6.828</span>
+        </div>
+        <div class="bar-row">
+          <span>Conferências</span>
+          <div class="bar-track"><div class="bar-fill" style="width:92%; background:var(--laranja);"></div></div>
+          <span class="val">$6.303</span>
+        </div>
+        <div class="bar-row">
+          <span>Gente &amp; Gestão</span>
+          <div class="bar-track"><div class="bar-fill" style="width:23%; background:var(--laranja);"></div></div>
+          <span class="val">$1.543</span>
+        </div>
+        <div class="bar-row">
+          <span>Comunicação</span>
+          <div class="bar-track"><div class="bar-fill" style="width:11%; background:var(--laranja);"></div></div>
+          <span class="val">$730</span>
+        </div>
+        <div class="bar-row">
+          <span>Presidência</span>
+          <div class="bar-track"><div class="bar-fill" style="width:9%; background:var(--laranja);"></div></div>
+          <span class="val">$627</span>
+        </div>
+        <div class="bar-row">
+          <span>Rede BRASA</span>
+          <div class="bar-track"><div class="bar-fill" style="width:8%; background:var(--laranja);"></div></div>
+          <span class="val">$574</span>
+        </div>
+        <div class="bar-row">
+          <span>Arrecadação</span>
+          <div class="bar-track"><div class="bar-fill" style="width:4%; background:var(--laranja);"></div></div>
+          <span class="val">$243</span>
+        </div>
+        <div class="flow-total-row saidas-total">
+          <span>Total de Saídas</span>
+          <span>$16.847,67</span>
+        </div>
+      </div>
+    </div>
+    <p class="note">O ROI oficial do evento usa apenas o valor de <strong>Conferências ($6.302,58)</strong> — a linha de saídas já consolidada na planilha de Entradas BeC, líquida de um reembolso de $3.514,23 recebido de fornecedor de catering. O total de $16.847,67 acima soma os gastos de <strong>todos os times</strong>, incluindo Impacto Social (passagens de mentores e bolsistas) e não entra no cálculo do ROI.</p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Almoço Institucional</h2>
+      <span class="tag">Iniciativa à parte · Em USD</span>
+    </div>
+    <div class="flow-panel">
+      <div class="flow-col entradas">
+        <h3>Entradas</h3>
+        <div class="bar-row">
+          <span>Doações (5 Pix)</span>
+          <div class="bar-track"><div class="bar-fill" style="width:100%; background:var(--verde-folha);"></div></div>
+          <span class="val">$657</span>
+        </div>
+        <div class="flow-total-row entradas-total">
+          <span>Total de Entradas</span>
+          <span>$656,86</span>
+        </div>
+      </div>
+      <div class="flow-col saidas">
+        <h3>Saídas</h3>
+        <div class="bar-row">
+          <span>Farinha na Cozinha (2x)</span>
+          <div class="bar-track"><div class="bar-fill" style="width:100%; background:var(--laranja);"></div></div>
+          <span class="val">$1.794</span>
+        </div>
+        <div class="bar-row">
+          <span>iFood Pago</span>
+          <div class="bar-track"><div class="bar-fill" style="width:35%; background:var(--laranja);"></div></div>
+          <span class="val">$624</span>
+        </div>
+        <div class="bar-row">
+          <span>Núcleo Digital (impressão)</span>
+          <div class="bar-track"><div class="bar-fill" style="width:24%; background:var(--laranja);"></div></div>
+          <span class="val">$419</span>
+        </div>
+        <p class="note">Inclui uma devolução de $623,53 do Pix enviado ao iFood Pago, já refletida no valor líquido abaixo.</p>
+        <div class="flow-total-row saidas-total">
+          <span>Total de Saídas</span>
+          <span>$2.212,63</span>
+        </div>
+      </div>
+    </div>
+    <p class="note">O Almoço Institucional é uma iniciativa separada do BeC, sob o time <strong>Arrecadação</strong>. Isoladamente, fechou com saldo negativo de <strong>$1.555,76</strong> (entradas de $656,86 contra saídas de $2.212,63) e não entra no total de gastos do BeC nem no cálculo do ROI do evento.</p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Gastos por Time</h2>
+      <span class="tag">Bruto, em USD</span>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--verde-vivido);"></span>Impacto Social</span>
+          <span class="team-value">$6.828,22</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:100%; background:var(--verde-vivido);"></div></div>
+        <span class="team-pct">40,5% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--azul-vivido);"></span>Conferências</span>
+          <span class="team-value">$6.302,58</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:92%; background:var(--azul-vivido);"></div></div>
+        <span class="team-pct">37,4% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--azul-escuro);"></span>Gente &amp; Gestão</span>
+          <span class="team-value">$1.542,67</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:23%; background:var(--azul-escuro);"></div></div>
+        <span class="team-pct">9,2% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--verde-folha);"></span>Comunicação</span>
+          <span class="team-value">$730,39</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:11%; background:var(--verde-folha);"></div></div>
+        <span class="team-pct">4,3% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--amarelo);"></span>Presidência</span>
+          <span class="team-value">$627,01</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:9%; background:var(--amarelo);"></div></div>
+        <span class="team-pct">3,7% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--laranja);"></span>Rede BRASA</span>
+          <span class="team-value">$573,66</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:8%; background:var(--laranja);"></div></div>
+        <span class="team-pct">3,4% do total de gastos</span>
+      </div>
+      <div class="team-card">
+        <div class="team-top">
+          <span class="team-name"><span class="legend-dot" style="background:var(--ink-faint);"></span>Arrecadação</span>
+          <span class="team-value">$243,14</span>
+        </div>
+        <div class="team-bar-track"><div class="team-bar-fill" style="width:4%; background:var(--ink-faint);"></div></div>
+        <span class="team-pct">1,4% do total de gastos</span>
+      </div>
+    </div>
+    <p class="note">Total de gastos de todos os times do BeC: <strong>$16.847,67</strong>. Este valor não inclui o Almoço Institucional, iniciativa apurada separadamente acima.</p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>ROI do Evento</h2>
+      <span class="tag">Retorno sobre investimento</span>
+    </div>
+    <div class="flow-panel" style="grid-template-columns: 1.2fr 1fr; align-items:center;">
+      <div>
+        <p style="font-size:15px; color:var(--ink-soft); max-width:480px;">
+          O ROI é calculado como <strong>Total de Entradas ÷ Total de Saídas</strong>. Com $43.192,50 arrecadados contra $6.302,58 investidos, o BeC 2026 devolveu <strong style="color:var(--verde-folha);">5,85 vezes</strong> o valor gasto na organização do evento.
+        </p>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:64px; font-weight:900; color:var(--azul-escuro);">5,85<span style="color:var(--laranja); font-size:0.4em;">x</span></div>
+        <div style="font-size:13px; color:var(--ink-faint); margin-top:4px;">$43.192,50 ÷ $6.302,58</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <span>BRASA em Casa 2026 · Conciliação Financeira</span>
+  <span>Fonte: planilha de conciliação financeira BeC 2026</span>
+</footer>
