@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-18T14:13:46.522918",
+  "gerado_em": "2026-07-18T15:42:30.627111",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-07-18"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "comunicação",
@@ -107,6 +107,24 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-07-06",
+          "tipo": "Expense",
+          "fornecedor": "FRAMER.COM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "FRAMER.COM",
+          "valor": 145.61
+        },
+        {
+          "data": "2026-07-04",
+          "tipo": "Expense",
+          "fornecedor": "FRAMER.COM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "FRAMER.COM",
+          "valor": 147.53
+        },
         {
           "data": "2026-07-02",
           "tipo": "Expense",
@@ -286,58 +304,13 @@
           "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
           "descricao": "FACEBK *QMH4PR9B42",
           "valor": 10.02
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *YZYD5SHB42",
-          "valor": 0.04
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "LinkedIn",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "LinkedIn SN PXXXXXX1180",
-          "valor": 121.92
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0621 FACEBK *MXCFKU5LD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX8088                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0618 FACEBK *YNYT9VMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3217                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 15.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0619 FACEBK *F2LBEVMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3212                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "conferências",
@@ -398,7 +371,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "gente-&-gestão",
@@ -454,19 +427,19 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 7608.8,
-      "disponivel": 95416.2,
-      "percentual": 7.4,
+      "total_gasto": 8436.8,
+      "disponivel": 94588.2,
+      "percentual": 8.2,
       "categorias": [
         {
           "nome": "Viagens e Hospedagem",
-          "gasto": 5275.58,
+          "gasto": 6103.58,
           "orcamento": 5340.0
         },
         {
@@ -481,6 +454,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "valor": 828.0
+        },
         {
           "data": "2026-06-30",
           "tipo": "Expense",
@@ -630,7 +612,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "presidência",
@@ -672,6 +654,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "valor": 828.0
+        },
         {
           "data": "2026-06-30",
           "tipo": "Expense",
@@ -812,15 +803,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 1255.55,
-      "disponivel": 7527.42,
-      "percentual": 14.3,
+      "total_gasto": 1355.55,
+      "disponivel": 7427.42,
+      "percentual": 15.4,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
@@ -834,7 +825,7 @@
         },
         {
           "nome": "Reconhecimento e Premiações – Prêmios",
-          "gasto": 283.24,
+          "gasto": 383.24,
           "orcamento": 2482.48
         },
         {
@@ -844,6 +835,33 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
+          "valor": 828.0
+        },
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*MG1O81CM3",
+          "valor": 50.0
+        },
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*Y60VI3AI3",
+          "valor": 50.0
+        },
         {
           "data": "2026-06-30",
           "tipo": "Expense",
@@ -1002,7 +1020,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "relações-corporativas",
@@ -1480,15 +1498,15 @@
       "receita_total": 436207.37,
       "a_receber": 171697.56,
       "parcerias_ativas": 26,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 3396.47,
-      "disponivel": 33457.53,
-      "percentual": 9.2,
+      "total_gasto": 3689.61,
+      "disponivel": 33164.39,
+      "percentual": 10.0,
       "categorias": [
         {
           "nome": "Tecnologia e Software – Adobe etc.",
@@ -1502,7 +1520,7 @@
         },
         {
           "nome": "Tecnologia e Software – Outros",
-          "gasto": 2137.71,
+          "gasto": 2430.85,
           "orcamento": 7934.0
         },
         {
@@ -1512,6 +1530,24 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-07-06",
+          "tipo": "Expense",
+          "fornecedor": "FRAMER.COM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "FRAMER.COM",
+          "valor": 145.61
+        },
+        {
+          "data": "2026-07-04",
+          "tipo": "Expense",
+          "fornecedor": "FRAMER.COM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "FRAMER.COM",
+          "valor": 147.53
+        },
         {
           "data": "2026-07-02",
           "tipo": "Expense",
@@ -1571,7 +1607,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-18T14:13:46.522918"
+      "atualizado_em": "2026-07-18T15:42:30.627111"
     }
   ]
 }
