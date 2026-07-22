@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T16:12:35.574230",
+  "gerado_em": "2026-07-22T18:00:22.637646",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-07-22"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "comunicação",
@@ -310,7 +310,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "conferências",
@@ -371,7 +371,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "gente-&-gestão",
@@ -427,7 +427,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "impacto-social",
@@ -612,7 +612,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "presidência",
@@ -803,7 +803,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "rede-brasa",
@@ -1020,7 +1020,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "relações-corporativas",
@@ -1111,18 +1111,6 @@
           "status": "Pago"
         },
         {
-          "id": "1560",
-          "numero": "1043",
-          "parceiro": "Base Exchange S.A.",
-          "iniciativa": "—",
-          "descricao": "BRASA em Casa 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\n\nBRASA Summit Américas 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\"",
-          "data": "2026-06-25",
-          "vencimento": "2026-07-25",
-          "total": 15750.0,
-          "emAberto": 15750.0,
-          "status": "Pendente"
-        },
-        {
           "id": "1561",
           "numero": "1044",
           "parceiro": "Spectra Investimentos",
@@ -1132,6 +1120,18 @@
           "vencimento": "2026-07-25",
           "total": 2155.0,
           "emAberto": 2155.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1560",
+          "numero": "1043",
+          "parceiro": "Base Exchange S.A.",
+          "iniciativa": "—",
+          "descricao": "BRASA em Casa 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\n\nBRASA Summit Américas 2026 (Silver Personalizado)\n\n4 representantes na conferência\nStand na Feira de Carreiras\nDivulgação da empresa nas Redes Sociais\nMailing List dos Participantes\nExposição no Backdrop e Aplicativo da Conferência\nItem de Exposição Baixa no Kit do Participante\nWorkshop na Conferência\nAcesso ao Portal de Talentos BRASA (com CVs dos Participantes)\nGarantia de Convite a palestrante\"",
+          "data": "2026-06-25",
+          "vencimento": "2026-07-25",
+          "total": 15750.0,
+          "emAberto": 15750.0,
           "status": "Pendente"
         },
         {
@@ -1510,7 +1510,7 @@
       "receita_total": 445207.37,
       "a_receber": 180697.56,
       "parcerias_ativas": 27,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     },
     {
       "slug": "tecnologia",
@@ -1619,7 +1619,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-07-22T16:12:35.574230"
+      "atualizado_em": "2026-07-22T18:00:22.637646"
     }
   ]
 }
