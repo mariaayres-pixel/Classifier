@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-03T15:35:13.437288",
+  "gerado_em": "2026-08-03T17:45:09.514832",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-08-03"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "comunicação",
@@ -310,7 +310,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "conferências",
@@ -371,7 +371,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "gente-&-gestão",
@@ -427,7 +427,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "impacto-social",
@@ -612,7 +612,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "presidência",
@@ -803,7 +803,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "rede-brasa",
@@ -1020,7 +1020,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "relações-corporativas",
@@ -1363,6 +1363,18 @@
           "status": "Pago"
         },
         {
+          "id": "739",
+          "numero": "1022",
+          "parceiro": "Jumpstart",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-01-06",
+          "vencimento": "2026-08-05",
+          "total": 958.0,
+          "emAberto": 958.0,
+          "status": "Pendente"
+        },
+        {
           "id": "738",
           "numero": "1021",
           "parceiro": "Jumpstart",
@@ -1483,18 +1495,6 @@
           "status": "Pendente"
         },
         {
-          "id": "739",
-          "numero": "1022",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-08-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Pendente"
-        },
-        {
           "id": "743",
           "numero": "1026",
           "parceiro": "Jumpstart",
@@ -1510,7 +1510,7 @@
       "receita_total": 445207.37,
       "a_receber": 180697.56,
       "parcerias_ativas": 27,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     },
     {
       "slug": "tecnologia",
@@ -1619,7 +1619,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-03T15:35:13.437288"
+      "atualizado_em": "2026-08-03T17:45:09.514832"
     }
   ]
 }
