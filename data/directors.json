@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-18T20:09:49.719049",
+  "gerado_em": "2026-08-18T21:12:02.443896",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-08-18"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "comunicação",
@@ -310,7 +310,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "conferências",
@@ -371,7 +371,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "gente-&-gestão",
@@ -427,7 +427,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "impacto-social",
@@ -612,7 +612,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "presidência",
@@ -803,7 +803,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "rede-brasa",
@@ -1020,7 +1020,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "relações-corporativas",
@@ -1047,8 +1047,8 @@
           "data": "2026-08-05",
           "vencimento": "2026-09-04",
           "total": 2920.0,
-          "emAberto": 2920.0,
-          "status": "Pendente"
+          "emAberto": 0.0,
+          "status": "Pago"
         },
         {
           "id": "1708",
@@ -1508,9 +1508,9 @@
         }
       ],
       "receita_total": 439127.37,
-      "a_receber": 68912.56,
+      "a_receber": 65992.56,
       "parcerias_ativas": 27,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     },
     {
       "slug": "tecnologia",
@@ -1619,7 +1619,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-18T20:09:49.719049"
+      "atualizado_em": "2026-08-18T21:12:02.443896"
     }
   ]
 }
