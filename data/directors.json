@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-19T02:10:03.669891",
+  "gerado_em": "2026-08-19T03:36:23.059541",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-08-19"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "comunicação",
@@ -295,22 +295,13 @@
           "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
           "descricao": "PURCHASE   0622 FACEBK *P4XTVT5KD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX6094                     CKCD 7311 XXXXXXXXXX043053",
           "valor": 19.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *QMH4PR9B42",
-          "valor": 10.02
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "conferências",
@@ -371,7 +362,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "gente-&-gestão",
@@ -427,7 +418,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "impacto-social",
@@ -612,7 +603,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "presidência",
@@ -803,7 +794,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "rede-brasa",
@@ -1020,7 +1011,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "relações-corporativas",
@@ -1510,7 +1501,7 @@
       "receita_total": 439127.37,
       "a_receber": 65992.56,
       "parcerias_ativas": 27,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     },
     {
       "slug": "tecnologia",
@@ -1619,7 +1610,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-19T02:10:03.669891"
+      "atualizado_em": "2026-08-19T03:36:23.059541"
     }
   ]
 }
