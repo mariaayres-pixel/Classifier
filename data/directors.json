@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-23T17:10:31.881428",
+  "gerado_em": "2026-08-23T18:12:12.515319",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-08-23"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "arrecadação",
@@ -65,15 +65,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 1749.57,
-      "disponivel": 8105.43,
-      "percentual": 17.8,
+      "total_gasto": 1947.86,
+      "disponivel": 7907.14,
+      "percentual": 19.8,
       "categorias": [
         {
           "nome": "Despesas Administrativas – Taxas Administrativas",
@@ -87,7 +87,7 @@
         },
         {
           "nome": "Marketing e Comunicação – Sites",
-          "gasto": 621.29,
+          "gasto": 743.38,
           "orcamento": 510.0
         },
         {
@@ -97,7 +97,7 @@
         },
         {
           "nome": "Tecnologia e Software – Adobe etc.",
-          "gasto": 139.98,
+          "gasto": 216.18,
           "orcamento": 0.0
         },
         {
@@ -107,6 +107,33 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-08-16",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "FACEBK *34VNNYVB42",
+          "valor": 0.66
+        },
+        {
+          "data": "2026-07-22",
+          "tipo": "Expense",
+          "fornecedor": "LinkedIn",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "LinkedIn SN PXXXXXX6186",
+          "valor": 121.43
+        },
+        {
+          "data": "2026-07-21",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
         {
           "data": "2026-07-06",
           "tipo": "Expense",
@@ -277,31 +304,13 @@
           "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
           "descricao": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
           "valor": 3.92
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *M5VZSSMB42",
-          "valor": 0.06
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0622 FACEBK *P4XTVT5KD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX6094                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "conferências",
@@ -349,6 +358,51 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-08-18",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN",
+          "valor": 2500.0
+        },
+        {
+          "data": "2026-08-10",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "AMAZON PRIME*CR1M60T83",
+          "valor": 14.99
+        },
+        {
+          "data": "2026-08-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "Amazon Prime*1G6YW1J75",
+          "valor": 8.08
+        },
+        {
+          "data": "2026-07-10",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "AMAZON PRIME*0Q78A6BK3",
+          "valor": 14.99
+        },
+        {
+          "data": "2026-07-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "Amazon Prime*7G4QS7JA5",
+          "valor": 8.01
+        },
+        {
           "data": "2026-06-25",
           "tipo": "Expense",
           "fornecedor": "PG *CAMISA DIMONA E MA",
@@ -362,7 +416,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "gente-&-gestão",
@@ -418,7 +472,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "impacto-social",
@@ -525,85 +579,13 @@
           "categoria": "Viagens e Hospedagem – Hospedagem Board",
           "descricao": "AIRBNB * HMBZ5XEHSF AIRBNB.COM CA 06/24",
           "valor": 1510.22
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "BUS SERVICOS*CLIC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "BUS SERVICOS*CLIC",
-          "valor": 52.28
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 500.59
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 408.96
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 569.95
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 388.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 509.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 284.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 148.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "presidência",
@@ -716,93 +698,21 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
           "valor": 317.0
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "BUS SERVICOS*CLIC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "BUS SERVICOS*CLIC",
-          "valor": 52.28
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 500.59
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 408.96
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 569.95
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 388.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 509.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 284.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 148.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 1355.55,
-      "disponivel": 7427.42,
-      "percentual": 15.4,
+      "total_gasto": 1657.26,
+      "disponivel": 7125.71,
+      "percentual": 18.9,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
@@ -811,12 +721,12 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 98.17,
+          "gasto": 199.88,
           "orcamento": 0.0
         },
         {
           "nome": "Reconhecimento e Premiações – Prêmios",
-          "gasto": 383.24,
+          "gasto": 583.24,
           "orcamento": 2482.48
         },
         {
@@ -826,6 +736,33 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-08-10",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "AMAZON PRIME*CR1M60T83",
+          "valor": 14.99
+        },
+        {
+          "data": "2026-08-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "Amazon Prime*1G6YW1J75",
+          "valor": 8.08
+        },
+        {
+          "data": "2026-08-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*560VW4CP2",
+          "valor": 150.0
+        },
         {
           "data": "2026-07-14",
           "tipo": "Expense",
@@ -852,6 +789,24 @@
           "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
           "descricao": "Amazon.com*Y60VI3AI3",
           "valor": 50.0
+        },
+        {
+          "data": "2026-07-10",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "AMAZON PRIME*0Q78A6BK3",
+          "valor": 14.99
+        },
+        {
+          "data": "2026-07-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "Amazon Prime*7G4QS7JA5",
+          "valor": 8.01
         },
         {
           "data": "2026-06-30",
@@ -933,85 +888,13 @@
           "categoria": "Viagens e Hospedagem",
           "descricao": "KIWI.COM XXXXXXX4159 FL 06/23",
           "valor": 317.0
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "BUS SERVICOS*CLIC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "BUS SERVICOS*CLIC",
-          "valor": 52.28
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 500.59
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 408.96
-        },
-        {
-          "data": "2026-06-23",
-          "tipo": "Expense",
-          "fornecedor": "Kiwi.com",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "Kiwi.com",
-          "valor": 569.95
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 388.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 509.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/22",
-          "valor": 284.0
-        },
-        {
-          "data": "2026-06-22",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/22",
-          "valor": 148.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "relações-corporativas",
@@ -1501,19 +1384,24 @@
       "receita_total": 439127.37,
       "a_receber": 65992.56,
       "parcerias_ativas": 27,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 3689.61,
-      "disponivel": 33164.39,
-      "percentual": 10.0,
+      "total_gasto": 3821.69,
+      "disponivel": 33032.31,
+      "percentual": 10.4,
       "categorias": [
         {
+          "nome": "Reconhecimento e Premiações – Prêmios",
+          "gasto": 60.0,
+          "orcamento": 0.0
+        },
+        {
           "nome": "Tecnologia e Software – Adobe etc.",
-          "gasto": 539.33,
+          "gasto": 577.43,
           "orcamento": 0.0
         },
         {
@@ -1528,11 +1416,47 @@
         },
         {
           "nome": "Tecnologia e Software – Zoom / Twilio / Zapier",
-          "gasto": 237.93,
+          "gasto": 271.91,
           "orcamento": 4200.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-08-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*560VW4CP2",
+          "valor": 150.0
+        },
+        {
+          "data": "2026-07-21",
+          "tipo": "Expense",
+          "fornecedor": "Adobe",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
+          "descricao": "ADOBE *XXX-XXX-6687",
+          "valor": 38.1
+        },
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*MG1O81CM3",
+          "valor": 50.0
+        },
+        {
+          "data": "2026-07-14",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*Y60VI3AI3",
+          "valor": 50.0
+        },
         {
           "data": "2026-07-06",
           "tipo": "Expense",
@@ -1597,6 +1521,24 @@
           "valor": 264.03
         },
         {
+          "data": "2026-06-26",
+          "tipo": "Expense",
+          "fornecedor": "ZOOM.COM XXX-XXX-9666",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Zoom / Twilio / Zapier",
+          "descricao": "ZOOM.COM XXX-XXX-9666",
+          "valor": 16.99
+        },
+        {
+          "data": "2026-06-25",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
+          "descricao": "Amazon.com*XE2B86VB3",
+          "valor": 50.0
+        },
+        {
           "data": "2026-06-24",
           "tipo": "Expense",
           "fornecedor": "PURCHASE   0624 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX1247 RECURRING           CKCD 5734 XXXXXXXXXX043053",
@@ -1610,7 +1552,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-08-23T17:10:31.881428"
+      "atualizado_em": "2026-08-23T18:12:12.515319"
     }
   ]
 }
