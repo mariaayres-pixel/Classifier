@@ -1,15 +1,15 @@
 {
-  "as_of": "2026-09-05T16:24:32",
+  "as_of": "2026-09-06T16:35:39",
   "fx_rate": 5.1237,
   "summary": {
     "total_brl": 3250038.32,
     "total_usd": 634314.7,
-    "monthly_pct": 0.542,
-    "annual_pct": 8.5005,
+    "monthly_pct": 0.529,
+    "annual_pct": 8.4872,
     "cdi_annual_pct": 13.4247,
     "sp500_brl_annual_pct": 11.1081,
-    "vs_cdi_pp": -4.9242,
-    "vs_sp500_brl_pp": -2.6076
+    "vs_cdi_pp": -4.9375,
+    "vs_sp500_brl_pp": -2.6209
   },
   "allocation_by_type": {
     "BR Fund": 0.163374,
@@ -240,8 +240,8 @@
       "type": "US Fixed Income",
       "value_brl": 451680.59775,
       "value_usd": 88155.158429,
-      "monthly_pct": 0.001871,
-      "annual_pct": 0.027984,
+      "monthly_pct": 0.000935,
+      "annual_pct": 0.027024,
       "weight_pct": 0.138977
     },
     {
