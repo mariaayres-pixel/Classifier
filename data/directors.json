@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-07T05:23:09.193308",
+  "gerado_em": "2026-09-07T10:54:38.428172",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-09-07"
@@ -44,7 +44,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "arrecadação",
@@ -65,7 +65,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "comunicação",
@@ -310,7 +310,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "conferências",
@@ -416,7 +416,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "gente-&-gestão",
@@ -472,7 +472,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "impacto-social",
@@ -585,7 +585,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "presidência",
@@ -704,7 +704,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "rede-brasa",
@@ -894,7 +894,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "relações-corporativas",
@@ -1066,18 +1066,6 @@
           "vencimento": "2026-06-18",
           "total": 6100.0,
           "emAberto": 6100.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "1021",
-          "numero": "1041",
-          "parceiro": "Bain & Company",
-          "iniciativa": "BRASA Summit EU",
-          "descricao": "Pacote EU 2026 – Bronze + palestrante\nBenefícios incluídos:\n • 3 representantes no evento\n • Stand na Feira de Carreiras\n • Divulgação da empresa nas redes sociais\n • Exposição no backdrop e no aplicativo da Conferência\n • Garantia de palestrante",
-          "data": "2026-04-27",
-          "vencimento": "2026-05-27",
-          "total": 6500.0,
-          "emAberto": 6500.0,
           "status": "Atrasado"
         },
         {
@@ -1273,78 +1261,6 @@
           "status": "Pago"
         },
         {
-          "id": "740",
-          "numero": "1023",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-09-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "739",
-          "numero": "1022",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-08-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "738",
-          "numero": "1021",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-07-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "737",
-          "numero": "1020",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-06-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "736",
-          "numero": "1019",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-05-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
-          "id": "735",
-          "numero": "1018",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-04-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
           "id": "733",
           "numero": "1016",
           "parceiro": "Jumpstart",
@@ -1357,18 +1273,6 @@
           "status": "Pago"
         },
         {
-          "id": "734",
-          "numero": "1017",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-03-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Atrasado"
-        },
-        {
           "id": "732",
           "numero": "1015",
           "parceiro": "Jumpstart",
@@ -1379,48 +1283,12 @@
           "total": 958.0,
           "emAberto": 0.0,
           "status": "Pago"
-        },
-        {
-          "id": "742",
-          "numero": "1025",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-11-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Pendente"
-        },
-        {
-          "id": "741",
-          "numero": "1024",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-10-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Pendente"
-        },
-        {
-          "id": "743",
-          "numero": "1026",
-          "parceiro": "Jumpstart",
-          "iniciativa": "—",
-          "descricao": "",
-          "data": "2026-01-06",
-          "vencimento": "2026-12-05",
-          "total": 958.0,
-          "emAberto": 958.0,
-          "status": "Pendente"
         }
       ],
-      "receita_total": 456977.37,
-      "a_receber": 83842.56,
+      "receita_total": 440897.37,
+      "a_receber": 67762.56,
       "parcerias_ativas": 29,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     },
     {
       "slug": "tecnologia",
@@ -1588,7 +1456,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-07T05:23:09.193308"
+      "atualizado_em": "2026-09-07T10:54:38.428172"
     }
   ]
 }
