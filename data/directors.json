@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-15T06:53:08.252105",
+  "gerado_em": "2026-09-15T12:18:51.189338",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-09-15"
@@ -31,6 +31,42 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.34
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 12.04
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.29
+        },
+        {
           "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "PayPal",
@@ -49,20 +85,128 @@
           "valor": 15.0
         },
         {
-          "data": "2026-07-02",
-          "tipo": "Check",
-          "fornecedor": "PayPal",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "DOMESTIC INCOMING WIRE FEE",
-          "valor": 15.0
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 8.76
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.88
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.92
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.24
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.01
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.05
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 1.68
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.15
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.21
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.12
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "arrecadação",
@@ -78,20 +222,30 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-08-28",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0827 RAILWAY                                     RAILWAY.COM  CA XXXXX7762XXXXXXXXXX1037 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas",
+          "descricao": "PURCHASE   0827 RAILWAY                                     RAILWAY.COM  CA XXXXX7762XXXXXXXXXX1037 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 20.0
+        }
+      ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 1947.8,
-      "disponivel": 7907.2,
-      "percentual": 19.8,
+      "total_gasto": 2308.87,
+      "disponivel": 7546.13,
+      "percentual": 23.4,
       "categorias": [
         {
           "nome": "Despesas Administrativas – Taxas Administrativas",
@@ -100,12 +254,12 @@
         },
         {
           "nome": "Marketing e Comunicação – Anúncios",
-          "gasto": 126.25,
+          "gasto": 238.84,
           "orcamento": 830.0
         },
         {
           "nome": "Marketing e Comunicação – Sites",
-          "gasto": 743.38,
+          "gasto": 953.76,
           "orcamento": 510.0
         },
         {
@@ -115,7 +269,7 @@
         },
         {
           "nome": "Tecnologia e Software – Adobe etc.",
-          "gasto": 216.18,
+          "gasto": 254.28,
           "orcamento": 0.0
         },
         {
@@ -144,173 +298,83 @@
           "valor": 3.5
         },
         {
-          "data": "2026-08-16",
+          "data": "2026-09-09",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0909 FACEBK *UXPN65S3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX7229                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
+        {
+          "data": "2026-09-09",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 20.0
+        },
+        {
+          "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "Facebook",
           "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *34VNNYVB42",
-          "valor": 0.66
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "FACEBOOKAD* J4PRS2AKD4",
+          "valor": 2.37
         },
         {
-          "data": "2026-07-22",
+          "data": "2026-08-28",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 352.0
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0822 FACEBK *ETESZZMLL2                          SAO PAULO       XXXXX6662XXXXXXXXXX7064                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.4
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0822 FACEBK *ETESZZMLL2                          SAO PAULO       XXXXX6662XXXXXXXXXX7064                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 13.29
+        },
+        {
+          "data": "2026-08-22",
           "tipo": "Expense",
           "fornecedor": "LinkedIn",
           "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "LinkedIn SN PXXXXXX6186",
-          "valor": 121.43
+          "descricao": "LinkedIn SN PXXXXXX2401",
+          "valor": 124.43
         },
         {
-          "data": "2026-07-21",
+          "data": "2026-08-21",
           "tipo": "Expense",
           "fornecedor": "Adobe",
           "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
           "descricao": "ADOBE *XXX-XXX-6687",
           "valor": 38.1
-        },
-        {
-          "data": "2026-07-06",
-          "tipo": "Expense",
-          "fornecedor": "FRAMER.COM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "FRAMER.COM",
-          "valor": 145.61
-        },
-        {
-          "data": "2026-07-04",
-          "tipo": "Expense",
-          "fornecedor": "FRAMER.COM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "FRAMER.COM",
-          "valor": 147.53
-        },
-        {
-          "data": "2026-07-02",
-          "tipo": "Expense",
-          "fornecedor": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 23.26
-        },
-        {
-          "data": "2026-07-01",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0701 FACEBK *J27RCTRKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX2210                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0629 FACEBK *2TXNLU5KD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX9223                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 14.21
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *GFBKSS5B42",
-          "valor": 0.06
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0627 FACEBK *RKWQXTVKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX1066                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0628 FACEBK *22VCVUHKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX3220                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 7.8
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 264.03
-        },
-        {
-          "data": "2026-06-28",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *CEACGSRB42",
-          "valor": 4.26
-        },
-        {
-          "data": "2026-06-28",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *6R6P5TMB42",
-          "valor": 5.0
-        },
-        {
-          "data": "2026-06-26",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *VAQMSSHB42",
-          "valor": 5.0
-        },
-        {
-          "data": "2026-06-26",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "FACEBK *JV6N5TMB42",
-          "valor": 0.61
-        },
-        {
-          "data": "2026-06-26",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0625 FACEBK *L8YF3WMKD2                          XXX-XX34800  CA XXXXX3861XXXXXXXXXX6210                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 19.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "conferências",
@@ -358,6 +422,33 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-09-10",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "AMAZON PRIME*8A0QF1N83",
+          "valor": 14.99
+        },
+        {
+          "data": "2026-09-03",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
+          "descricao": "Amazon Prime*NV3IX2J34",
+          "valor": 8.14
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.21
+        },
+        {
           "data": "2026-08-18",
           "tipo": "Expense",
           "fornecedor": "Hilton",
@@ -365,62 +456,31 @@
           "categoria": "Custos de Evento e Espaço – Locação",
           "descricao": "HILTON INN AT PENN",
           "valor": 2500.0
-        },
-        {
-          "data": "2026-08-10",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*CR1M60T83",
-          "valor": 14.99
-        },
-        {
-          "data": "2026-08-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*1G6YW1J75",
-          "valor": 8.08
-        },
-        {
-          "data": "2026-07-10",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*0Q78A6BK3",
-          "valor": 14.99
-        },
-        {
-          "data": "2026-07-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*7G4QS7JA5",
-          "valor": 8.01
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 11824.6,
-      "disponivel": 35750.4,
-      "percentual": 24.9,
+      "total_gasto": 12117.54,
+      "disponivel": 35457.46,
+      "percentual": 25.5,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
           "gasto": 430.73,
           "orcamento": 2775.0
+        },
+        {
+          "nome": "Despesas Administrativas – Taxas Bancárias",
+          "gasto": 52.44,
+          "orcamento": 0.0
         },
         {
           "nome": "Treinamento e Desenvolvimento – Board",
@@ -444,7 +504,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 2020.81,
+          "gasto": 2261.31,
           "orcamento": 8600.0
         }
       ],
@@ -459,6 +519,51 @@
           "valor": 705.42
         },
         {
+          "data": "2026-09-10",
+          "tipo": "Expense",
+          "fornecedor": "American Airlines",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
+          "valor": 724.63
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.34
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 12.04
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.29
+        },
+        {
           "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "American Airlines",
@@ -466,25 +571,151 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
           "valor": 541.8
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 8.76
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.88
+        },
+        {
+          "data": "2026-08-25",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.92
+        },
+        {
+          "data": "2026-08-24",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.24
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.01
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.05
+        },
+        {
+          "data": "2026-08-21",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 1.68
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.15
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.21
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.21
+        },
+        {
+          "data": "2026-08-20",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 7.12
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 9312.19,
-      "disponivel": 93712.81,
-      "percentual": 9.0,
+      "total_gasto": 10251.48,
+      "disponivel": 92773.52,
+      "percentual": 10.0,
       "categorias": [
         {
           "nome": "Viagens e Hospedagem",
-          "gasto": 6978.97,
+          "gasto": 7918.26,
           "orcamento": 5340.0
         },
         {
@@ -509,6 +740,15 @@
           "valor": 21.16
         },
         {
+          "data": "2026-09-10",
+          "tipo": "Expense",
+          "fornecedor": "American Airlines",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
+          "valor": 724.63
+        },
+        {
           "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "American Airlines",
@@ -516,93 +756,21 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
           "valor": 541.8
-        },
-        {
-          "data": "2026-08-05",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "valor": 854.0
-        },
-        {
-          "data": "2026-07-16",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 07/16DL*UberRi",
-          "valor": 0.23
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "valor": 828.0
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
-          "valor": 484.4
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
-          "valor": 14.53
-        },
-        {
-          "data": "2026-06-28",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "valor": 317.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "valor": 117.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "valor": 466.25
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 11480.32,
+      "total_gasto": 11570.29,
       "disponivel": 0.0,
-      "percentual": 120.8,
+      "percentual": 121.7,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -631,7 +799,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 1286.48,
+          "gasto": 1376.45,
           "orcamento": 0.0
         }
       ],
@@ -655,6 +823,15 @@
           "valor": 705.42
         },
         {
+          "data": "2026-09-10",
+          "tipo": "Expense",
+          "fornecedor": "American Airlines",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
+          "valor": 724.63
+        },
+        {
           "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "American Airlines",
@@ -664,100 +841,37 @@
           "valor": 541.8
         },
         {
-          "data": "2026-08-05",
+          "data": "2026-08-20",
           "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "valor": 854.0
-        },
-        {
-          "data": "2026-07-16",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 07/16DL*UberRi",
-          "valor": 0.23
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "valor": 828.0
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
-          "valor": 484.4
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
-          "valor": 14.53
-        },
-        {
-          "data": "2026-06-28",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "valor": 317.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "valor": 117.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "valor": 466.25
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.21
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 1657.26,
-      "disponivel": 7125.71,
-      "percentual": 18.9,
+      "total_gasto": 1688.61,
+      "disponivel": 7094.36,
+      "percentual": 19.2,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 416.14,
+          "gasto": 424.36,
           "orcamento": 57.99
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 199.88,
+          "gasto": 223.01,
           "orcamento": 0.0
         },
         {
@@ -782,146 +896,29 @@
           "valor": 21.16
         },
         {
-          "data": "2026-08-10",
+          "data": "2026-09-10",
           "tipo": "Expense",
           "fornecedor": "Amazon",
           "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*CR1M60T83",
+          "descricao": "AMAZON PRIME*8A0QF1N83",
           "valor": 14.99
         },
         {
-          "data": "2026-08-05",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 08/05",
-          "valor": 854.0
-        },
-        {
-          "data": "2026-08-03",
+          "data": "2026-09-03",
           "tipo": "Expense",
           "fornecedor": "Amazon",
           "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*1G6YW1J75",
-          "valor": 8.08
-        },
-        {
-          "data": "2026-08-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*560VW4CP2",
-          "valor": 150.0
-        },
-        {
-          "data": "2026-07-16",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 07/16DL*UberRi",
-          "valor": 0.23
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 07/14",
-          "valor": 828.0
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*MG1O81CM3",
-          "valor": 50.0
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*Y60VI3AI3",
-          "valor": 50.0
-        },
-        {
-          "data": "2026-07-10",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*0Q78A6BK3",
-          "valor": 14.99
-        },
-        {
-          "data": "2026-07-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*7G4QS7JA5",
-          "valor": 8.01
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "LATAMN AIRLINE",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "LATAM AIR*0000 SAO PAULO 06/30 BR Real 2496.55 X 0.XXX0278 (EXCHG RTE)",
-          "valor": 484.4
-        },
-        {
-          "data": "2026-06-30",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 06/30LATAM AIR",
-          "valor": 14.53
-        },
-        {
-          "data": "2026-06-28",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/28",
-          "valor": 317.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXX-XXX4159 FL 06/27",
-          "valor": 117.0
-        },
-        {
-          "data": "2026-06-27",
-          "tipo": "Expense",
-          "fornecedor": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "KIWI.COM XXXXXXX4159 FL 06/27",
-          "valor": 466.25
+          "descricao": "Amazon Prime*NV3IX2J34",
+          "valor": 8.14
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "relações-corporativas",
@@ -972,8 +969,8 @@
           "data": "2026-08-25",
           "vencimento": "2026-10-24",
           "total": 8500.0,
-          "emAberto": 8500.0,
-          "status": "Pendente"
+          "emAberto": 0.0,
+          "status": "Pago"
         },
         {
           "id": "1713",
@@ -1289,17 +1286,17 @@
         }
       ],
       "receita_total": 438981.37,
-      "a_receber": 67762.56,
+      "a_receber": 59262.56,
       "parcerias_ativas": 28,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 3821.69,
-      "disponivel": 33032.31,
-      "percentual": 10.4,
+      "total_gasto": 4656.65,
+      "disponivel": 32197.35,
+      "percentual": 12.6,
       "categorias": [
         {
           "nome": "Reconhecimento e Premiações – Prêmios",
@@ -1313,12 +1310,12 @@
         },
         {
           "nome": "Tecnologia e Software – AWS",
-          "gasto": 481.5,
+          "gasto": 871.62,
           "orcamento": 24720.0
         },
         {
           "nome": "Tecnologia e Software – Outros",
-          "gasto": 2430.85,
+          "gasto": 2875.69,
           "orcamento": 7934.0
         },
         {
@@ -1329,119 +1326,56 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-08-03",
+          "data": "2026-09-09",
           "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*560VW4CP2",
-          "valor": 150.0
+          "fornecedor": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 20.0
         },
         {
-          "data": "2026-07-21",
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
+          "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX8713                     CKCD 4816 XXXXXXXXXX043053",
+          "valor": 184.62
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Amazon",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
+          "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX9140                     CKCD 4816 XXXXXXXXXX043053",
+          "valor": 5.23
+        },
+        {
+          "data": "2026-08-28",
+          "tipo": "Expense",
+          "fornecedor": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
+          "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
+          "valor": 352.0
+        },
+        {
+          "data": "2026-08-21",
           "tipo": "Expense",
           "fornecedor": "Adobe",
           "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
           "descricao": "ADOBE *XXX-XXX-6687",
           "valor": 38.1
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*MG1O81CM3",
-          "valor": 50.0
-        },
-        {
-          "data": "2026-07-14",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Reconhecimento e Premiações:Reconhecimento e Premiações – Prêmios",
-          "descricao": "Amazon.com*Y60VI3AI3",
-          "valor": 50.0
-        },
-        {
-          "data": "2026-07-06",
-          "tipo": "Expense",
-          "fornecedor": "FRAMER.COM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "FRAMER.COM",
-          "valor": 145.61
-        },
-        {
-          "data": "2026-07-04",
-          "tipo": "Expense",
-          "fornecedor": "FRAMER.COM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "FRAMER.COM",
-          "valor": 147.53
-        },
-        {
-          "data": "2026-07-02",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
-          "descricao": "PURCHASE   0702 Amazon web services                         aws.amazon.coWA XXXXX1661XXXXXXXXXX5492                     CKCD 4816 XXXXXXXXXX043053",
-          "valor": 180.15
-        },
-        {
-          "data": "2026-07-02",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
-          "descricao": "PURCHASE   0702 Amazon web services                         aws.amazon.coWA XXXXX1661XXXXXXXXXX6656                     CKCD 4816 XXXXXXXXXX043053",
-          "valor": 5.09
-        },
-        {
-          "data": "2026-07-02",
-          "tipo": "Expense",
-          "fornecedor": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "MOBILE PURCHASE 0701  MP *VINICIUS                          SO JOO DE MER   XXXXX2661XXXXXXXXXX3877                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 23.26
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "CHECKCARD  0628 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX2338 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 7.8
-        },
-        {
-          "data": "2026-06-29",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0627 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3461XXXXXXXXXX0211 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 264.03
-        },
-        {
-          "data": "2026-06-26",
-          "tipo": "Expense",
-          "fornecedor": "ZOOM.COM XXX-XXX-9666",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Zoom / Twilio / Zapier",
-          "descricao": "ZOOM.COM XXX-XXX-9666",
-          "valor": 16.99
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-15T06:53:08.252105"
+      "atualizado_em": "2026-09-15T12:18:51.189338"
     }
   ]
 }
