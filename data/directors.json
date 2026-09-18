@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-18T15:39:36.692851",
+  "gerado_em": "2026-09-18T18:42:27.763398",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-09-18"
@@ -206,7 +206,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "arrecadação",
@@ -237,7 +237,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "comunicação",
@@ -374,7 +374,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "conferências",
@@ -462,7 +462,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "gente-&-gestão",
@@ -703,7 +703,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "impacto-social",
@@ -762,7 +762,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "presidência",
@@ -854,7 +854,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "rede-brasa",
@@ -918,7 +918,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "relações-corporativas",
@@ -936,6 +936,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "1869",
+          "numero": "1051",
+          "parceiro": "Talenses",
+          "iniciativa": "—",
+          "descricao": "Pacote Silver",
+          "data": "2026-09-18",
+          "vencimento": "2026-10-18",
+          "total": 6000.0,
+          "emAberto": 6000.0,
+          "status": "Pendente"
+        },
         {
           "id": "1748",
           "numero": "Bain & Co",
@@ -1285,10 +1297,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 438981.37,
-      "a_receber": 59262.56,
-      "parcerias_ativas": 28,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "receita_total": 444981.37,
+      "a_receber": 65262.56,
+      "parcerias_ativas": 29,
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     },
     {
       "slug": "tecnologia",
@@ -1375,7 +1387,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-18T15:39:36.692851"
+      "atualizado_em": "2026-09-18T18:42:27.763398"
     }
   ]
 }
