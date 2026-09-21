@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-21T08:17:38.463374",
+  "gerado_em": "2026-09-21T15:25:12.874138",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-09-21"
@@ -30,6 +30,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.16
+        },
         {
           "data": "2026-09-02",
           "tipo": "Expense",
@@ -119,94 +128,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
           "valor": 0.36
-        },
-        {
-          "data": "2026-08-24",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.92
-        },
-        {
-          "data": "2026-08-24",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.24
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.01
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 0.26
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.05
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 1.68
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.15
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.21
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.12
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "arrecadação",
@@ -237,29 +165,39 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 2308.87,
-      "disponivel": 7546.13,
-      "percentual": 23.4,
+      "total_gasto": 12609.15,
+      "disponivel": 0.0,
+      "percentual": 127.9,
       "categorias": [
+        {
+          "nome": "Custos de Evento e Espaço – Locação",
+          "gasto": 10000.0,
+          "orcamento": 0.0
+        },
         {
           "nome": "Despesas Administrativas – Taxas Administrativas",
           "gasto": 3.0,
           "orcamento": 0.0
         },
         {
+          "nome": "Despesas Administrativas – Taxas Bancárias",
+          "gasto": 1.16,
+          "orcamento": 0.0
+        },
+        {
           "nome": "Marketing e Comunicação – Anúncios",
-          "gasto": 238.84,
+          "gasto": 427.43,
           "orcamento": 830.0
         },
         {
           "nome": "Marketing e Comunicação – Sites",
-          "gasto": 953.76,
+          "gasto": 1064.29,
           "orcamento": 510.0
         },
         {
@@ -279,6 +217,159 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 38.67
+        },
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.16
+        },
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0916 FACEBK *UX7UA7A3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX5216                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 9.78
+        },
+        {
+          "data": "2026-09-16",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0915 FACEBK *QBRNU5NLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2076                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 38.78
+        },
+        {
+          "data": "2026-09-16",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0915 FACEBK *QBRNU5NLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2076                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.16
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0915 FACEBK *8YP7G624G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2224                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0914 FACEBK *923FP5ALL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1213                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.17
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0914 FACEBK *923FP5ALL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1213                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 39.08
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN",
+          "valor": 10000.0
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN",
+          "valor": 10000.0
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0911 FACEBK *4LSPB6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2214                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 10.85
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0913 FACEBK *MCHPJ6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1084                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.01
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0912 FACEBK *29UHZ5WLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2229                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.69
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0913 FACEBK *MCHPJ6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1084                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 33.72
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0911 FACEBK *4LSPB6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2214                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.33
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0913 FACEBK *S3JRK5W3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2222                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
+          "descricao": "PURCHASE   0912 FACEBK *29UHZ5WLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2229                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 23.13
+        },
         {
           "data": "2026-09-09",
           "tipo": "Expense",
@@ -316,6 +407,42 @@
           "valor": 20.0
         },
         {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.34
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 12.04
+        },
+        {
+          "data": "2026-09-02",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.29
+        },
+        {
           "data": "2026-08-31",
           "tipo": "Expense",
           "fornecedor": "Facebook",
@@ -334,55 +461,55 @@
           "valor": 352.0
         },
         {
-          "data": "2026-08-24",
+          "data": "2026-08-25",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
+          "fornecedor": "Uber",
           "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0822 FACEBK *ETESZZMLL2                          SAO PAULO       XXXXX6662XXXXXXXXXX7064                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.4
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.26
         },
         {
-          "data": "2026-08-24",
+          "data": "2026-08-25",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
+          "fornecedor": "Uber",
           "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0822 FACEBK *ETESZZMLL2                          SAO PAULO       XXXXX6662XXXXXXXXXX7064                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 13.29
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 8.76
         },
         {
-          "data": "2026-08-22",
+          "data": "2026-08-25",
           "tipo": "Expense",
-          "fornecedor": "LinkedIn",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "LinkedIn SN PXXXXXX2401",
-          "valor": 124.43
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 11.88
         },
         {
-          "data": "2026-08-21",
+          "data": "2026-08-25",
           "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "ADOBE *XXX-XXX-6687",
-          "valor": 38.1
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 0.36
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 16700.49,
-      "disponivel": 109139.51,
-      "percentual": 13.3,
+      "total_gasto": 26700.49,
+      "disponivel": 99139.51,
+      "percentual": 21.2,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -391,7 +518,7 @@
         },
         {
           "nome": "Custos de Evento e Espaço – Locação",
-          "gasto": 6325.0,
+          "gasto": 16325.0,
           "orcamento": 21000.0
         },
         {
@@ -422,6 +549,24 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN",
+          "valor": 10000.0
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN",
+          "valor": 10000.0
+        },
+        {
           "data": "2026-09-10",
           "tipo": "Expense",
           "fornecedor": "Amazon",
@@ -438,38 +583,20 @@
           "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
           "descricao": "Amazon Prime*NV3IX2J34",
           "valor": 8.14
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.21
-        },
-        {
-          "data": "2026-08-18",
-          "tipo": "Expense",
-          "fornecedor": "Hilton",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "HILTON INN AT PENN",
-          "valor": 2500.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 12117.54,
-      "disponivel": 35457.46,
+      "total_gasto": 12152.57,
+      "disponivel": 35422.43,
       "percentual": 25.5,
       "categorias": [
         {
@@ -479,7 +606,7 @@
         },
         {
           "nome": "Despesas Administrativas – Taxas Bancárias",
-          "gasto": 52.44,
+          "gasto": 81.4,
           "orcamento": 0.0
         },
         {
@@ -504,11 +631,20 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 2261.31,
+          "gasto": 2267.38,
           "orcamento": 8600.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
+          "valor": 1.16
+        },
         {
           "data": "2026-09-10",
           "tipo": "Expense",
@@ -607,111 +743,21 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
           "valor": 0.36
-        },
-        {
-          "data": "2026-08-24",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.92
-        },
-        {
-          "data": "2026-08-24",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0821 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX2272                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.24
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.01
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX4670                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 0.26
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.05
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0820 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX9895                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 1.68
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.15
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.21
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.21
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0819 DL          *UberRides                      Sao Paulo       XXXXX4462XXXXXXXXXX5438                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 7.12
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 10251.48,
-      "disponivel": 92773.52,
-      "percentual": 10.0,
+      "total_gasto": 10439.48,
+      "disponivel": 92585.52,
+      "percentual": 10.1,
       "categorias": [
         {
           "nome": "Viagens e Hospedagem",
@@ -720,7 +766,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 823.0,
+          "gasto": 1011.0,
           "orcamento": 4200.0
         },
         {
@@ -762,7 +808,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "presidência",
@@ -839,22 +885,13 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
           "valor": 541.8
-        },
-        {
-          "data": "2026-08-20",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   0819 DL     *UBER*RIDES                          SAO PAULO       XXXXX7462XXXXXXXXXX5291                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.21
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "rede-brasa",
@@ -918,7 +955,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "relações-corporativas",
@@ -1300,16 +1337,21 @@
       "receita_total": 444981.37,
       "a_receber": 65262.56,
       "parcerias_ativas": 29,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 4656.65,
-      "disponivel": 32197.35,
-      "percentual": 12.6,
+      "total_gasto": 5029.1,
+      "disponivel": 31824.9,
+      "percentual": 13.6,
       "categorias": [
+        {
+          "nome": "Marketing e Comunicação – Sites",
+          "gasto": 40.49,
+          "orcamento": 0.0
+        },
         {
           "nome": "Reconhecimento e Premiações – Prêmios",
           "gasto": 60.0,
@@ -1322,12 +1364,12 @@
         },
         {
           "nome": "Tecnologia e Software – AWS",
-          "gasto": 871.62,
+          "gasto": 882.11,
           "orcamento": 24720.0
         },
         {
           "nome": "Tecnologia e Software – Outros",
-          "gasto": 2875.69,
+          "gasto": 3197.16,
           "orcamento": 7934.0
         },
         {
@@ -1337,6 +1379,42 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-09-17",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0916 FACEBK *UX7UA7A3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX5216                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 9.78
+        },
+        {
+          "data": "2026-09-15",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0915 FACEBK *8YP7G624G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2224                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
+        {
+          "data": "2026-09-14",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0913 FACEBK *S3JRK5W3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2222                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
+        {
+          "data": "2026-09-09",
+          "tipo": "Expense",
+          "fornecedor": "Facebook",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
+          "descricao": "PURCHASE   0909 FACEBK *UXPN65S3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX7229                     CKCD 7311 XXXXXXXXXX043053",
+          "valor": 37.0
+        },
         {
           "data": "2026-09-09",
           "tipo": "Expense",
@@ -1372,22 +1450,13 @@
           "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
           "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
           "valor": 352.0
-        },
-        {
-          "data": "2026-08-21",
-          "tipo": "Expense",
-          "fornecedor": "Adobe",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Adobe etc.",
-          "descricao": "ADOBE *XXX-XXX-6687",
-          "valor": 38.1
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-21T08:17:38.463374"
+      "atualizado_em": "2026-09-21T15:25:12.874138"
     }
   ]
 }
