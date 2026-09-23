@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-09-22T23:22:54.226756",
+  "gerado_em": "2026-09-23T02:10:04.141565",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-09-22"
+    "fim": "2026-09-23"
   },
   "diretores": [
     {
@@ -134,7 +134,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "arrecadação",
@@ -165,7 +165,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "comunicação",
@@ -501,7 +501,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "conferências",
@@ -589,7 +589,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "gente-&-gestão",
@@ -749,7 +749,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "impacto-social",
@@ -808,7 +808,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "presidência",
@@ -891,7 +891,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "rede-brasa",
@@ -955,7 +955,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "relações-corporativas",
@@ -973,6 +973,30 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "1933",
+          "numero": "1053",
+          "parceiro": "IGC Partners",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-09-23",
+          "vencimento": "2026-10-23",
+          "total": 8250.0,
+          "emAberto": 8250.0,
+          "status": "Pendente"
+        },
+        {
+          "id": "1932",
+          "numero": "1052",
+          "parceiro": "WGMI TECNOLOGIAS LTDA",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-09-23",
+          "vencimento": "2026-10-23",
+          "total": 17050.0,
+          "emAberto": 17050.0,
+          "status": "Pendente"
+        },
         {
           "id": "1869",
           "numero": "1051",
@@ -1334,10 +1358,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 444981.37,
-      "a_receber": 65262.56,
-      "parcerias_ativas": 29,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "receita_total": 470281.37,
+      "a_receber": 90562.56,
+      "parcerias_ativas": 31,
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     },
     {
       "slug": "tecnologia",
@@ -1456,7 +1480,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-22T23:22:54.226756"
+      "atualizado_em": "2026-09-23T02:10:04.141565"
     }
   ]
 }
