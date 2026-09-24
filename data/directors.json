@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T05:36:29.485095",
+  "gerado_em": "2026-09-24T10:39:42.113611",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-09-24"
@@ -101,40 +101,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
           "valor": 0.26
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 8.76
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.88
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "arrecadação",
@@ -165,7 +138,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "comunicação",
@@ -468,48 +441,21 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
           "valor": 0.26
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 8.76
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.88
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 26700.49,
-      "disponivel": 99139.51,
-      "percentual": 21.2,
+      "total_gasto": 32501.68,
+      "disponivel": 93338.32,
+      "percentual": 25.8,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -538,7 +484,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Items de Parcerias",
-          "gasto": 4116.63,
+          "gasto": 9917.82,
           "orcamento": 16700.0
         },
         {
@@ -548,6 +494,33 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 2184.28
+        },
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 2242.08
+        },
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 1374.83
+        },
         {
           "data": "2026-09-15",
           "tipo": "Expense",
@@ -589,7 +562,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "gente-&-gestão",
@@ -716,40 +689,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
           "valor": 0.26
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 8.76
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.88
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX7099                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "impacto-social",
@@ -808,7 +754,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "presidência",
@@ -891,7 +837,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "rede-brasa",
@@ -955,7 +901,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "relações-corporativas",
@@ -971,7 +917,35 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 2184.28
+        },
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 2242.08
+        },
+        {
+          "data": "2026-09-18",
+          "tipo": "Expense",
+          "fornecedor": "VistaPrint",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
+          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
+          "valor": 1374.83
+        }
+      ],
       "faturas": [
         {
           "id": "1933",
@@ -1361,7 +1335,7 @@
       "receita_total": 470281.37,
       "a_receber": 90562.56,
       "parcerias_ativas": 31,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     },
     {
       "slug": "tecnologia",
@@ -1480,7 +1454,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-24T05:36:29.485095"
+      "atualizado_em": "2026-09-24T10:39:42.113611"
     }
   ]
 }
