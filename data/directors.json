@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-09-29T22:48:16.543437",
+  "gerado_em": "2026-09-30T01:42:41.210686",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-09-29"
+    "fim": "2026-09-30"
   },
   "diretores": [
     {
@@ -92,22 +92,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
           "descricao": "DOMESTIC INCOMING WIRE FEE",
           "valor": 15.0
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.26
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "arrecadação",
@@ -138,7 +129,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "comunicação",
@@ -432,22 +423,13 @@
           "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
           "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
           "valor": 352.0
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.26
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "conferências",
@@ -562,7 +544,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "gente-&-gestão",
@@ -680,22 +662,13 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
           "valor": 541.8
-        },
-        {
-          "data": "2026-08-25",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0824 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX3212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.26
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "impacto-social",
@@ -754,7 +727,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "presidência",
@@ -837,7 +810,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "rede-brasa",
@@ -901,7 +874,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "relações-corporativas",
@@ -1359,7 +1332,7 @@
       "receita_total": 476781.37,
       "a_receber": 88462.56,
       "parcerias_ativas": 32,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     },
     {
       "slug": "tecnologia",
@@ -1478,7 +1451,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-09-29T22:48:16.543437"
+      "atualizado_em": "2026-09-30T01:42:41.210686"
     }
   ]
 }
