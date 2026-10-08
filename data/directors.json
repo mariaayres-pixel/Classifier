@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T17:02:43.924464",
+  "gerado_em": "2026-10-08T22:35:02.805784",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-08"
@@ -89,7 +89,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "arrecadação",
@@ -110,7 +110,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "comunicação",
@@ -428,7 +428,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "conferências",
@@ -552,7 +552,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "gente-&-gestão",
@@ -676,7 +676,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "impacto-social",
@@ -735,7 +735,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "presidência",
@@ -818,7 +818,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "rede-brasa",
@@ -882,7 +882,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "relações-corporativas",
@@ -928,6 +928,18 @@
         }
       ],
       "faturas": [
+        {
+          "id": "1947",
+          "numero": "1057",
+          "parceiro": "ONEVC",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-10-08",
+          "vencimento": "2026-11-07",
+          "total": 3600.0,
+          "emAberto": 3600.0,
+          "status": "Pendente"
+        },
         {
           "id": "1943",
           "numero": "1056",
@@ -1349,10 +1361,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 484281.37,
-      "a_receber": 95962.56,
-      "parcerias_ativas": 33,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "receita_total": 487881.37,
+      "a_receber": 99562.56,
+      "parcerias_ativas": 34,
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     },
     {
       "slug": "tecnologia",
@@ -1471,7 +1483,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T17:02:43.924464"
+      "atualizado_em": "2026-10-08T22:35:02.805784"
     }
   ]
 }
