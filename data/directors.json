@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T02:20:20.923348",
+  "gerado_em": "2026-10-08T09:38:08.912109",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-08"
@@ -89,7 +89,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "arrecadação",
@@ -105,22 +105,12 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-08-28",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0827 RAILWAY                                     RAILWAY.COM  CA XXXXX7762XXXXXXXXXX1037 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas",
-          "descricao": "PURCHASE   0827 RAILWAY                                     RAILWAY.COM  CA XXXXX7762XXXXXXXXXX1037 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 20.0
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "comunicação",
@@ -438,19 +428,19 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 32501.68,
-      "disponivel": 93338.32,
-      "percentual": 25.8,
+      "total_gasto": 37336.68,
+      "disponivel": 88503.32,
+      "percentual": 29.7,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
-          "gasto": 4240.13,
+          "gasto": 9075.13,
           "orcamento": 48750.0
         },
         {
@@ -485,6 +475,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-05",
+          "tipo": "Expense",
+          "fornecedor": "Fogo de Chão",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação",
+          "descricao": "FOGO DE CHAO",
+          "valor": 4835.0
+        },
         {
           "data": "2026-09-18",
           "tipo": "Expense",
@@ -553,7 +552,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "gente-&-gestão",
@@ -677,7 +676,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "impacto-social",
@@ -736,7 +735,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "presidência",
@@ -819,7 +818,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "rede-brasa",
@@ -883,7 +882,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "relações-corporativas",
@@ -1353,7 +1352,7 @@
       "receita_total": 484281.37,
       "a_receber": 95962.56,
       "parcerias_ativas": 33,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     },
     {
       "slug": "tecnologia",
@@ -1472,7 +1471,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-08T02:20:20.923348"
+      "atualizado_em": "2026-10-08T09:38:08.912109"
     }
   ]
 }
