@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T02:37:54.110815",
+  "gerado_em": "2026-10-09T09:44:32.372099",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-09"
@@ -89,7 +89,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "arrecadação",
@@ -110,15 +110,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 13686.78,
+      "total_gasto": 14475.63,
       "disponivel": 0.0,
-      "percentual": 138.9,
+      "percentual": 146.9,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Locação",
@@ -147,7 +147,7 @@
         },
         {
           "nome": "Marketing e Comunicação – Videomaker",
-          "gasto": 1927.63,
+          "gasto": 2716.48,
           "orcamento": 6340.0
         },
         {
@@ -162,6 +162,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-05",
+          "tipo": "Expense",
+          "fornecedor": "Booking.com (USA) Inc.,",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Videomaker",
+          "descricao": "BKG*BOOKING.COM FLIGHT",
+          "valor": 788.85
+        },
         {
           "data": "2026-09-23",
           "tipo": "Expense",
@@ -413,22 +422,13 @@
           "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
           "descricao": "FACEBOOKAD* J4PRS2AKD4",
           "valor": 2.37
-        },
-        {
-          "data": "2026-08-28",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 352.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "conferências",
@@ -552,7 +552,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "gente-&-gestão",
@@ -676,7 +676,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "impacto-social",
@@ -735,7 +735,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "presidência",
@@ -818,7 +818,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "rede-brasa",
@@ -882,7 +882,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "relações-corporativas",
@@ -1364,7 +1364,7 @@
       "receita_total": 487881.37,
       "a_receber": 99562.56,
       "parcerias_ativas": 34,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     },
     {
       "slug": "tecnologia",
@@ -1468,22 +1468,13 @@
           "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
           "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX9140                     CKCD 4816 XXXXXXXXXX043053",
           "valor": 5.23
-        },
-        {
-          "data": "2026-08-28",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0827 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX0593 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 352.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-09T02:37:54.110815"
+      "atualizado_em": "2026-10-09T09:44:32.372099"
     }
   ]
 }
