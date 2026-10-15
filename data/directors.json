@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-15T20:37:48.706797",
+  "gerado_em": "2026-10-15T23:22:28.137461",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-15"
@@ -65,31 +65,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
           "valor": 12.04
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.29
-        },
-        {
-          "data": "2026-08-31",
-          "tipo": "Expense",
-          "fornecedor": "PayPal",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias (2)",
-          "descricao": "DOMESTIC INCOMING WIRE FEE",
-          "valor": 15.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "arrecadação",
@@ -110,19 +92,19 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "comunicação",
       "nome": "Comunicação",
       "orcamento": 9855.0,
-      "total_gasto": 14475.63,
+      "total_gasto": 24475.63,
       "disponivel": 0.0,
-      "percentual": 146.9,
+      "percentual": 248.4,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Locação",
-          "gasto": 10000.0,
+          "gasto": 20000.0,
           "orcamento": 0.0
         },
         {
@@ -162,6 +144,24 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN PHILADELPHIA PA 10/09",
+          "valor": 5000.0
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN XXX-XXX0200 PA 10/09",
+          "valor": 5000.0
+        },
         {
           "data": "2026-10-05",
           "tipo": "Expense",
@@ -404,31 +404,13 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
           "valor": 12.04
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.29
-        },
-        {
-          "data": "2026-08-31",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "FACEBOOKAD* J4PRS2AKD4",
-          "valor": 2.37
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "conferências",
@@ -475,6 +457,51 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 29.93
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 25.99
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 66.98
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN PHILADELPHIA PA 10/09",
+          "valor": 5000.0
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "Hilton",
+          "conta": "BUS COMPLETE CHK (5669) - 2",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "HILTON INN AT PENN XXX-XXX0200 PA 10/09",
+          "valor": 5000.0
+        },
         {
           "data": "2026-10-05",
           "tipo": "Expense",
@@ -552,15 +579,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 12152.57,
-      "disponivel": 35422.43,
-      "percentual": 25.5,
+      "total_gasto": 12196.52,
+      "disponivel": 35378.48,
+      "percentual": 25.6,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -579,7 +606,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 2816.39,
+          "gasto": 2834.35,
           "orcamento": 11000.0
         },
         {
@@ -594,11 +621,47 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 2267.38,
+          "gasto": 2293.37,
           "orcamento": 8600.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 29.93
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 25.99
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 66.98
+        },
         {
           "data": "2026-09-17",
           "tipo": "Expense",
@@ -652,40 +715,32 @@
           "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
           "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
           "valor": 12.04
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 11.29
-        },
-        {
-          "data": "2026-08-31",
-          "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
-          "valor": 541.8
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 10439.48,
-      "disponivel": 92585.52,
-      "percentual": 10.1,
+      "total_gasto": 10709.48,
+      "disponivel": 92315.52,
+      "percentual": 10.4,
       "categorias": [
+        {
+          "nome": "Auxílios e Subsídios - Provas",
+          "gasto": 225.0,
+          "orcamento": 26765.0
+        },
+        {
+          "nome": "Auxílios e Subsídios - Taxas Universitárias",
+          "gasto": 45.0,
+          "orcamento": 16770.0
+        },
         {
           "nome": "Viagens e Hospedagem",
           "gasto": 7918.26,
@@ -704,6 +759,42 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-10-14",
+          "tipo": "Expense",
+          "fornecedor": "CHECKCARD  1014 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX8893                     CKCD 8299 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
+          "descricao": "CHECKCARD  1014 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX8893                     CKCD 8299 XXXXXXXXXX043053",
+          "valor": 159.0
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "ETS TOEFL Services",
+          "conta": "Enzo Pereira - PayPal - 3",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "Payment to ETS TOEFL Services",
+          "valor": 225.0
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "CHECKCARD  1013 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX4784                     CKCD 8299 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
+          "descricao": "CHECKCARD  1013 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX4784                     CKCD 8299 XXXXXXXXXX043053",
+          "valor": 45.0
+        },
+        {
           "data": "2026-09-10",
           "tipo": "Expense",
           "fornecedor": "Brasil Brazil",
@@ -720,30 +811,21 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
           "valor": 724.63
-        },
-        {
-          "data": "2026-08-31",
-          "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
-          "valor": 541.8
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 11570.29,
+      "total_gasto": 11667.2,
       "disponivel": 0.0,
-      "percentual": 121.7,
+      "percentual": 122.7,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -772,11 +854,47 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 1376.45,
+          "gasto": 1473.36,
           "orcamento": 0.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 17.96
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
+          "valor": 29.93
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 25.99
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "Uber",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
+          "valor": 66.98
+        },
         {
           "data": "2026-09-10",
           "tipo": "Expense",
@@ -803,22 +921,13 @@
           "categoria": "Viagens e Hospedagem – Board",
           "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
           "valor": 724.63
-        },
-        {
-          "data": "2026-08-31",
-          "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "AMERICAN AIRXXXXXXX4702 FORT WORTH TX 08/31",
-          "valor": 541.8
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "rede-brasa",
@@ -882,7 +991,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "relações-corporativas",
@@ -1400,7 +1509,7 @@
       "receita_total": 499211.37,
       "a_receber": 110892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     },
     {
       "slug": "tecnologia",
@@ -1495,22 +1604,13 @@
           "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
           "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX8713                     CKCD 4816 XXXXXXXXXX043053",
           "valor": 184.62
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
-          "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX9140                     CKCD 4816 XXXXXXXXXX043053",
-          "valor": 5.23
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-15T20:37:48.706797"
+      "atualizado_em": "2026-10-15T23:22:28.137461"
     }
   ]
 }
