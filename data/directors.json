@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-10-16T22:17:23.477968",
+  "gerado_em": "2026-10-17T00:52:42.313430",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-10-16"
+    "fim": "2026-10-17"
   },
   "diretores": [
     {
@@ -29,49 +29,12 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-09-17",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.16
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.34
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 12.04
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "arrecadação",
@@ -92,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "comunicação",
@@ -161,268 +124,25 @@
           "categoria": "Custos de Evento e Espaço – Locação",
           "descricao": "HILTON INN AT PENN XXX-XXX0200 PA 10/09",
           "valor": 5000.0
-        },
-        {
-          "data": "2026-10-05",
-          "tipo": "Expense",
-          "fornecedor": "Booking.com (USA) Inc.,",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Videomaker",
-          "descricao": "BKG*BOOKING.COM FLIGHT",
-          "valor": 788.85
-        },
-        {
-          "data": "2026-09-23",
-          "tipo": "Expense",
-          "fornecedor": "COPA AIRLINES WEB",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Videomaker",
-          "descricao": "COPA AIRLINES WEB",
-          "valor": 481.17
-        },
-        {
-          "data": "2026-09-23",
-          "tipo": "Expense",
-          "fornecedor": "Flighthub.coXXXXX2431",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Videomaker",
-          "descricao": "Flighthub.coXXXXX2431",
-          "valor": 596.46
-        },
-        {
-          "data": "2026-09-17",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 38.67
-        },
-        {
-          "data": "2026-09-17",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.16
-        },
-        {
-          "data": "2026-09-17",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0916 FACEBK *UX7UA7A3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX5216                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 9.78
-        },
-        {
-          "data": "2026-09-16",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0915 FACEBK *QBRNU5NLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2076                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 38.78
-        },
-        {
-          "data": "2026-09-16",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0915 FACEBK *QBRNU5NLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2076                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.16
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0915 FACEBK *8YP7G624G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2224                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0914 FACEBK *923FP5ALL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1213                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.17
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0914 FACEBK *923FP5ALL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1213                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 39.08
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Hilton",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "HILTON INN AT PENN",
-          "valor": 10000.0
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Hilton",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "HILTON INN AT PENN",
-          "valor": 10000.0
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0911 FACEBK *4LSPB6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2214                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 10.85
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0913 FACEBK *MCHPJ6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1084                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.01
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0912 FACEBK *29UHZ5WLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2229                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.69
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0913 FACEBK *MCHPJ6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX1084                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 33.72
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0911 FACEBK *4LSPB6SLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2214                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.33
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0913 FACEBK *S3JRK5W3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2222                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   0912 FACEBK *29UHZ5WLL4                          SAO PAULO       XXXXX6662XXXXXXXXXX2229                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 23.13
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "Massachusetts Secretary of the Commonwealth",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Administrativas",
-          "descricao": "SEC OF MA FILING FEE XXX-XXX9640 MA 09/09",
-          "valor": 15.0
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "Expedia",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Administrativas",
-          "descricao": "SEC OF MA EXPEDITED FE XXX-XXX9640 VA 09/09",
-          "valor": 3.5
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0909 FACEBK *UXPN65S3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX7229                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 20.0
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.34
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 12.04
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 37336.68,
-      "disponivel": 88503.32,
-      "percentual": 29.7,
+      "total_gasto": 43270.68,
+      "disponivel": 82569.32,
+      "percentual": 34.4,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
-          "gasto": 9075.13,
+          "gasto": 15009.13,
           "orcamento": 48750.0
         },
         {
@@ -458,6 +178,24 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-10-14",
+          "tipo": "Expense",
+          "fornecedor": "HART CATER* INVX6330",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação",
+          "descricao": "HART CATER* INVX6330",
+          "valor": 2427.0
+        },
+        {
+          "data": "2026-10-14",
+          "tipo": "Expense",
+          "fornecedor": "HART CATER* INV6909",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação",
+          "descricao": "HART CATER* INV6909",
+          "valor": 3507.0
+        },
+        {
           "data": "2026-10-13",
           "tipo": "Expense",
           "fornecedor": "Uber",
@@ -485,6 +223,285 @@
           "valor": 66.98
         },
         {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE TUE 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE TUE 8AM",
+          "valor": 17.94
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 9.05
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 10PM",
+          "valor": 14.91
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 17.3
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 19.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 4AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 4AM",
+          "valor": 43.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 12.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 8.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 9PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 9PM",
+          "valor": 8.96
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 22.23
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 8.91
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 14.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 7PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 7PM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 17.73
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SAT 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 14.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 14.94
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 15.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 9.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 17.43
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 12.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.6
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
           "data": "2026-10-09",
           "tipo": "Expense",
           "fornecedor": "Hilton",
@@ -503,95 +520,50 @@
           "valor": 5000.0
         },
         {
-          "data": "2026-10-05",
+          "data": "2026-10-09",
           "tipo": "Expense",
-          "fornecedor": "Fogo de Chão",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
           "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Alimentação",
-          "descricao": "FOGO DE CHAO",
-          "valor": 4835.0
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.99
         },
         {
-          "data": "2026-09-18",
+          "data": "2026-10-09",
           "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 2184.28
-        },
-        {
-          "data": "2026-09-18",
-          "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 2242.08
-        },
-        {
-          "data": "2026-09-18",
-          "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 1374.83
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Hilton",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
           "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "HILTON INN AT PENN",
-          "valor": 10000.0
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.94
         },
         {
-          "data": "2026-09-15",
+          "data": "2026-10-09",
           "tipo": "Expense",
-          "fornecedor": "Hilton",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
           "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "HILTON INN AT PENN",
-          "valor": 10000.0
-        },
-        {
-          "data": "2026-09-10",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*8A0QF1N83",
-          "valor": 14.99
-        },
-        {
-          "data": "2026-09-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*NV3IX2J34",
-          "valor": 8.14
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 12196.52,
-      "disponivel": 35378.48,
-      "percentual": 25.6,
+      "total_gasto": 13614.08,
+      "disponivel": 33960.92,
+      "percentual": 28.6,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
-          "gasto": 430.73,
+          "gasto": 670.13,
           "orcamento": 2775.0
         },
         {
@@ -621,7 +593,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 2293.37,
+          "gasto": 3471.53,
           "orcamento": 8600.0
         }
       ],
@@ -663,77 +635,356 @@
           "valor": 66.98
         },
         {
-          "data": "2026-09-17",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0916 FACEBK *XUF8772ML4                          SAO PAULO       XXXXX6662XXXXXXXXXX9225                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 1.16
+          "fornecedor": "LYFT *RIDE TUE 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE TUE 8AM",
+          "valor": 17.94
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "DL *BookingcomX0114 Uppsala 09/10 BR Real 3583.73 X 0.XXX8396 (EXCHG RTE)",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem – Hospedagem Palestrantes",
-          "descricao": "DL *BookingcomX0114 Uppsala 09/10 BR Real 3583.73 X 0.XXX8396 (EXCHG RTE)",
-          "valor": 705.42
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 9.05
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BRASA Checking (0511) - 1",
+          "fornecedor": "LYFT *RIDE SUN 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 10PM",
+          "valor": 14.91
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 17.3
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 19.99
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "FLIXBUS INC",
+          "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
-          "valor": 724.63
+          "descricao": "FLIXBUS INC",
+          "valor": 23.92
         },
         {
-          "data": "2026-09-02",
+          "data": "2026-10-11",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX9212                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.34
+          "fornecedor": "LYFT *RIDE MON 4AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 4AM",
+          "valor": 43.92
         },
         {
-          "data": "2026-09-02",
+          "data": "2026-10-11",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 0.36
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.99
         },
         {
-          "data": "2026-09-02",
+          "data": "2026-10-11",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
-          "descricao": "PURCHASE   0901 UBER * PENDING                              SAO PAULO       XXXXX7562XXXXXXXXXX1228                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 12.04
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 12.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 8.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 9PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 9PM",
+          "valor": 8.96
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 22.23
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 8.91
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 14.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 7PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 7PM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 17.73
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SAT 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 14.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 14.94
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 15.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 9.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 17.43
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 12.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.6
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação Board",
+          "descricao": "UBER *EATS",
+          "valor": 43.36
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação Board",
+          "descricao": "UBER *EATS",
+          "valor": 196.04
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.99
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.94
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 10709.48,
-      "disponivel": 92315.52,
-      "percentual": 10.4,
+      "total_gasto": 11218.44,
+      "disponivel": 91806.56,
+      "percentual": 10.9,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
-          "gasto": 225.0,
+          "gasto": 733.96,
           "orcamento": 26765.0
         },
         {
@@ -795,37 +1046,46 @@
           "valor": 45.0
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-13",
           "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 09/10DL *Booki",
-          "valor": 21.16
+          "fornecedor": "ETS GRE SERVICES",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "ETS GRE SERVICES",
+          "valor": 258.96
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BRASA Checking (0511) - 1",
+          "fornecedor": "FLIXBUS INC",
+          "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
-          "valor": 724.63
+          "descricao": "FLIXBUS INC",
+          "valor": 23.92
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "ETS TOEFL Services",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "ETS TOEFL SERVICES",
+          "valor": 250.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 11667.2,
+      "total_gasto": 11722.09,
       "disponivel": 0.0,
-      "percentual": 122.7,
+      "percentual": 123.3,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -844,7 +1104,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 1648.68,
+          "gasto": 1703.57,
           "orcamento": 7680.0
         },
         {
@@ -896,38 +1156,344 @@
           "valor": 66.98
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 09/10DL *Booki",
-          "valor": 21.16
+          "fornecedor": "LYFT *RIDE TUE 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE TUE 8AM",
+          "valor": 17.94
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "DL *BookingcomX0114 Uppsala 09/10 BR Real 3583.73 X 0.XXX8396 (EXCHG RTE)",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem – Hospedagem Palestrantes",
-          "descricao": "DL *BookingcomX0114 Uppsala 09/10 BR Real 3583.73 X 0.XXX8396 (EXCHG RTE)",
-          "valor": 705.42
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 9.05
         },
         {
-          "data": "2026-09-10",
+          "data": "2026-10-12",
           "tipo": "Expense",
-          "fornecedor": "American Airlines",
-          "conta": "BRASA Checking (0511) - 1",
+          "fornecedor": "LYFT *RIDE SUN 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 10PM",
+          "valor": 14.91
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 5PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 5PM",
+          "valor": 17.3
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *CANCEL FEE",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *CANCEL FEE",
+          "valor": 5.0
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 3PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 3PM",
+          "valor": 19.99
+        },
+        {
+          "data": "2026-10-12",
+          "tipo": "Expense",
+          "fornecedor": "FLIXBUS INC",
+          "conta": "E. DA CUNHA (5615) - 2",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   0909 AMERICAN AIRXXXXX758883                     FORT WORTH   TX XXXXX4562XXXXXXXXXX5748                     CKCD 3001 XXXXXXXXXX043053",
-          "valor": 724.63
+          "descricao": "FLIXBUS INC",
+          "valor": 23.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 4AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 4AM",
+          "valor": 43.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 1AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 1AM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 12.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 2AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 2AM",
+          "valor": 8.99
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 9PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 9PM",
+          "valor": 8.96
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 22.23
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 8.91
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8PM",
+          "valor": 14.92
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 7PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 7PM",
+          "valor": 8.98
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 17.73
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SAT 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SAT 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 9.94
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 14.95
+        },
+        {
+          "data": "2026-10-11",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE MON 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE MON 6AM",
+          "valor": 14.94
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 15.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 9.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 17.43
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 8AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 8AM",
+          "valor": 12.98
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6AM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6AM",
+          "valor": 9.91
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.6
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE SUN 6PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE SUN 6PM",
+          "valor": 12.94
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação Board",
+          "descricao": "UBER *EATS",
+          "valor": 43.36
+        },
+        {
+          "data": "2026-10-10",
+          "tipo": "Expense",
+          "fornecedor": "Uber Eats",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Custos de Evento e Espaço – Alimentação Board",
+          "descricao": "UBER *EATS",
+          "valor": 196.04
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.99
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 25.94
+        },
+        {
+          "data": "2026-10-09",
+          "tipo": "Expense",
+          "fornecedor": "LYFT *RIDE FRI 10PM",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "LYFT *RIDE FRI 10PM",
+          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "rede-brasa",
@@ -958,40 +1524,12 @@
           "orcamento": 600.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-09-10",
-          "tipo": "Expense",
-          "fornecedor": "Brasil Brazil",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Viagens e Hospedagem",
-          "descricao": "FOREIGN EXCHANGE RATE ADJUSTMENT FEE 09/10DL *Booki",
-          "valor": 21.16
-        },
-        {
-          "data": "2026-09-10",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "AMAZON PRIME*8A0QF1N83",
-          "valor": 14.99
-        },
-        {
-          "data": "2026-09-03",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "descricao": "Amazon Prime*NV3IX2J34",
-          "valor": 8.14
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "relações-corporativas",
@@ -1007,35 +1545,7 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-09-18",
-          "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 2184.28
-        },
-        {
-          "data": "2026-09-18",
-          "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 2242.08
-        },
-        {
-          "data": "2026-09-18",
-          "tipo": "Expense",
-          "fornecedor": "VistaPrint",
-          "conta": "BUS COMPLETE CHK (5669) - 2",
-          "categoria": "Materiais e Custos Operacionais – Items de Parcerias",
-          "descricao": "VISTAPRINT XXX-XXX-4955 MA 09/18",
-          "valor": 1374.83
-        }
-      ],
+      "lancamentos": [],
       "faturas": [
         {
           "id": "1953",
@@ -1509,7 +2019,7 @@
       "receita_total": 499211.37,
       "a_receber": 110892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     },
     {
       "slug": "tecnologia",
@@ -1550,67 +2060,12 @@
           "orcamento": 4200.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-09-17",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0916 FACEBK *UX7UA7A3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX5216                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 9.78
-        },
-        {
-          "data": "2026-09-15",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0915 FACEBK *8YP7G624G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2224                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-14",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0913 FACEBK *S3JRK5W3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX2222                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Sites",
-          "descricao": "PURCHASE   0909 FACEBK *UXPN65S3G4                          XXX-XX34800  CA XXXXX3862XXXXXXXXXX7229                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 37.0
-        },
-        {
-          "data": "2026-09-09",
-          "tipo": "Expense",
-          "fornecedor": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – Outros",
-          "descricao": "PURCHASE   0909 ANTHROPIC                                   ANTHROPIC.COMCA XXXXX3462XXXXXXXXXX1248 RECURRING           CKCD 5734 XXXXXXXXXX043053",
-          "valor": 20.0
-        },
-        {
-          "data": "2026-09-02",
-          "tipo": "Expense",
-          "fornecedor": "Amazon",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Tecnologia e Software:Tecnologia e Software – AWS",
-          "descricao": "PURCHASE   0902 Amazon web services                         aws.amazon.coWA XXXXX1662XXXXXXXXXX8713                     CKCD 4816 XXXXXXXXXX043053",
-          "valor": 184.62
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-16T22:17:23.477968"
+      "atualizado_em": "2026-10-17T00:52:42.313430"
     }
   ]
 }
