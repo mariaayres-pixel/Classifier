@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T18:55:49.979924",
+  "gerado_em": "2026-10-17T21:08:09.936890",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-17"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "comunicação",
@@ -130,15 +130,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 56694.15,
-      "disponivel": 69145.85,
-      "percentual": 45.1,
+      "total_gasto": 57644.65,
+      "disponivel": 68195.35,
+      "percentual": 45.8,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -167,7 +167,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 558.51,
+          "gasto": 1509.01,
           "orcamento": 210.0
         },
         {
@@ -556,7 +556,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "gente-&-gestão",
@@ -977,7 +977,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "impacto-social",
@@ -1082,7 +1082,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "presidência",
@@ -1498,7 +1498,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "rede-brasa",
@@ -1534,7 +1534,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "relações-corporativas",
@@ -2024,7 +2024,7 @@
       "receita_total": 499211.37,
       "a_receber": 110892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     },
     {
       "slug": "tecnologia",
@@ -2070,7 +2070,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T18:55:49.979924"
+      "atualizado_em": "2026-10-17T21:08:09.936890"
     }
   ]
 }
