@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T16:43:17.362631",
+  "gerado_em": "2026-10-17T18:55:49.979924",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-17"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "comunicação",
@@ -130,15 +130,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 53270.68,
-      "disponivel": 72569.32,
-      "percentual": 42.3,
+      "total_gasto": 56694.15,
+      "disponivel": 69145.85,
+      "percentual": 45.1,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -156,8 +156,13 @@
           "orcamento": 3100.0
         },
         {
+          "nome": "Materiais e Custos Operacionais – Banners e Backdrops",
+          "gasto": 141.46,
+          "orcamento": 2550.0
+        },
+        {
           "nome": "Materiais e Custos Operacionais – Crachás e Lanyards",
-          "gasto": 739.89,
+          "gasto": 1082.6,
           "orcamento": 3450.0
         },
         {
@@ -167,7 +172,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Items de Parcerias",
-          "gasto": 9917.82,
+          "gasto": 12857.12,
           "orcamento": 16700.0
         },
         {
@@ -551,7 +556,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "gente-&-gestão",
@@ -972,15 +977,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 11463.44,
-      "disponivel": 91561.56,
-      "percentual": 11.1,
+      "total_gasto": 11718.84,
+      "disponivel": 91306.16,
+      "percentual": 11.4,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
@@ -989,7 +994,7 @@
         },
         {
           "nome": "Auxílios e Subsídios - Taxas Universitárias",
-          "gasto": 45.0,
+          "gasto": 300.4,
           "orcamento": 16770.0
         },
         {
@@ -1077,7 +1082,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "presidência",
@@ -1493,7 +1498,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "rede-brasa",
@@ -1529,7 +1534,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "relações-corporativas",
@@ -2019,7 +2024,7 @@
       "receita_total": 499211.37,
       "a_receber": 110892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     },
     {
       "slug": "tecnologia",
@@ -2065,7 +2070,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T16:43:17.362631"
+      "atualizado_em": "2026-10-17T18:55:49.979924"
     }
   ]
 }
