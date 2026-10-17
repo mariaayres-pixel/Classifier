@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T21:08:09.936890",
+  "gerado_em": "2026-10-17T23:34:46.728247",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-17"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "comunicação",
@@ -108,6 +108,15 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
+          "valor": 1838.3
+        },
+        {
           "data": "2026-10-09",
           "tipo": "Expense",
           "fornecedor": "Hilton",
@@ -130,15 +139,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 57644.65,
-      "disponivel": 68195.35,
-      "percentual": 45.8,
+      "total_gasto": 60638.69,
+      "disponivel": 65201.31,
+      "percentual": 48.2,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -147,7 +156,7 @@
         },
         {
           "nome": "Custos de Evento e Espaço – Locação",
-          "gasto": 26325.0,
+          "gasto": 28163.3,
           "orcamento": 21000.0
         },
         {
@@ -174,6 +183,11 @@
           "nome": "Materiais e Custos Operacionais – Items de Parcerias",
           "gasto": 12857.12,
           "orcamento": 16700.0
+        },
+        {
+          "nome": "Viagens e Hospedagem – Palestrantes",
+          "gasto": 1155.74,
+          "orcamento": 27700.0
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
@@ -226,6 +240,15 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
           "valor": 66.98
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Custos de Evento e Espaço – Locação",
+          "descricao": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
+          "valor": 1838.3
         },
         {
           "data": "2026-10-12",
@@ -523,48 +546,21 @@
           "categoria": "Custos de Evento e Espaço – Locação",
           "descricao": "HILTON INN AT PENN XXX-XXX0200 PA 10/09",
           "valor": 5000.0
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.94
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 28367.58,
-      "disponivel": 19207.42,
-      "percentual": 59.6,
+      "total_gasto": 28503.98,
+      "disponivel": 19071.02,
+      "percentual": 59.9,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -588,7 +584,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Hospedagem Board",
-          "gasto": 16372.0,
+          "gasto": 16508.4,
           "orcamento": 22000.0
         },
         {
@@ -638,6 +634,24 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
           "valor": 66.98
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "AFTER",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AFTER",
+          "valor": 75.9
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "AFTER",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AFTER",
+          "valor": 60.5
         },
         {
           "data": "2026-10-12",
@@ -944,40 +958,13 @@
           "categoria": "Custos de Evento e Espaço – Alimentação Board",
           "descricao": "UBER *EATS",
           "valor": 196.04
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.94
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "impacto-social",
@@ -1060,6 +1047,24 @@
           "valor": 258.96
         },
         {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "AFTER",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AFTER",
+          "valor": 75.9
+        },
+        {
+          "data": "2026-10-13",
+          "tipo": "Expense",
+          "fornecedor": "AFTER",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Hospedagem Board",
+          "descricao": "AFTER",
+          "valor": 60.5
+        },
+        {
           "data": "2026-10-12",
           "tipo": "Expense",
           "fornecedor": "FLIXBUS INC",
@@ -1082,15 +1087,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "presidência",
       "nome": "Presidência",
       "orcamento": 9505.0,
-      "total_gasto": 11722.09,
+      "total_gasto": 11906.12,
       "disponivel": 0.0,
-      "percentual": 123.3,
+      "percentual": 125.3,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -1109,7 +1114,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 1703.57,
+          "gasto": 1887.6,
           "orcamento": 7680.0
         },
         {
@@ -1465,40 +1470,13 @@
           "categoria": "Custos de Evento e Espaço – Alimentação Board",
           "descricao": "UBER *EATS",
           "valor": 196.04
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.94
-        },
-        {
-          "data": "2026-10-09",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 23.91
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "rede-brasa",
@@ -1534,7 +1512,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "relações-corporativas",
@@ -1565,6 +1543,18 @@
           "status": "Pendente"
         },
         {
+          "id": "1950",
+          "numero": "1058",
+          "parceiro": "REFER",
+          "iniciativa": "—",
+          "descricao": "Pacote Bronze de Startups BRASA Summit Américas 2026.",
+          "data": "2026-10-14",
+          "vencimento": "2026-11-13",
+          "total": 3000.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
           "id": "1951",
           "numero": "1059",
           "parceiro": "BANCO PINE",
@@ -1574,18 +1564,6 @@
           "vencimento": "2026-11-13",
           "total": 4640.0,
           "emAberto": 4640.0,
-          "status": "Pendente"
-        },
-        {
-          "id": "1950",
-          "numero": "1058",
-          "parceiro": "REFER",
-          "iniciativa": "—",
-          "descricao": "Pacote Bronze de Startups BRASA Summit Américas 2026.",
-          "data": "2026-10-14",
-          "vencimento": "2026-11-13",
-          "total": 3000.0,
-          "emAberto": 3000.0,
           "status": "Pendente"
         },
         {
@@ -2022,9 +2000,9 @@
         }
       ],
       "receita_total": 499211.37,
-      "a_receber": 110892.56,
+      "a_receber": 107892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     },
     {
       "slug": "tecnologia",
@@ -2070,7 +2048,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T21:08:09.936890"
+      "atualizado_em": "2026-10-17T23:34:46.728247"
     }
   ]
 }
