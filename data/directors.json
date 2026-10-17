@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T05:09:18.051603",
+  "gerado_em": "2026-10-17T09:49:55.274701",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-17"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "comunicação",
@@ -130,15 +130,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 43270.68,
-      "disponivel": 82569.32,
-      "percentual": 34.4,
+      "total_gasto": 53270.68,
+      "disponivel": 72569.32,
+      "percentual": 42.3,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -147,7 +147,7 @@
         },
         {
           "nome": "Custos de Evento e Espaço – Locação",
-          "gasto": 16325.0,
+          "gasto": 26325.0,
           "orcamento": 21000.0
         },
         {
@@ -551,15 +551,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 13614.08,
-      "disponivel": 33960.92,
-      "percentual": 28.6,
+      "total_gasto": 28367.58,
+      "disponivel": 19207.42,
+      "percentual": 59.6,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -583,7 +583,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Hospedagem Board",
-          "gasto": 1618.5,
+          "gasto": 16372.0,
           "orcamento": 22000.0
         },
         {
@@ -972,19 +972,19 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 11218.44,
-      "disponivel": 91806.56,
-      "percentual": 10.9,
+      "total_gasto": 11463.44,
+      "disponivel": 91561.56,
+      "percentual": 11.1,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
-          "gasto": 733.96,
+          "gasto": 978.96,
           "orcamento": 26765.0
         },
         {
@@ -1077,7 +1077,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "presidência",
@@ -1493,7 +1493,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "rede-brasa",
@@ -1529,7 +1529,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "relações-corporativas",
@@ -2019,7 +2019,7 @@
       "receita_total": 499211.37,
       "a_receber": 110892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     },
     {
       "slug": "tecnologia",
@@ -2065,7 +2065,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-17T05:09:18.051603"
+      "atualizado_em": "2026-10-17T09:49:55.274701"
     }
   ]
 }
