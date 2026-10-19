@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T15:57:29.217112",
+  "gerado_em": "2026-10-19T20:50:03.719958",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-19"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "comunicação",
@@ -121,15 +121,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 64497.23,
-      "disponivel": 61342.77,
-      "percentual": 51.3,
+      "total_gasto": 65229.27,
+      "disponivel": 60610.73,
+      "percentual": 51.8,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
@@ -152,6 +152,11 @@
           "orcamento": 3100.0
         },
         {
+          "nome": "Materiais e Custos Operacionais – Auxílios Operacionais",
+          "gasto": 14.99,
+          "orcamento": 1390.0
+        },
+        {
           "nome": "Materiais e Custos Operacionais – Banners e Backdrops",
           "gasto": 891.46,
           "orcamento": 2550.0
@@ -172,17 +177,31 @@
           "orcamento": 16700.0
         },
         {
+          "nome": "Reconhecimento e Premiações",
+          "gasto": 595.1,
+          "orcamento": 0.0
+        },
+        {
           "nome": "Viagens e Hospedagem – Palestrantes",
-          "gasto": 1155.74,
+          "gasto": 1251.74,
           "orcamento": 27700.0
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 482.27,
+          "gasto": 508.22,
           "orcamento": 0.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-16",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
+          "valor": 375.63
+        },
         {
           "data": "2026-10-14",
           "tipo": "Expense",
@@ -515,22 +534,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE FRI 10PM",
           "valor": 25.6
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "gente-&-gestão",
@@ -927,34 +937,25 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE FRI 10PM",
           "valor": 25.6
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 11718.84,
-      "disponivel": 91306.16,
-      "percentual": 11.4,
+      "total_gasto": 12288.93,
+      "disponivel": 90736.07,
+      "percentual": 11.9,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
-          "gasto": 978.96,
+          "gasto": 1549.05,
           "orcamento": 26765.0
         },
         {
@@ -1083,7 +1084,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "presidência",
@@ -1448,34 +1449,25 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE FRI 10PM",
           "valor": 25.6
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 2293.41,
-      "disponivel": 6489.56,
-      "percentual": 26.1,
+      "total_gasto": 2669.04,
+      "disponivel": 6113.93,
+      "percentual": 30.4,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 424.36,
+          "gasto": 799.99,
           "orcamento": 57.99
         },
         {
@@ -1499,12 +1491,22 @@
           "orcamento": 600.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-10-16",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
+          "valor": 375.63
+        }
+      ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "relações-corporativas",
@@ -1994,7 +1996,7 @@
       "receita_total": 499211.37,
       "a_receber": 107892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     },
     {
       "slug": "tecnologia",
@@ -2040,7 +2042,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-19T15:57:29.217112"
+      "atualizado_em": "2026-10-19T20:50:03.719958"
     }
   ]
 }
