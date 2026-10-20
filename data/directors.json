@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-20T19:41:02.032247",
+  "gerado_em": "2026-10-20T22:45:24.832177",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-20"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "conferências",
@@ -540,7 +540,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "gente-&-gestão",
@@ -943,7 +943,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "impacto-social",
@@ -1084,7 +1084,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "presidência",
@@ -1455,7 +1455,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "rede-brasa",
@@ -1506,7 +1506,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "relações-corporativas",
@@ -1524,6 +1524,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2083",
+          "numero": "1061",
+          "parceiro": "iFood",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-10-20",
+          "vencimento": "2026-11-19",
+          "total": 2000.0,
+          "emAberto": 2000.0,
+          "status": "Pendente"
+        },
         {
           "id": "1953",
           "numero": "1060",
@@ -1993,10 +2005,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 499211.37,
-      "a_receber": 103892.56,
+      "receita_total": 501211.37,
+      "a_receber": 105892.56,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     },
     {
       "slug": "tecnologia",
@@ -2042,7 +2054,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-20T19:41:02.032247"
+      "atualizado_em": "2026-10-20T22:45:24.832177"
     }
   ]
 }
