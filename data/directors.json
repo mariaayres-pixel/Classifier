@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-22T18:54:50.080635",
+  "gerado_em": "2026-10-22T21:57:59.844603",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-22"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "conferências",
@@ -507,40 +507,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 6AM",
           "valor": 17.43
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8AM",
-          "valor": 12.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 9.91
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.6
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "gente-&-gestão",
@@ -910,52 +883,25 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 6AM",
           "valor": 17.43
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8AM",
-          "valor": 12.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 9.91
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.6
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 12639.93,
-      "disponivel": 90385.07,
-      "percentual": 12.3,
+      "total_gasto": 13082.43,
+      "disponivel": 89942.57,
+      "percentual": 12.7,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
-          "gasto": 1549.05,
+          "gasto": 1991.55,
           "orcamento": 26765.0
         },
         {
@@ -980,6 +926,33 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-19",
+          "tipo": "Expense",
+          "fornecedor": "College Board",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "COLLEGEBOARD*SAT ONLN.",
+          "valor": 111.0
+        },
+        {
+          "data": "2026-10-19",
+          "tipo": "Expense",
+          "fornecedor": "College Board",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "COLLEGEBOARD*SAT ONLN.",
+          "valor": 111.0
+        },
+        {
+          "data": "2026-10-18",
+          "tipo": "Expense",
+          "fornecedor": "ETS TOEFL Services",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "ETS TOEFL SERVICES",
+          "valor": 220.5
+        },
         {
           "data": "2026-10-14",
           "tipo": "Expense",
@@ -1084,7 +1057,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "presidência",
@@ -1422,40 +1395,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 6AM",
           "valor": 17.43
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8AM",
-          "valor": 12.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 9.91
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE FRI 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE FRI 10PM",
-          "valor": 25.6
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "rede-brasa",
@@ -1506,7 +1452,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "relações-corporativas",
@@ -1737,8 +1683,8 @@
           "data": "2026-07-03",
           "vencimento": "2026-08-02",
           "total": 6000.0,
-          "emAberto": 6000.0,
-          "status": "Atrasado"
+          "emAberto": 0.0,
+          "status": "Pago"
         },
         {
           "id": "1576",
@@ -1761,8 +1707,8 @@
           "data": "2026-06-26",
           "vencimento": "2026-07-26",
           "total": 17922.56,
-          "emAberto": 17922.56,
-          "status": "Atrasado"
+          "emAberto": 0.0,
+          "status": "Pago"
         },
         {
           "id": "1562",
@@ -2018,9 +1964,9 @@
         }
       ],
       "receita_total": 504211.37,
-      "a_receber": 108892.56,
+      "a_receber": 84970.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     },
     {
       "slug": "tecnologia",
@@ -2066,7 +2012,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-22T18:54:50.080635"
+      "atualizado_em": "2026-10-22T21:57:59.844603"
     }
   ]
 }
