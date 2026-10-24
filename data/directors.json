@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T14:58:36.519607",
+  "gerado_em": "2026-10-24T17:48:37.291060",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-24"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "comunicação",
@@ -121,24 +121,24 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 65229.27,
-      "disponivel": 60610.73,
-      "percentual": 51.8,
+      "total_gasto": 65915.84,
+      "disponivel": 59924.16,
+      "percentual": 52.4,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação",
-          "gasto": 15009.13,
+          "gasto": 15498.5,
           "orcamento": 48750.0
         },
         {
           "nome": "Custos de Evento e Espaço – Estrutura de Espaço",
-          "gasto": 3108.54,
+          "gasto": 3305.74,
           "orcamento": 780.0
         },
         {
@@ -504,19 +504,19 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 32796.59,
-      "disponivel": 14778.41,
-      "percentual": 68.9,
+      "total_gasto": 32807.85,
+      "disponivel": 14767.15,
+      "percentual": 69.0,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
-          "gasto": 670.13,
+          "gasto": 681.39,
           "orcamento": 2775.0
         },
         {
@@ -871,7 +871,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "impacto-social",
@@ -1048,7 +1048,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "presidência",
@@ -1383,15 +1383,15 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 2669.04,
-      "disponivel": 6113.93,
-      "percentual": 30.4,
+      "total_gasto": 2718.97,
+      "disponivel": 6064.0,
+      "percentual": 31.0,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
@@ -1400,7 +1400,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 223.01,
+          "gasto": 272.94,
           "orcamento": 0.0
         },
         {
@@ -1434,7 +1434,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "relações-corporativas",
@@ -1948,7 +1948,7 @@
       "receita_total": 504211.37,
       "a_receber": 84970.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     },
     {
       "slug": "tecnologia",
@@ -1994,7 +1994,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T14:58:36.519607"
+      "atualizado_em": "2026-10-24T17:48:37.291060"
     }
   ]
 }
