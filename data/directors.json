@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T19:55:02.224078",
+  "gerado_em": "2026-10-24T22:03:53.971734",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-24"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "conferências",
@@ -504,7 +504,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "gente-&-gestão",
@@ -871,7 +871,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "impacto-social",
@@ -1048,7 +1048,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "presidência",
@@ -1383,7 +1383,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "rede-brasa",
@@ -1434,7 +1434,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "relações-corporativas",
@@ -1948,7 +1948,7 @@
       "receita_total": 504211.37,
       "a_receber": 84970.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     },
     {
       "slug": "tecnologia",
@@ -1994,7 +1994,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T19:55:02.224078"
+      "atualizado_em": "2026-10-24T22:03:53.971734"
     }
   ]
 }
