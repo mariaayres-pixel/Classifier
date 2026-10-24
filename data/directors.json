@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T11:41:11.240383",
+  "gerado_em": "2026-10-24T14:58:36.519607",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-24"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "conferências",
@@ -498,22 +498,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 8AM",
           "valor": 9.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 17.43
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "gente-&-gestão",
@@ -874,34 +865,25 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 8AM",
           "valor": 9.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 17.43
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 13082.43,
-      "disponivel": 89942.57,
-      "percentual": 12.7,
+      "total_gasto": 13193.43,
+      "disponivel": 89831.57,
+      "percentual": 12.8,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
-          "gasto": 1991.55,
+          "gasto": 2102.55,
           "orcamento": 26765.0
         },
         {
@@ -926,6 +908,15 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-10-19",
+          "tipo": "Expense",
+          "fornecedor": "College Board",
+          "conta": "E. DA CUNHA (5615) - 2",
+          "categoria": "Auxílios e Subsídios - Provas",
+          "descricao": "COLLEGEBOARD*SAT ONLN.",
+          "valor": 111.0
+        },
         {
           "data": "2026-10-19",
           "tipo": "Expense",
@@ -1057,7 +1048,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "presidência",
@@ -1386,22 +1377,13 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "LYFT *RIDE SUN 8AM",
           "valor": 9.98
-        },
-        {
-          "data": "2026-10-10",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 17.43
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "rede-brasa",
@@ -1452,7 +1434,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "relações-corporativas",
@@ -1966,7 +1948,7 @@
       "receita_total": 504211.37,
       "a_receber": 84970.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     },
     {
       "slug": "tecnologia",
@@ -2012,7 +1994,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-24T11:41:11.240383"
+      "atualizado_em": "2026-10-24T14:58:36.519607"
     }
   ]
 }
