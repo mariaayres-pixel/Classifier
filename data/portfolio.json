@@ -1,266 +1,266 @@
 {
-  "as_of": "2026-10-25T17:19:21",
-  "fx_rate": 4.9652,
+  "as_of": "2026-10-26T19:39:57",
+  "fx_rate": 5.3936,
   "summary": {
-    "total_brl": 3186992.25,
-    "total_usd": 641865.84,
-    "monthly_pct": 1.0304,
-    "annual_pct": 8.0766,
-    "cdi_annual_pct": 13.8962,
-    "sp500_brl_annual_pct": 2.8227,
-    "vs_cdi_pp": -5.8196,
-    "vs_sp500_brl_pp": 5.254
+    "total_brl": 3349093.64,
+    "total_usd": 620938.45,
+    "monthly_pct": 1.0539,
+    "annual_pct": 7.9235,
+    "cdi_annual_pct": 13.9541,
+    "sp500_brl_annual_pct": 12.5508,
+    "vs_cdi_pp": -6.0306,
+    "vs_sp500_brl_pp": -4.6273
   },
   "allocation_by_type": {
-    "BR Fund": 0.172873,
-    "Fixed Income": 0.246521,
-    "US Fixed Income": 0.36574,
-    "US Money Market": 0.13317,
-    "US Equity": 0.081696
+    "BR Fund": 0.164506,
+    "Fixed Income": 0.234698,
+    "US Fixed Income": 0.378066,
+    "US Money Market": 0.137658,
+    "US Equity": 0.085072
   },
   "assets": [
     {
       "name": "BTG SP 500 BRL FIM",
       "type": "BR Fund",
       "value_brl": 231843.971243,
-      "value_usd": 46693.783473,
+      "value_usd": 42985.014054,
       "monthly_pct": 0.004608,
       "annual_pct": 0.224437,
-      "weight_pct": 0.072747
+      "weight_pct": 0.069226
     },
     {
       "name": "BTG Pactual Cred Corp I FIC FI RF CP LP",
       "type": "BR Fund",
       "value_brl": 103357.317998,
-      "value_usd": 20816.345584,
+      "value_usd": 19162.955771,
       "monthly_pct": 0.006746,
       "annual_pct": 0.138195,
-      "weight_pct": 0.032431
+      "weight_pct": 0.030861
     },
     {
       "name": "Legacy Debentures Incentivado Infra FIRF",
       "type": "BR Fund",
       "value_brl": 102952.660102,
-      "value_usd": 20734.846772,
+      "value_usd": 19087.930204,
       "monthly_pct": 0.043371,
       "annual_pct": 0.097582,
-      "weight_pct": 0.032304
+      "weight_pct": 0.03074
     },
     {
       "name": "Itau Janeiro Dist FICFIM RL",
       "type": "BR Fund",
       "value_brl": 56127.843796,
-      "value_usd": 11304.246433,
+      "value_usd": 10406.378658,
       "monthly_pct": 0.021536,
       "annual_pct": 0.101501,
-      "weight_pct": 0.017612
+      "weight_pct": 0.016759
     },
     {
       "name": "Ibiuna Long Biased FIC FIM",
       "type": "BR Fund",
       "value_brl": 56663.173869,
-      "value_usd": 11412.062851,
+      "value_usd": 10505.63149,
       "monthly_pct": 0.219337,
       "annual_pct": 0.18279,
-      "weight_pct": 0.01778
+      "weight_pct": 0.016919
     },
     {
       "name": "BTG CDB CDBC2434WQ7",
       "type": "Fixed Income",
-      "value_brl": 112316.54,
-      "value_usd": 22620.748649,
+      "value_brl": 112373.59,
+      "value_usd": 20834.617004,
       "monthly_pct": 0.010817,
-      "annual_pct": 0.283257,
-      "weight_pct": 0.035242
+      "annual_pct": 0.283909,
+      "weight_pct": 0.033553
     },
     {
       "name": "BTG CDB CDB425A5JXK",
       "type": "Fixed Income",
-      "value_brl": 144878.95,
-      "value_usd": 29178.875279,
+      "value_brl": 144952.54,
+      "value_usd": 26874.914778,
       "monthly_pct": 0.010817,
-      "annual_pct": 0.22698,
-      "weight_pct": 0.045459
+      "annual_pct": 0.227603,
+      "weight_pct": 0.043281
     },
     {
       "name": "BTG CDB CDBC259DK99",
       "type": "Fixed Income",
-      "value_brl": 33713.65,
-      "value_usd": 6789.988391,
+      "value_brl": 33731.33,
+      "value_usd": 6253.954702,
       "monthly_pct": 0.01117,
-      "annual_pct": 0.123788,
-      "weight_pct": 0.010579
+      "annual_pct": 0.124378,
+      "weight_pct": 0.010072
     },
     {
       "name": "BTG CDB CDBC25B6ZMI",
       "type": "Fixed Income",
-      "value_brl": 15090.54,
-      "value_usd": 3039.261291,
+      "value_brl": 15098.2,
+      "value_usd": 2799.280636,
       "monthly_pct": 0.010817,
-      "annual_pct": 0.117818,
-      "weight_pct": 0.004735
+      "annual_pct": 0.118385,
+      "weight_pct": 0.004508
     },
     {
       "name": "BTG CDB CDBC25E5G8U",
       "type": "Fixed Income",
-      "value_brl": 5019.1,
-      "value_usd": 1010.855565,
+      "value_brl": 5021.65,
+      "value_usd": 931.038641,
       "monthly_pct": 0.010817,
-      "annual_pct": 0.115356,
-      "weight_pct": 0.001575
+      "annual_pct": 0.115923,
+      "weight_pct": 0.001499
     },
     {
       "name": "BTG CDB CDB1262RPDL",
       "type": "Fixed Income",
-      "value_brl": 25578.64,
-      "value_usd": 5151.583072,
+      "value_brl": 25591.75,
+      "value_usd": 4744.836484,
       "monthly_pct": 0.010915,
-      "annual_pct": 0.112115,
-      "weight_pct": 0.008026
+      "annual_pct": 0.112685,
+      "weight_pct": 0.007641
     },
     {
       "name": "BTG CDB CDB2265HNQI",
       "type": "Fixed Income",
-      "value_brl": 42825.21,
-      "value_usd": 8625.072596,
+      "value_brl": 42847.18,
+      "value_usd": 7944.078186,
       "monthly_pct": 0.010925,
-      "annual_pct": 0.098082,
-      "weight_pct": 0.013438
+      "annual_pct": 0.098646,
+      "weight_pct": 0.012794
     },
     {
       "name": "BTG CDB CDB2269VVVQ",
       "type": "Fixed Income",
       "value_brl": 8568.96,
-      "value_usd": 1725.803611,
+      "value_usd": 1588.727384,
       "monthly_pct": 0.008433,
       "annual_pct": 0.07112,
-      "weight_pct": 0.002689
+      "weight_pct": 0.002559
     },
     {
       "name": "BTG CDB CDB326BBH2K",
       "type": "Fixed Income",
-      "value_brl": 542.12,
-      "value_usd": 109.183921,
+      "value_brl": 542.41,
+      "value_usd": 100.565485,
       "monthly_pct": 0.011252,
-      "annual_pct": 0.084247,
-      "weight_pct": 0.00017
+      "annual_pct": 0.08482,
+      "weight_pct": 0.000162
     },
     {
       "name": "BTG CDB CDB326EP9OW",
       "type": "Fixed Income",
       "value_brl": 16588.01,
-      "value_usd": 3340.854382,
+      "value_usd": 3075.498747,
       "monthly_pct": 0.010969,
       "annual_pct": 0.070194,
-      "weight_pct": 0.005205
+      "weight_pct": 0.004953
     },
     {
       "name": "Banco Pan CDB4261N1HO",
       "type": "Fixed Income",
-      "value_brl": 21555.6,
-      "value_usd": 4341.335742,
+      "value_brl": 21566.77,
+      "value_usd": 3998.58537,
       "monthly_pct": 0.011034,
-      "annual_pct": 0.07778,
-      "weight_pct": 0.006764
+      "annual_pct": 0.078339,
+      "weight_pct": 0.00644
     },
     {
       "name": "Banco Digimais CDB326BCB59",
       "type": "Fixed Income",
-      "value_brl": 55526.63,
-      "value_usd": 11183.160918,
+      "value_brl": 55558.54,
+      "value_usd": 10300.826931,
       "monthly_pct": 0.012139,
-      "annual_pct": 0.088757,
-      "weight_pct": 0.017423
+      "annual_pct": 0.089383,
+      "weight_pct": 0.016589
     },
     {
       "name": "Banco Digimais CDB4265BSN1",
       "type": "Fixed Income",
-      "value_brl": 16171.37,
-      "value_usd": 3256.942353,
+      "value_brl": 16180.32,
+      "value_usd": 2999.911013,
       "monthly_pct": 0.011678,
-      "annual_pct": 0.078092,
-      "weight_pct": 0.005074
+      "annual_pct": 0.078688,
+      "weight_pct": 0.004831
     },
     {
       "name": "BTG CDB CDB005L6CE3",
       "type": "Fixed Income",
-      "value_brl": 107183.26,
-      "value_usd": 21586.897031,
+      "value_brl": 107238.79,
+      "value_usd": 19882.599796,
       "monthly_pct": 0.011034,
-      "annual_pct": 0.071833,
-      "weight_pct": 0.033631
+      "annual_pct": 0.072388,
+      "weight_pct": 0.03202
     },
     {
       "name": "BTG CDB CDB005L6CFY",
       "type": "Fixed Income",
       "value_brl": 64210.12,
-      "value_usd": 12932.031072,
+      "value_usd": 11904.87247,
       "monthly_pct": 0.011034,
       "annual_pct": 0.070169,
-      "weight_pct": 0.020148
+      "weight_pct": 0.019172
     },
     {
       "name": "Banco Digimais CDB4269QPBJ",
       "type": "Fixed Income",
-      "value_brl": 107335.31,
-      "value_usd": 21617.520168,
+      "value_brl": 107394.23,
+      "value_usd": 19911.419137,
       "monthly_pct": 0.01159,
-      "annual_pct": 0.073353,
-      "weight_pct": 0.033679
+      "annual_pct": 0.073942,
+      "weight_pct": 0.032067
     },
     {
       "name": "PicPay Bank CDB426CWIV7",
       "type": "Fixed Income",
-      "value_brl": 8557.42,
-      "value_usd": 1723.479435,
+      "value_brl": 8562.07,
+      "value_usd": 1587.449944,
       "monthly_pct": 0.011473,
-      "annual_pct": 0.069678,
-      "weight_pct": 0.002685
+      "annual_pct": 0.070259,
+      "weight_pct": 0.002557
     },
     {
       "name": "PIMCO Low Duration Income Fund Cl A",
       "type": "US Fixed Income",
-      "value_brl": 169323.349613,
+      "value_brl": 183932.656481,
       "value_usd": 34102.020343,
       "monthly_pct": 0.004969,
-      "annual_pct": 0.01899,
-      "weight_pct": 0.05313
+      "annual_pct": 0.018989,
+      "weight_pct": 0.05492
     },
     {
       "name": "BlackRock High Yield Portfolio Cl A",
       "type": "US Fixed Income",
-      "value_brl": 568396.119085,
+      "value_brl": 617437.632528,
       "value_usd": 114475.977828,
       "monthly_pct": -0.007236,
       "annual_pct": 0.00709,
-      "weight_pct": 0.178349
+      "weight_pct": 0.18436
     },
     {
       "name": "PIMCO Income Fund Cl A",
       "type": "US Fixed Income",
-      "value_brl": 427890.247913,
+      "value_brl": 464808.84155,
       "value_usd": 86177.848314,
       "monthly_pct": 0.016521,
       "annual_pct": -0.000333,
-      "weight_pct": 0.134261
+      "weight_pct": 0.138786
     },
     {
       "name": "Money Market Fund (DGCS)",
       "type": "US Money Market",
-      "value_brl": 424411.339288,
+      "value_brl": 461029.770875,
       "value_usd": 85477.19,
       "monthly_pct": 0.00321,
       "annual_pct": 0.038525,
-      "weight_pct": 0.13317
+      "weight_pct": 0.137658
     },
     {
       "name": "SPDR S&P 500 ETF Trust",
       "type": "US Equity",
-      "value_brl": 260364.797238,
-      "value_usd": 52437.927979,
-      "monthly_pct": -0.003488,
-      "annual_pct": 0.126248,
-      "weight_pct": 0.081696
+      "value_brl": 284913.308329,
+      "value_usd": 52824.330505,
+      "monthly_pct": 0.003868,
+      "annual_pct": 0.134562,
+      "weight_pct": 0.085072
     }
   ]
 }
