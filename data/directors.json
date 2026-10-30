@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-30T16:19:48.951568",
+  "gerado_em": "2026-10-30T21:11:26.141210",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-30"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "conferências",
@@ -450,7 +450,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "gente-&-gestão",
@@ -790,7 +790,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "impacto-social",
@@ -1021,7 +1021,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "presidência",
@@ -1329,7 +1329,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "rede-brasa",
@@ -1380,7 +1380,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "relações-corporativas",
@@ -1639,18 +1639,6 @@
           "status": "Pago"
         },
         {
-          "id": "1562",
-          "numero": "1045",
-          "parceiro": "MEVO (deleted)",
-          "iniciativa": "—",
-          "descricao": "Parceria na conferência BRASA em CASA. O valor corresponde ao preço do catering fornecido pela Nutri Jr.",
-          "data": "2026-06-26",
-          "vencimento": "2026-07-26",
-          "total": 17922.56,
-          "emAberto": 0.0,
-          "status": "Pago"
-        },
-        {
           "id": "1560",
           "numero": "1043",
           "parceiro": "Base Exchange S.A.",
@@ -1891,10 +1879,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 504211.37,
+      "receita_total": 486288.81,
       "a_receber": 84970.0,
-      "parcerias_ativas": 38,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "parcerias_ativas": 37,
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     },
     {
       "slug": "tecnologia",
@@ -1940,7 +1928,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T16:19:48.951568"
+      "atualizado_em": "2026-10-30T21:11:26.141210"
     }
   ]
 }
