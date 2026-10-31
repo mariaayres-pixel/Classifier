@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-10-30T21:11:26.141210",
+  "gerado_em": "2026-10-31T01:09:36.163914",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-10-30"
+    "fim": "2026-10-31"
   },
   "diretores": [
     {
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "comunicação",
@@ -106,22 +106,12 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
-          "valor": 1838.3
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "conferências",
@@ -192,265 +182,12 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-16",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Materiais e Custos Operacionais",
-          "descricao": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
-          "valor": 375.63
-        },
-        {
-          "data": "2026-10-14",
-          "tipo": "Expense",
-          "fornecedor": "HART CATER* INVX6330",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Alimentação",
-          "descricao": "HART CATER* INVX6330",
-          "valor": 2427.0
-        },
-        {
-          "data": "2026-10-14",
-          "tipo": "Expense",
-          "fornecedor": "HART CATER* INV6909",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Custos de Evento e Espaço – Alimentação",
-          "descricao": "HART CATER* INV6909",
-          "valor": 3507.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 29.93
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 66.98
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Custos de Evento e Espaço – Locação",
-          "descricao": "MOBILE PURCHASE 1009  HILTON INN AT PENN                    PHILADELPHIA PA XXXXX4262XXXXXXXXXX1290                     CKCD 3504 XXXXXXXXXX043053",
-          "valor": 1838.3
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "CHECKCARD  1009 MINUTEMAN PRESS - PHILA                     XXX-XX91596  PA XXXXX7562XXXXXXXXXX6411                     CKCD 2741 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Materiais e Custos Operacionais – Banners e Backdrops",
-          "descricao": "CHECKCARD  1009 MINUTEMAN PRESS - PHILA                     XXX-XX91596  PA XXXXX7562XXXXXXXXXX6411                     CKCD 2741 XXXXXXXXXX043053",
-          "valor": 750.0
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE TUE 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE TUE 8AM",
-          "valor": 17.94
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 9.05
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10PM",
-          "valor": 14.91
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 5PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 5PM",
-          "valor": 17.3
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *CANCEL FEE",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *CANCEL FEE",
-          "valor": 5.0
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 3PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 3PM",
-          "valor": 19.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 4AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 4AM",
-          "valor": 43.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 6AM",
-          "valor": 12.95
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 9PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 9PM",
-          "valor": 8.96
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 22.23
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 8.91
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 14.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 7PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 7PM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 17.73
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "gente-&-gestão",
@@ -496,301 +233,12 @@
           "orcamento": 8600.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
-        },
-        {
-          "data": "2026-10-20",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "valor": 238.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 17.96
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 29.93
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 66.98
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 75.9
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 60.5
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3070                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 15.02
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 67.1
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE TUE 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE TUE 8AM",
-          "valor": 17.94
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 9.05
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10PM",
-          "valor": 14.91
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 5PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 5PM",
-          "valor": 17.3
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *CANCEL FEE",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *CANCEL FEE",
-          "valor": 5.0
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 3PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 3PM",
-          "valor": 19.99
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "FLIXBUS INC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "FLIXBUS INC",
-          "valor": 23.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 4AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 4AM",
-          "valor": 43.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 6AM",
-          "valor": 12.95
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 9PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 9PM",
-          "valor": 8.96
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 22.23
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 8.91
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 14.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 7PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 7PM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 17.73
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "impacto-social",
@@ -826,202 +274,12 @@
           "orcamento": 2400.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-27",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "CHECKCARD  1026 COLLEGEBOARD*SAT ONLN.                      XXX-XX37789  NY XXXXX4162XXXXXXXXXX6702                     CKCD 8299 XXXXXXXXXX043053",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-22",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "CHECKCARD  1021 COLLEGEBOARD*SAT ONLN.                      XXX-XX37789  NY XXXXX4162XXXXXXXXXX6542                     CKCD 8299 XXXXXXXXXX043053",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-20",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "valor": 238.0
-        },
-        {
-          "data": "2026-10-19",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-19",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-19",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-18",
-          "tipo": "Expense",
-          "fornecedor": "ETS TOEFL Services",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "ETS TOEFL SERVICES",
-          "valor": 220.5
-        },
-        {
-          "data": "2026-10-14",
-          "tipo": "Expense",
-          "fornecedor": "CHECKCARD  1014 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX8893                     CKCD 8299 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "CHECKCARD  1014 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX8893                     CKCD 8299 XXXXXXXXXX043053",
-          "valor": 159.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "ETS TOEFL Services",
-          "conta": "Enzo Pereira - PayPal - 3",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "Payment to ETS TOEFL Services",
-          "valor": 225.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 17.96
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "CHECKCARD  1013 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX4784                     CKCD 8299 XXXXXXXXXX043053",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "CHECKCARD  1013 LSA*LAW SCHOOL ADMSSN                       215-968-1001 PA XXXXX1662XXXXXXXXXX4784                     CKCD 8299 XXXXXXXXXX043053",
-          "valor": 45.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "ETS GRE SERVICES",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "ETS GRE SERVICES",
-          "valor": 258.96
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 75.9
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 60.5
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3070                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 15.02
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "AFTER",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Hospedagem Board",
-          "descricao": "AFTER",
-          "valor": 67.1
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "FLIXBUS INC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "FLIXBUS INC",
-          "valor": 23.92
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "ETS TOEFL Services",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "ETS TOEFL SERVICES",
-          "valor": 250.0
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "presidência",
@@ -1062,274 +320,12 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
-        },
-        {
-          "data": "2026-10-20",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             BEATRIZ BOGADO                                             for                                                         \"Reembolso auxilio BRASA Summit AM\";                        Conf# xrtjks9um",
-          "valor": 238.0
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3081                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 17.96
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1010 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3078                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 29.93
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "CHECKCARD  1011 Uber Trip                                   San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 25.99
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "PURCHASE   1012 UBER   * PENDI                              San FranciscoCA                                             CKCD 4121 XXXXXXXXXX043053",
-          "valor": 66.98
-        },
-        {
-          "data": "2026-10-13",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "PURCHASE   1012 UBER *TRIP HELP.UBER.CO                     XXX-XX28996  CA XXXXX2962XXXXXXXXXX3070                     CKCD 4121 XXXXXXXXXX043053",
-          "valor": 15.02
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE TUE 8AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE TUE 8AM",
-          "valor": 17.94
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 9.05
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 10PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 10PM",
-          "valor": 14.91
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 5PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 5PM",
-          "valor": 17.3
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *CANCEL FEE",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *CANCEL FEE",
-          "valor": 5.0
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 3PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 3PM",
-          "valor": 19.99
-        },
-        {
-          "data": "2026-10-12",
-          "tipo": "Expense",
-          "fornecedor": "FLIXBUS INC",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "FLIXBUS INC",
-          "valor": 23.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 4AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 4AM",
-          "valor": 43.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 1AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 1AM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 6AM",
-          "valor": 12.95
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE MON 2AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE MON 2AM",
-          "valor": 8.99
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 9PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 9PM",
-          "valor": 8.96
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6AM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6AM",
-          "valor": 22.23
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 8.91
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 8PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 8PM",
-          "valor": 14.92
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 7PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 7PM",
-          "valor": 8.98
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 17.73
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SAT 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SAT 6PM",
-          "valor": 12.94
-        },
-        {
-          "data": "2026-10-11",
-          "tipo": "Expense",
-          "fornecedor": "LYFT *RIDE SUN 6PM",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "LYFT *RIDE SUN 6PM",
-          "valor": 12.94
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "rede-brasa",
@@ -1365,22 +361,12 @@
           "orcamento": 600.0
         }
       ],
-      "lancamentos": [
-        {
-          "data": "2026-10-16",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Materiais e Custos Operacionais",
-          "descricao": "Zelle payment to                                            Sara Teoro de Morais                                        for                                                         \"Reembolso BRASA (Doces + impressao de flyers AM\";          Conf# y3qb71sa3",
-          "valor": 375.63
-        }
-      ],
+      "lancamentos": [],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "relações-corporativas",
@@ -1480,7 +466,7 @@
           "vencimento": "2026-10-30",
           "total": 7500.0,
           "emAberto": 7500.0,
-          "status": "Pendente"
+          "status": "Atrasado"
         },
         {
           "id": "1939",
@@ -1882,7 +868,7 @@
       "receita_total": 486288.81,
       "a_receber": 84970.0,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     },
     {
       "slug": "tecnologia",
@@ -1928,7 +914,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-30T21:11:26.141210"
+      "atualizado_em": "2026-10-31T01:09:36.163914"
     }
   ]
 }
