@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-31T07:38:57.806539",
+  "gerado_em": "2026-10-31T13:57:58.217186",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-10-31"
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "comunicação",
@@ -111,7 +111,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "conferências",
@@ -187,7 +187,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "gente-&-gestão",
@@ -238,7 +238,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "impacto-social",
@@ -279,7 +279,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "presidência",
@@ -325,7 +325,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "rede-brasa",
@@ -366,7 +366,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "relações-corporativas",
@@ -384,6 +384,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2107",
+          "numero": "1063",
+          "parceiro": "GALAPAGOS CAPITAL INVES P",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-10-31",
+          "vencimento": "2026-11-30",
+          "total": 7500.0,
+          "emAberto": 7500.0,
+          "status": "Pendente"
+        },
         {
           "id": "2084",
           "numero": "1062",
@@ -865,10 +877,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 486288.81,
-      "a_receber": 84970.0,
+      "receita_total": 493788.81,
+      "a_receber": 92470.0,
       "parcerias_ativas": 37,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     },
     {
       "slug": "tecnologia",
@@ -914,7 +926,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-10-31T07:38:57.806539"
+      "atualizado_em": "2026-10-31T13:57:58.217186"
     }
   ]
 }
