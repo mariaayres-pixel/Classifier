@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-11-09T17:54:35.254633",
+  "gerado_em": "2026-11-10T00:56:02.447418",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-11-09"
+    "fim": "2026-11-10"
   },
   "diretores": [
     {
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "arrecadação",
@@ -55,7 +55,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "comunicação",
@@ -121,7 +121,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "conferências",
@@ -423,7 +423,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "gente-&-gestão",
@@ -763,7 +763,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "impacto-social",
@@ -1021,7 +1021,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "presidência",
@@ -1329,7 +1329,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "rede-brasa",
@@ -1380,7 +1380,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "relações-corporativas",
@@ -1398,6 +1398,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2116",
+          "numero": "1065",
+          "parceiro": "BCG",
+          "iniciativa": "—",
+          "descricao": "Pacote Bronze BRASA em Casa e Pacote Bronze BRASA Summit Europa",
+          "data": "2026-11-09",
+          "vencimento": "2026-12-09",
+          "total": 7890.0,
+          "emAberto": 7890.0,
+          "status": "Pendente"
+        },
         {
           "id": "2111",
           "numero": "1064",
@@ -1867,10 +1879,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 458488.81,
-      "a_receber": 76720.0,
-      "parcerias_ativas": 37,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "receita_total": 466378.81,
+      "a_receber": 84610.0,
+      "parcerias_ativas": 38,
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     },
     {
       "slug": "tecnologia",
@@ -1916,7 +1928,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-09T17:54:35.254633"
+      "atualizado_em": "2026-11-10T00:56:02.447418"
     }
   ]
 }
