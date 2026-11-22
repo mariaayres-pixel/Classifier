@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T08:57:34.719669",
+  "gerado_em": "2026-11-22T16:50:01.008900",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-11-22"
@@ -9,18 +9,18 @@
       "slug": "administrativo",
       "nome": "Administrativo",
       "orcamento": 18460.73,
-      "total_gasto": 3376.83,
-      "disponivel": 15083.9,
-      "percentual": 18.3,
+      "total_gasto": 3478.91,
+      "disponivel": 14981.82,
+      "percentual": 18.8,
       "categorias": [
         {
           "nome": "Despesas Administrativas – Contabilidade",
-          "gasto": 3051.83,
+          "gasto": 3061.83,
           "orcamento": 6245.28
         },
         {
           "nome": "Despesas Administrativas – Taxas Bancárias",
-          "gasto": 25.0,
+          "gasto": 117.08,
           "orcamento": 0.0
         },
         {
@@ -29,12 +29,166 @@
           "orcamento": 0.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-11-21",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5437",
+          "valor": 0.06
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1155",
+          "valor": 0.51
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX7054",
+          "valor": 7.28
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0939",
+          "valor": 7.28
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0299",
+          "valor": 0.85
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0203",
+          "valor": 0.18
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4260",
+          "valor": 1.88
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3501",
+          "valor": 0.27
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4763",
+          "valor": 1.7
+        },
+        {
+          "data": "2026-11-15",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5914",
+          "valor": 0.21
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX2678",
+          "valor": 0.1
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8085",
+          "valor": 1.91
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8693",
+          "valor": 1.11
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0212",
+          "valor": 1.92
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1792",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8650",
+          "valor": 1.13
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3294",
+          "valor": 1.7
+        }
+      ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "arrecadação",
@@ -59,22 +213,13 @@
           "categoria": "Despesas Administrativas",
           "descricao": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 11-12                    ELECTRONIC TRANSACTION                                      POSTING DATE 11-12-26  POSTING SEQ 00001",
           "valor": 10.0
-        },
-        {
-          "data": "2026-11-10",
-          "tipo": "Expense",
-          "fornecedor": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 11-09                    ELECTRONIC TRANSACTION                                      POSTING DATE 11-09-26  POSTING SEQ 00001",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Despesas Administrativas",
-          "descricao": "OVERDRAFT ITEM FEE FOR ACTIVITY OF 11-09                    ELECTRONIC TRANSACTION                                      POSTING DATE 11-09-26  POSTING SEQ 00001",
-          "valor": 10.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "comunicação",
@@ -127,77 +272,181 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-11-04",
+          "data": "2026-11-21",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1103 FACEBK *96CFLE6LL4                          SAO PAULO       XXXXX6663XXXXXXXXXX3068                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 93.8
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5437",
+          "valor": 0.06
         },
         {
-          "data": "2026-11-04",
+          "data": "2026-11-20",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1103 FACEBK *96CFLE6LL4                          SAO PAULO       XXXXX6663XXXXXXXXXX3068                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 2.81
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1155",
+          "valor": 0.51
         },
         {
-          "data": "2026-11-03",
+          "data": "2026-11-17",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1102 FACEBK *X5XMND2ML4                          SAO PAULO       XXXXX6663XXXXXXXXXX4087                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 2.84
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX7054",
+          "valor": 7.28
         },
         {
-          "data": "2026-11-03",
+          "data": "2026-11-17",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1102 FACEBK *X5XMND2ML4                          SAO PAULO       XXXXX6663XXXXXXXXXX4087                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 94.81
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0939",
+          "valor": 7.28
         },
         {
-          "data": "2026-11-02",
+          "data": "2026-11-17",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1101 FACEBK *29EGJD2ML4                          SAO PAULO       XXXXX6663XXXXXXXXXX9213                     CKCD 7311 XXXXXXXXXX043053",
-          "valor": 94.86
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0299",
+          "valor": 0.85
         },
         {
-          "data": "2026-11-02",
+          "data": "2026-11-17",
           "tipo": "Expense",
-          "fornecedor": "Facebook",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Marketing e Comunicação:Marketing e Comunicação – Anúncios",
-          "descricao": "PURCHASE   1030 FACEBK *UW4Y2CNLL4                          SAO PAULO       XXXXX6663XXXXXXXXXX6223                     CKCD 7311 XXXXXXXXXX043053                                  INTERNATIONAL TRANSACTION FEE",
-          "valor": 2.81
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0203",
+          "valor": 0.18
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4260",
+          "valor": 1.88
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3501",
+          "valor": 0.27
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4763",
+          "valor": 1.7
+        },
+        {
+          "data": "2026-11-15",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5914",
+          "valor": 0.21
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX2678",
+          "valor": 0.1
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8085",
+          "valor": 1.91
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8693",
+          "valor": 1.11
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0212",
+          "valor": 1.92
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1792",
+          "valor": 0.26
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8650",
+          "valor": 1.13
+        },
+        {
+          "data": "2026-11-13",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3294",
+          "valor": 1.7
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "conferências",
       "nome": "Conferências",
       "orcamento": 125840.0,
-      "total_gasto": 65915.84,
-      "disponivel": 59924.16,
-      "percentual": 52.4,
+      "total_gasto": 66381.82,
+      "disponivel": 59458.18,
+      "percentual": 52.8,
       "categorias": [
         {
+          "nome": "Custos de Evento e Espaço",
+          "gasto": 20.28,
+          "orcamento": 210.0
+        },
+        {
           "nome": "Custos de Evento e Espaço – Alimentação",
-          "gasto": 15498.5,
+          "gasto": 15630.48,
           "orcamento": 48750.0
         },
         {
@@ -222,7 +471,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Banners e Backdrops",
-          "gasto": 891.46,
+          "gasto": 971.74,
           "orcamento": 2550.0
         },
         {
@@ -232,7 +481,7 @@
         },
         {
           "nome": "Materiais e Custos Operacionais – Impressão e Papelaria",
-          "gasto": 1509.01,
+          "gasto": 1742.45,
           "orcamento": 210.0
         },
         {
@@ -257,6 +506,78 @@
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-11-21",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "valor": 19.63
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "valor": 116.85
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "valor": 32.99
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "valor": 60.35
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# y8j60n8op",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# y8j60n8op",
+          "valor": 132.65
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# yk2p3zq9t",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# yk2p3zq9t",
+          "valor": 49.96
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "valor": 93.34
+        },
+        {
+          "data": "2026-11-15",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Stephanie Coelho Passos (fee: 0.21 USD) 0.21",
+          "conta": "WISE USD 5392",
+          "categoria": "Reconhecimento e Premiações",
+          "descricao": "Sent money to Stephanie Coelho Passos (fee: 0.21 USD) 0.21",
+          "valor": 71.97
+        },
         {
           "data": "2026-11-14",
           "tipo": "Expense",
@@ -328,93 +649,21 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "BOLT.EU/B/XXXXXX1626",
           "valor": 18.77
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1338",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1338",
-          "valor": 25.16
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1135",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1135",
-          "valor": 22.1
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1142",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1142",
-          "valor": 32.2
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1157",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1157",
-          "valor": 19.88
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1143",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1143",
-          "valor": 30.81
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1130",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1130",
-          "valor": 16.54
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBR* PENDING.UBER.COM",
-          "valor": 56.62
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1209",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1209",
-          "valor": 27.65
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "gente-&-gestão",
       "nome": "Gente & Gestão",
       "orcamento": 47575.0,
-      "total_gasto": 37782.6,
-      "disponivel": 9792.4,
-      "percentual": 79.4,
+      "total_gasto": 40410.63,
+      "disponivel": 7164.37,
+      "percentual": 84.9,
       "categorias": [
         {
           "nome": "Custos de Evento e Espaço – Alimentação Board",
@@ -433,7 +682,7 @@
         },
         {
           "nome": "Viagens e Hospedagem – Board",
-          "gasto": 7226.73,
+          "gasto": 9531.6,
           "orcamento": 11000.0
         },
         {
@@ -448,11 +697,218 @@
         },
         {
           "nome": "Viagens e Hospedagem – Transporte Local Board",
-          "gasto": 4053.9,
+          "gasto": 4377.06,
           "orcamento": 8600.0
         }
       ],
       "lancamentos": [
+        {
+          "data": "2026-11-21",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5437",
+          "valor": 0.06
+        },
+        {
+          "data": "2026-11-21",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "valor": 19.63
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1155",
+          "valor": 0.51
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Victoria Lopes Rocha",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Victoria Lopes Rocha",
+          "valor": 97.0
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela dos Santos Barcelos",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Isabela dos Santos Barcelos",
+          "valor": 236.0
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "valor": 116.85
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "valor": 32.99
+        },
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Laura Oliveira De Carvalho",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Laura Oliveira De Carvalho",
+          "valor": 153.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX7054",
+          "valor": 7.28
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0939",
+          "valor": 7.28
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0299",
+          "valor": 0.85
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0203",
+          "valor": 0.18
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "valor": 188.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "valor": 60.35
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Paola Silva de Oliveira",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Paola Silva de Oliveira",
+          "valor": 213.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
+          "valor": 63.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4260",
+          "valor": 1.88
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3501",
+          "valor": 0.27
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX4763",
+          "valor": 1.7
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Domenica Augusta Corradi",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Domenica Augusta Corradi",
+          "valor": 68.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "valor": 62.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "valor": 93.34
+        },
+        {
+          "data": "2026-11-15",
+          "tipo": "Expense",
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX5914",
+          "valor": 0.21
+        },
         {
           "data": "2026-11-14",
           "tipo": "Expense",
@@ -535,145 +991,82 @@
           "valor": 18.77
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1338",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1338",
-          "valor": 25.16
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX2678",
+          "valor": 0.1
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1135",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1135",
-          "valor": 22.1
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8085",
+          "valor": 1.91
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1142",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1142",
-          "valor": 32.2
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8693",
+          "valor": 1.11
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1157",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1157",
-          "valor": 19.88
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX0212",
+          "valor": 1.92
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1143",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1143",
-          "valor": 30.81
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX1792",
+          "valor": 0.26
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1130",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1130",
-          "valor": 16.54
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX8650",
+          "valor": 1.13
         },
         {
-          "data": "2026-11-12",
+          "data": "2026-11-13",
           "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBR* PENDING.UBER.COM",
-          "valor": 56.62
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1209",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1209",
-          "valor": 27.65
-        },
-        {
-          "data": "2026-11-02",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
-          "valor": 266.0
-        },
-        {
-          "data": "2026-11-02",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "valor": 206.0
-        },
-        {
-          "data": "2026-10-29",
-          "tipo": "Expense",
-          "fornecedor": "MolaHostelMadrid",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "MolaHostelMadrid",
-          "valor": 3242.38
-        },
-        {
-          "data": "2026-10-28",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "valor": 158.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
+          "fornecedor": "Wise",
+          "conta": "WISE USD 5392",
+          "categoria": "Despesas Administrativas:Despesas Administrativas – Taxas Bancárias",
+          "descricao": "Wise Charges for: TRANSFER-XXXXXX3294",
+          "valor": 1.7
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "impacto-social",
       "nome": "Impacto Social",
       "orcamento": 103025.0,
-      "total_gasto": 14210.43,
-      "disponivel": 88814.57,
-      "percentual": 13.8,
+      "total_gasto": 14332.43,
+      "disponivel": 88692.57,
+      "percentual": 13.9,
       "categorias": [
         {
           "nome": "Auxílios e Subsídios - Provas",
@@ -687,7 +1080,7 @@
         },
         {
           "nome": "Viagens e Hospedagem",
-          "gasto": 7918.26,
+          "gasto": 8040.26,
           "orcamento": 5340.0
         },
         {
@@ -703,146 +1096,119 @@
       ],
       "lancamentos": [
         {
-          "data": "2026-11-02",
+          "data": "2026-11-20",
           "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
+          "fornecedor": "Sent money to Victoria Lopes Rocha",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Victoria Lopes Rocha",
+          "valor": 97.0
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela dos Santos Barcelos",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Isabela dos Santos Barcelos",
+          "valor": 236.0
+        },
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Laura Oliveira De Carvalho",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Laura Oliveira De Carvalho",
+          "valor": 153.0
+        },
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "valor": 122.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "valor": 188.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Linda Sofia Teles Brito",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Linda Sofia Teles Brito",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "valor": 45.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela Moraes Brasileiro Batista",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Isabela Moraes Brasileiro Batista",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Paola Silva de Oliveira",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Paola Silva de Oliveira",
+          "valor": 213.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
           "conta": "BRASA Checking (0511) - 1",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
-          "valor": 266.0
+          "descricao": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
+          "valor": 63.0
         },
         {
-          "data": "2026-11-02",
+          "data": "2026-11-16",
           "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "conta": "BRASA Checking (0511) - 1",
+          "fornecedor": "Sent money to Domenica Augusta Corradi",
+          "conta": "WISE USD 5392",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "valor": 206.0
+          "descricao": "Sent money to Domenica Augusta Corradi",
+          "valor": 68.0
         },
         {
-          "data": "2026-11-01",
+          "data": "2026-11-16",
           "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 57.0
-        },
-        {
-          "data": "2026-11-01",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 41.0
-        },
-        {
-          "data": "2026-11-01",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 25.0
-        },
-        {
-          "data": "2026-11-01",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 112.0
-        },
-        {
-          "data": "2026-11-01",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 105.0
-        },
-        {
-          "data": "2026-11-01",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "Collegeboard*Profile",
-          "valor": 233.0
-        },
-        {
-          "data": "2026-10-29",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Taxas Universitárias",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-29",
-          "tipo": "Expense",
-          "fornecedor": "MolaHostelMadrid",
-          "conta": "E. DA CUNHA (5615) - 2",
+          "fornecedor": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "conta": "WISE USD 5392",
           "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "MolaHostelMadrid",
-          "valor": 3242.38
-        },
-        {
-          "data": "2026-10-28",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "valor": 158.0
-        },
-        {
-          "data": "2026-10-27",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "CHECKCARD  1026 COLLEGEBOARD*SAT ONLN.                      XXX-XX37789  NY XXXXX4162XXXXXXXXXX6702                     CKCD 8299 XXXXXXXXXX043053",
-          "valor": 111.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "College Board",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Auxílios e Subsídios - Provas",
-          "descricao": "COLLEGEBOARD*SAT ONLN.",
-          "valor": 111.0
+          "descricao": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "valor": 62.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "presidência",
@@ -885,6 +1251,159 @@
       ],
       "lancamentos": [
         {
+          "data": "2026-11-21",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Anita Villa Verde Rutman (fee: 0.06 USD) 0.06",
+          "valor": 19.63
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Victoria Lopes Rocha",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Victoria Lopes Rocha",
+          "valor": 97.0
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela dos Santos Barcelos",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Isabela dos Santos Barcelos",
+          "valor": 236.0
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             Andre Hiroki                                               for                                                         \"Reembolso Transporte BRASA Summit EU\";                     Conf# zbclutg71",
+          "valor": 116.85
+        },
+        {
+          "data": "2026-11-20",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Zelle payment to                                             EDUARDA DE CASTILHO                                        for                                                         \"Reembolso Uber Coquetel BRASA Summit AM\";                  Conf# tbzmy480k",
+          "valor": 32.99
+        },
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Laura Oliveira De Carvalho",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Laura Oliveira De Carvalho",
+          "valor": 153.0
+        },
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "valor": 122.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Julia Castilho de Meireles (fee: 7.28 USD) 7.28",
+          "valor": 188.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Rafaella Ferreira de Souza (fee: 0.18 USD) 0.18",
+          "valor": 60.35
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Linda Sofia Teles Brito",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Linda Sofia Teles Brito",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "valor": 45.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela Moraes Brasileiro Batista",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Isabela Moraes Brasileiro Batista",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Paola Silva de Oliveira",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Paola Silva de Oliveira",
+          "valor": 213.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Zelle payment to                                             LAIS ANDERSON SEGURA                                       for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# uzqfz8j8x",
+          "valor": 63.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Domenica Augusta Corradi",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Domenica Augusta Corradi",
+          "valor": 68.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Board",
+          "descricao": "Sent money to Clara Beatriz de Medeiros Saullu",
+          "valor": 62.0
+        },
+        {
+          "data": "2026-11-16",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem – Transporte Local Board",
+          "descricao": "Sent money to Ana Laura Gandolfo Macedo (fee: 0.27 USD) 0.27",
+          "valor": 93.34
+        },
+        {
           "data": "2026-11-14",
           "tipo": "Expense",
           "fornecedor": "PARRILLA ALHAMBRA",
@@ -964,151 +1483,25 @@
           "categoria": "Viagens e Hospedagem – Transporte Local Board",
           "descricao": "BOLT.EU/B/XXXXXX1626",
           "valor": 18.77
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1338",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1338",
-          "valor": 25.16
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1135",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1135",
-          "valor": 22.1
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1142",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1142",
-          "valor": 32.2
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1157",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1157",
-          "valor": 19.88
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1143",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1143",
-          "valor": 30.81
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1130",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1130",
-          "valor": 16.54
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "Uber",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "UBR* PENDING.UBER.COM",
-          "valor": 56.62
-        },
-        {
-          "data": "2026-11-12",
-          "tipo": "Expense",
-          "fornecedor": "BOLT.EU/B/XXXXXX1209",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Transporte Local Board",
-          "descricao": "BOLT.EU/B/XXXXXX1209",
-          "valor": 27.65
-        },
-        {
-          "data": "2026-11-02",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                            Ricardo Anunciacao                                          for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# xbp7s04vn",
-          "valor": 266.0
-        },
-        {
-          "data": "2026-11-02",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA EDUARDA BRITO CRUZ MASSULO                           Conf# vua4cvle1",
-          "valor": 206.0
-        },
-        {
-          "data": "2026-10-29",
-          "tipo": "Expense",
-          "fornecedor": "MolaHostelMadrid",
-          "conta": "E. DA CUNHA (5615) - 2",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "MolaHostelMadrid",
-          "valor": 3242.38
-        },
-        {
-          "data": "2026-10-28",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             LETICIA TUTIDA                                             for                                                         \"Auxilio BRASA Summit AM\";                                  Conf# zrxdrprpf",
-          "valor": 158.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             RAFAEL MOLINA                                              for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# s0olkxcga",
-          "valor": 173.0
-        },
-        {
-          "data": "2026-10-23",
-          "tipo": "Expense",
-          "fornecedor": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "conta": "BRASA Checking (0511) - 1",
-          "categoria": "Viagens e Hospedagem – Board",
-          "descricao": "Zelle payment to                                             MARIA LUCIA DE MELO E LIMA                                 for                                                         \"Financial Aid Board Summit AM BRASA\";                      Conf# y9473iisg",
-          "valor": 109.0
         }
       ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "rede-brasa",
       "nome": "Rede BRASA",
       "orcamento": 8782.97,
-      "total_gasto": 2718.97,
-      "disponivel": 6064.0,
-      "percentual": 31.0,
+      "total_gasto": 3082.72,
+      "disponivel": 5700.25,
+      "percentual": 35.1,
       "categorias": [
         {
           "nome": "Materiais e Custos Operacionais",
-          "gasto": 799.99,
+          "gasto": 982.6,
           "orcamento": 57.99
         },
         {
@@ -1123,21 +1516,81 @@
         },
         {
           "nome": "Reconhecimento e Premiações – Prêmios",
-          "gasto": 583.24,
+          "gasto": 639.2,
           "orcamento": 2482.48
         },
         {
+          "nome": "Reconhecimento e Premiações – Sorteios",
+          "gasto": 20.18,
+          "orcamento": 600.0
+        },
+        {
           "nome": "Viagens e Hospedagem",
-          "gasto": 458.0,
+          "gasto": 563.0,
           "orcamento": 600.0
         }
       ],
-      "lancamentos": [],
+      "lancamentos": [
+        {
+          "data": "2026-11-19",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Zelle payment to                                             IDERLAN FERREIRA                                           for                                                         \"Financial Aid BRASA Summit AM\";                            Conf# stiu2mnae",
+          "valor": 122.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Linda Sofia Teles Brito",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Linda Sofia Teles Brito",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Cassio GUIMARÃES SANTOS (fee: 7.28 USD) 7.28",
+          "valor": 45.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Sent money to Isabela Moraes Brasileiro Batista",
+          "conta": "WISE USD 5392",
+          "categoria": "Viagens e Hospedagem",
+          "descricao": "Sent money to Isabela Moraes Brasileiro Batista",
+          "valor": 30.0
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# y8j60n8op",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# y8j60n8op",
+          "valor": 132.65
+        },
+        {
+          "data": "2026-11-17",
+          "tipo": "Expense",
+          "fornecedor": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# yk2p3zq9t",
+          "conta": "BRASA Checking (0511) - 1",
+          "categoria": "Materiais e Custos Operacionais",
+          "descricao": "Zelle payment to                                             Sara Teoro de Morais                                       Conf# yk2p3zq9t",
+          "valor": 49.96
+        }
+      ],
       "faturas": [],
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "relações-corporativas",
@@ -1155,6 +1608,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2283",
+          "numero": "1067",
+          "parceiro": "Enter",
+          "iniciativa": "—",
+          "descricao": "",
+          "data": "2026-11-22",
+          "vencimento": "2026-12-22",
+          "total": 37800.0,
+          "emAberto": 37800.0,
+          "status": "Pendente"
+        },
         {
           "id": "2174",
           "numero": "1066",
@@ -1648,18 +2113,18 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 466378.81,
-      "a_receber": 55422.0,
+      "receita_total": 504178.81,
+      "a_receber": 93222.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     },
     {
       "slug": "tecnologia",
       "nome": "Tecnologia",
       "orcamento": 36854.0,
-      "total_gasto": 5029.1,
-      "disponivel": 31824.9,
-      "percentual": 13.6,
+      "total_gasto": 5214.79,
+      "disponivel": 31639.21,
+      "percentual": 14.1,
       "categorias": [
         {
           "nome": "Marketing e Comunicação – Sites",
@@ -1678,7 +2143,7 @@
         },
         {
           "nome": "Tecnologia e Software – AWS",
-          "gasto": 882.11,
+          "gasto": 1067.8,
           "orcamento": 24720.0
         },
         {
@@ -1697,7 +2162,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-22T08:57:34.719669"
+      "atualizado_em": "2026-11-22T16:50:01.008900"
     }
   ]
 }
