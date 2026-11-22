@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-11-21T21:15:21.994992",
+  "gerado_em": "2026-11-22T01:43:56.285637",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-11-21"
+    "fim": "2026-11-22"
   },
   "diretores": [
     {
@@ -34,7 +34,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "arrecadação",
@@ -74,7 +74,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "comunicação",
@@ -185,7 +185,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "conferências",
@@ -406,7 +406,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "gente-&-gestão",
@@ -665,7 +665,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "impacto-social",
@@ -842,7 +842,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "presidência",
@@ -1096,7 +1096,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "rede-brasa",
@@ -1137,7 +1137,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "relações-corporativas",
@@ -1201,7 +1201,7 @@
           "vencimento": "2026-11-21",
           "total": 3000.0,
           "emAberto": 3000.0,
-          "status": "Pendente"
+          "status": "Atrasado"
         },
         {
           "id": "2083",
@@ -1228,6 +1228,18 @@
           "status": "Atrasado"
         },
         {
+          "id": "1950",
+          "numero": "1058",
+          "parceiro": "REFER",
+          "iniciativa": "—",
+          "descricao": "Pacote Bronze de Startups BRASA Summit Américas 2026.",
+          "data": "2026-10-14",
+          "vencimento": "2026-11-13",
+          "total": 0.0,
+          "emAberto": 0.0,
+          "status": "Pago"
+        },
+        {
           "id": "1951",
           "numero": "1059",
           "parceiro": "BANCO PINE",
@@ -1236,18 +1248,6 @@
           "data": "2026-10-14",
           "vencimento": "2026-11-13",
           "total": 4640.0,
-          "emAberto": 0.0,
-          "status": "Pago"
-        },
-        {
-          "id": "1950",
-          "numero": "1058",
-          "parceiro": "REFER",
-          "iniciativa": "—",
-          "descricao": "Pacote Bronze de Startups BRASA Summit Américas 2026.",
-          "data": "2026-10-14",
-          "vencimento": "2026-11-13",
-          "total": 3000.0,
           "emAberto": 0.0,
           "status": "Pago"
         },
@@ -1648,10 +1648,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 469378.81,
+      "receita_total": 466378.81,
       "a_receber": 55422.0,
       "parcerias_ativas": 38,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     },
     {
       "slug": "tecnologia",
@@ -1697,7 +1697,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-21T21:15:21.994992"
+      "atualizado_em": "2026-11-22T01:43:56.285637"
     }
   ]
 }
