@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-11-23T13:46:32.134956",
+  "gerado_em": "2026-11-24T01:18:35.420916",
   "periodo": {
     "inicio": "2026-01-01",
-    "fim": "2026-11-23"
+    "fim": "2026-11-24"
   },
   "diretores": [
     {
@@ -161,7 +161,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "arrecadação",
@@ -192,7 +192,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "comunicação",
@@ -375,7 +375,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "conferências",
@@ -610,7 +610,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "gente-&-gestão",
@@ -995,7 +995,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "impacto-social",
@@ -1163,7 +1163,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "presidência",
@@ -1453,7 +1453,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "rede-brasa",
@@ -1554,7 +1554,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "relações-corporativas",
@@ -1572,6 +1572,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2288",
+          "numero": "1069",
+          "parceiro": "GRPQA LTDA (QuintoAndar)",
+          "iniciativa": "Mentorias",
+          "descricao": "PACOTE SILVER\n 4 representantes na conferência\n• Stand na Feira de Carreiras\n• Divulgação de vaga no Portal BRASA\n• Exposição no backdrop, aplicativo e redes sociais da conferência\n• Workshop na conferência\n• Acesso ao Portal de Talentos BRASA (CVs dos participantes)\n• Mailing list dos participantes\n• Item co-branded com exposição baixa",
+          "data": "2026-11-23",
+          "vencimento": "2027-01-22",
+          "total": 11650.0,
+          "emAberto": 11650.0,
+          "status": "Pendente"
+        },
         {
           "id": "2284",
           "numero": "1068",
@@ -2089,10 +2101,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 549178.81,
-      "a_receber": 138222.0,
-      "parcerias_ativas": 39,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "receita_total": 560828.81,
+      "a_receber": 149872.0,
+      "parcerias_ativas": 40,
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     },
     {
       "slug": "tecnologia",
@@ -2138,7 +2150,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-23T13:46:32.134956"
+      "atualizado_em": "2026-11-24T01:18:35.420916"
     }
   ]
 }
