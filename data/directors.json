@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-27T09:12:37.560894",
+  "gerado_em": "2026-11-27T19:13:22.473561",
   "periodo": {
     "inicio": "2026-01-01",
     "fim": "2026-11-27"
@@ -161,7 +161,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "arrecadação",
@@ -192,7 +192,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "comunicação",
@@ -375,7 +375,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "conferências",
@@ -610,7 +610,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "gente-&-gestão",
@@ -995,7 +995,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "impacto-social",
@@ -1163,7 +1163,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "presidência",
@@ -1453,7 +1453,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "rede-brasa",
@@ -1554,7 +1554,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "relações-corporativas",
@@ -1572,6 +1572,18 @@
       ],
       "lancamentos": [],
       "faturas": [
+        {
+          "id": "2289",
+          "numero": "1070",
+          "parceiro": "Trinity College Dublin",
+          "iniciativa": "—",
+          "descricao": "-30 min slot at the University Fair (15 min talk + 15 min Q&A)\n-Partnership post on BRASA’s Instagram and LinkedIn\n-Logo on event materials\n-Right to use event images in your own materials\n-Participant mailing list",
+          "data": "2026-11-27",
+          "vencimento": "2026-12-27",
+          "total": 1100.0,
+          "emAberto": 1100.0,
+          "status": "Pendente"
+        },
         {
           "id": "2288",
           "numero": "1069",
@@ -2101,10 +2113,10 @@
           "status": "Pago"
         }
       ],
-      "receita_total": 560828.81,
-      "a_receber": 149872.0,
-      "parcerias_ativas": 40,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "receita_total": 561928.81,
+      "a_receber": 150972.0,
+      "parcerias_ativas": 41,
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     },
     {
       "slug": "tecnologia",
@@ -2150,7 +2162,7 @@
       "receita_total": 0.0,
       "a_receber": 0.0,
       "parcerias_ativas": 0,
-      "atualizado_em": "2026-11-27T09:12:37.560894"
+      "atualizado_em": "2026-11-27T19:13:22.473561"
     }
   ]
 }
